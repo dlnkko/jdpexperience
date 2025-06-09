@@ -19,7 +19,7 @@ import {
   ChevronRight,
 } from "lucide-react"
 import Image from "next/image"
-import { motion } from "framer-motion"
+import { motion, useAnimation, PanInfo } from "framer-motion"
 import { isMobile } from 'react-device-detect'
 
 interface Place {
@@ -758,8 +758,24 @@ export default function BarrancoGuide() {
   }
 
   if (selectedSection && currentSection) {
+    const handleDragEnd = (event: MouseEvent | TouchEvent | PointerEvent, info: PanInfo) => {
+      // Si el usuario desliza más de 100px hacia la derecha, volver a la página principal
+      if (info.offset.x > 100) {
+        setSelectedSection(null)
+      }
+    }
+
     return (
-      <div className="min-h-screen bg-gradient-to-br from-orange-50 to-red-50 p-4">
+      <motion.div 
+        className="min-h-screen bg-gradient-to-br from-orange-50 via-red-50 to-amber-50 p-4"
+        drag="x"
+        dragConstraints={{ left: 0, right: 0 }}
+        onDragEnd={handleDragEnd}
+        dragElastic={0.2}
+        initial={{ x: 0 }}
+        animate={{ x: 0 }}
+        transition={{ type: "spring", stiffness: 300, damping: 30 }}
+      >
         <div className="max-w-md mx-auto">
           <div className="flex items-center justify-between mb-6">
             <div className="flex items-center gap-4">
@@ -818,21 +834,21 @@ export default function BarrancoGuide() {
                     <div className="grid grid-cols-3 gap-2">
                       <Button
                         onClick={() => handleGetDirections(place.address, place.name, "Calle Almirante Miguel Grau 1430, Barranco")}
-                        className="w-full bg-orange-600 hover:bg-orange-700 transition-colors duration-300 flex items-center justify-center gap-2 text-xs"
+                        className="w-full bg-orange-600 hover:bg-orange-700 transition-all duration-300 flex items-center justify-center gap-2 text-xs shadow-lg hover:shadow-xl active:shadow-md"
                         size="sm"
                       >
                         {t.stelar}
                       </Button>
                       <Button
                         onClick={() => handleGetDirections(place.address, place.name, "Jiron Centenario 179, Barranco")}
-                        className="w-full bg-orange-600 hover:bg-orange-700 transition-colors duration-300 flex items-center justify-center gap-2 text-xs"
+                        className="w-full bg-orange-600 hover:bg-orange-700 transition-all duration-300 flex items-center justify-center gap-2 text-xs shadow-lg hover:shadow-xl active:shadow-md"
                         size="sm"
                       >
                         {t.atelier}
                       </Button>
                       <Button
                         onClick={() => handleGetDirections(place.address, place.name)}
-                        className="w-full bg-orange-600 hover:bg-orange-700 transition-colors duration-300 flex items-center justify-center gap-2 text-xs"
+                        className="w-full bg-orange-600 hover:bg-orange-700 transition-all duration-300 flex items-center justify-center gap-2 text-xs shadow-lg hover:shadow-xl active:shadow-md"
                         size="sm"
                       >
                         {t.currentLocation}
@@ -844,12 +860,12 @@ export default function BarrancoGuide() {
             ))}
           </motion.div>
         </div>
-      </div>
+      </motion.div>
     )
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-orange-50 to-red-50 p-4">
+    <div className="min-h-screen bg-gradient-to-br from-orange-50 via-red-50 to-amber-50 p-4">
       <div className="max-w-md mx-auto">
         {/* Header */}
         <motion.div
@@ -904,7 +920,7 @@ export default function BarrancoGuide() {
           {sections.map((section, index) => (
             <motion.div key={section.id} variants={item}>
               <Card
-                className="cursor-pointer transition-all duration-300 hover:shadow-lg hover:scale-105 active:scale-95 border-orange-100"
+                className="cursor-pointer transition-all duration-300 hover:shadow-xl hover:scale-105 active:scale-95 border-orange-100 shadow-lg"
                 onClick={() => setSelectedSection(section.id)}
               >
                 <CardContent className="p-6 text-center">
@@ -932,12 +948,12 @@ export default function BarrancoGuide() {
 
         {/* Footer */}
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.6 }}>
-          <Card className="bg-orange-100 border-orange-200">
+          <Card className="bg-orange-100 border-orange-200 shadow-xl">
             <CardContent className="p-4 text-center">
               <h4 className="font-semibold text-orange-800 mb-2">{t.thanks}</h4>
               <p className="text-sm text-orange-700 mb-3">{t.greatStay}</p>
               <div className="text-xs text-orange-600">
-                <p>📱 WhatsApp: +51 999 888 777</p>
+                <p>📱 WhatsApp: +51 968 866 677</p>
                 <p>📧 host@barrancoairbnb.com</p>
                 <p className="mt-2 font-medium">{t.needHelp}</p>
               </div>
