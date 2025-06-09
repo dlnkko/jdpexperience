@@ -56,6 +56,9 @@ interface Translations {
     shops: string
     nightlife: string
     experiences: string
+    stelar: string
+    atelier: string
+    currentLocation: string
   }
 }
 
@@ -77,6 +80,9 @@ const translations: Translations = {
     shops: "Tiendas",
     nightlife: "Vida Nocturna",
     experiences: "Experiencias",
+    stelar: "Stelar",
+    atelier: "Atelier",
+    currentLocation: "Ubicación actual"
   },
   en: {
     welcome: "Welcome to JDP Experiences 🇵🇪",
@@ -95,6 +101,9 @@ const translations: Translations = {
     shops: "Shops",
     nightlife: "Night Life",
     experiences: "Experiences",
+    stelar: "Stelar",
+    atelier: "Atelier",
+    currentLocation: "Current Location"
   },
   pt: {
     welcome: "Bem-vindo ao Barranco 🇵🇪",
@@ -113,6 +122,9 @@ const translations: Translations = {
     shops: "Lojas",
     nightlife: "Vida Noturna",
     experiences: "Experiências",
+    stelar: "Stelar",
+    atelier: "Atelier",
+    currentLocation: "Localização atual"
   },
   fr: {
     welcome: "Bienvenue à Barranco 🇵🇪",
@@ -131,6 +143,9 @@ const translations: Translations = {
     shops: "Boutiques",
     nightlife: "Vie Nocturne",
     experiences: "Expériences",
+    stelar: "Stelar",
+    atelier: "Atelier",
+    currentLocation: "Emplacement actuel"
   },
 }
 
@@ -613,7 +628,7 @@ export default function BarrancoGuide() {
 
   const t = translations[language] || translations.es
 
-  const handleGetDirections = async (address: string, placeName: string) => {
+  const handleGetDirections = async (address: string, placeName: string, originAddress?: string) => {
     const isMobileDevice = typeof window !== 'undefined' && 
       /Android|BlackBerry|iPhone|iPad|iPod|Opera Mini|IEMobile|WPDesktop/i.test(
         (window.navigator as any).userAgent || ''
@@ -625,7 +640,33 @@ export default function BarrancoGuide() {
     const isAndroid = typeof window !== 'undefined' && 
       /Android/i.test((window.navigator as any).userAgent || '')
 
-    if ("geolocation" in navigator) {
+    const destination = encodeURIComponent(address)
+
+    if (originAddress) {
+      // Si hay una dirección de origen específica
+      const origin = encodeURIComponent(originAddress)
+      
+      if (isMobileDevice) {
+        let mapsUrl = ''
+        
+        if (isIOS) {
+          mapsUrl = `maps://maps.apple.com/?daddr=${destination}&saddr=${origin}`
+        } else if (isAndroid) {
+          mapsUrl = `google.navigation:q=${destination}`
+        }
+
+        const appWindow = window.open(mapsUrl, '_blank')
+        
+        setTimeout(() => {
+          if (appWindow) {
+            appWindow.close()
+          }
+          window.location.href = `https://www.google.com/maps/dir/${origin}/${destination}`
+        }, 1000)
+      } else {
+        window.open(`https://www.google.com/maps/dir/${origin}/${destination}`, '_blank')
+      }
+    } else if ("geolocation" in navigator) {
       try {
         const position = await new Promise<GeolocationPosition>((resolve, reject) => {
           navigator.geolocation.getCurrentPosition(resolve, reject)
@@ -633,39 +674,29 @@ export default function BarrancoGuide() {
 
         const { latitude, longitude } = position.coords
         const origin = `${latitude},${longitude}`
-        const destination = encodeURIComponent(address)
 
         if (isMobileDevice) {
           let mapsUrl = ''
           
           if (isIOS) {
-            // Para iOS
             mapsUrl = `maps://maps.apple.com/?daddr=${destination}&saddr=${origin}`
           } else if (isAndroid) {
-            // Para Android
             mapsUrl = `google.navigation:q=${destination}`
           }
 
-          // Intentar abrir la app nativa
           const appWindow = window.open(mapsUrl, '_blank')
           
-          // Si no se puede abrir la app (después de 1 segundo), abrir en el navegador
           setTimeout(() => {
             if (appWindow) {
               appWindow.close()
             }
-            // URL de respaldo para el navegador
-            const webUrl = `https://www.google.com/maps/dir/${origin}/${destination}`
-            window.location.href = webUrl
+            window.location.href = `https://www.google.com/maps/dir/${origin}/${destination}`
           }, 1000)
         } else {
-          // Para escritorio
           window.open(`https://www.google.com/maps/dir/${origin}/${destination}`, '_blank')
         }
       } catch (error) {
         // Si no se puede obtener la ubicación
-        const destination = encodeURIComponent(address)
-        
         if (isMobileDevice) {
           let mapsUrl = ''
           
@@ -689,8 +720,6 @@ export default function BarrancoGuide() {
       }
     } else {
       // Fallback si no hay geolocalización
-      const destination = encodeURIComponent(address)
-      
       if (isMobileDevice) {
         let mapsUrl = ''
         
@@ -795,14 +824,29 @@ export default function BarrancoGuide() {
                       <MapPin className="w-4 h-4 text-gray-500 mt-0.5 flex-shrink-0" />
                       <p className="text-xs text-gray-600">{place.address}</p>
                     </div>
-                    <Button
-                      onClick={() => handleGetDirections(place.address, place.name)}
-                      className="w-full bg-orange-600 hover:bg-orange-700 transition-colors duration-300 flex items-center justify-center gap-2"
-                      size="sm"
-                    >
-                      {t.howToGet}
-                      <ChevronRight className="w-4 h-4" />
-                    </Button>
+                    <div className="grid grid-cols-3 gap-2">
+                      <Button
+                        onClick={() => handleGetDirections(place.address, place.name, "Calle Almirante Miguel Grau 1430, Barranco")}
+                        className="w-full bg-orange-600 hover:bg-orange-700 transition-colors duration-300 flex items-center justify-center gap-2 text-xs"
+                        size="sm"
+                      >
+                        {t.stelar}
+                      </Button>
+                      <Button
+                        onClick={() => handleGetDirections(place.address, place.name, "Jiron Centenario 179, Barranco")}
+                        className="w-full bg-orange-600 hover:bg-orange-700 transition-colors duration-300 flex items-center justify-center gap-2 text-xs"
+                        size="sm"
+                      >
+                        {t.atelier}
+                      </Button>
+                      <Button
+                        onClick={() => handleGetDirections(place.address, place.name)}
+                        className="w-full bg-orange-600 hover:bg-orange-700 transition-colors duration-300 flex items-center justify-center gap-2 text-xs"
+                        size="sm"
+                      >
+                        {t.currentLocation}
+                      </Button>
+                    </div>
                   </CardContent>
                 </Card>
               </motion.div>
