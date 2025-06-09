@@ -619,6 +619,12 @@ export default function BarrancoGuide() {
         (window.navigator as any).userAgent || ''
       )
 
+    const isIOS = typeof window !== 'undefined' && 
+      /iPhone|iPad|iPod/i.test((window.navigator as any).userAgent || '')
+
+    const isAndroid = typeof window !== 'undefined' && 
+      /Android/i.test((window.navigator as any).userAgent || '')
+
     if ("geolocation" in navigator) {
       try {
         const position = await new Promise<GeolocationPosition>((resolve, reject) => {
@@ -629,41 +635,54 @@ export default function BarrancoGuide() {
         const origin = `${latitude},${longitude}`
         const destination = encodeURIComponent(address)
 
-        // Construir la URL según el dispositivo
-        let mapsUrl
         if (isMobileDevice) {
-          // Para dispositivos móviles, usar el esquema de URL de Google Maps
-          mapsUrl = `google.navigation:q=${destination}`
+          let mapsUrl = ''
           
-          // Intentar abrir la app nativa primero
+          if (isIOS) {
+            // Para iOS
+            mapsUrl = `maps://maps.apple.com/?daddr=${destination}&saddr=${origin}`
+          } else if (isAndroid) {
+            // Para Android
+            mapsUrl = `google.navigation:q=${destination}`
+          }
+
+          // Intentar abrir la app nativa
           const appWindow = window.open(mapsUrl, '_blank')
           
-          // Si no se puede abrir la app (después de 2 segundos), abrir en el navegador
+          // Si no se puede abrir la app (después de 1 segundo), abrir en el navegador
           setTimeout(() => {
             if (appWindow) {
               appWindow.close()
             }
-            window.open(`https://www.google.com/maps/dir/${origin}/${destination}`, '_blank')
-          }, 2000)
+            // URL de respaldo para el navegador
+            const webUrl = `https://www.google.com/maps/dir/${origin}/${destination}`
+            window.location.href = webUrl
+          }, 1000)
         } else {
-          // Para escritorio, usar la URL web normal
-          mapsUrl = `https://www.google.com/maps/dir/${origin}/${destination}`
-          window.open(mapsUrl, '_blank')
+          // Para escritorio
+          window.open(`https://www.google.com/maps/dir/${origin}/${destination}`, '_blank')
         }
       } catch (error) {
-        // Si no se puede obtener la ubicación, abrir Google Maps con solo el destino
+        // Si no se puede obtener la ubicación
         const destination = encodeURIComponent(address)
         
         if (isMobileDevice) {
-          const mapsUrl = `google.navigation:q=${destination}`
+          let mapsUrl = ''
+          
+          if (isIOS) {
+            mapsUrl = `maps://maps.apple.com/?q=${destination}`
+          } else if (isAndroid) {
+            mapsUrl = `google.navigation:q=${destination}`
+          }
+
           const appWindow = window.open(mapsUrl, '_blank')
           
           setTimeout(() => {
             if (appWindow) {
               appWindow.close()
             }
-            window.open(`https://www.google.com/maps/search/${destination}`, '_blank')
-          }, 2000)
+            window.location.href = `https://www.google.com/maps/search/${destination}`
+          }, 1000)
         } else {
           window.open(`https://www.google.com/maps/search/${destination}`, '_blank')
         }
@@ -673,15 +692,22 @@ export default function BarrancoGuide() {
       const destination = encodeURIComponent(address)
       
       if (isMobileDevice) {
-        const mapsUrl = `google.navigation:q=${destination}`
+        let mapsUrl = ''
+        
+        if (isIOS) {
+          mapsUrl = `maps://maps.apple.com/?q=${destination}`
+        } else if (isAndroid) {
+          mapsUrl = `google.navigation:q=${destination}`
+        }
+
         const appWindow = window.open(mapsUrl, '_blank')
         
         setTimeout(() => {
           if (appWindow) {
             appWindow.close()
           }
-          window.open(`https://www.google.com/maps/search/${destination}`, '_blank')
-        }, 2000)
+          window.location.href = `https://www.google.com/maps/search/${destination}`
+        }, 1000)
       } else {
         window.open(`https://www.google.com/maps/search/${destination}`, '_blank')
       }
