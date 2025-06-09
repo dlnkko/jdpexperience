@@ -20,6 +20,7 @@ import {
 } from "lucide-react"
 import Image from "next/image"
 import { motion } from "framer-motion"
+import { isMobile } from 'react-device-detect'
 
 interface Place {
   id: number
@@ -613,6 +614,11 @@ export default function BarrancoGuide() {
   const t = translations[language] || translations.es
 
   const handleGetDirections = async (address: string, placeName: string) => {
+    const isMobileDevice = typeof window !== 'undefined' && 
+      /Android|BlackBerry|iPhone|iPad|iPod|Opera Mini|IEMobile|WPDesktop/i.test(
+        (window.navigator as any).userAgent || ''
+      )
+
     if ("geolocation" in navigator) {
       try {
         const position = await new Promise<GeolocationPosition>((resolve, reject) => {
@@ -623,20 +629,62 @@ export default function BarrancoGuide() {
         const origin = `${latitude},${longitude}`
         const destination = encodeURIComponent(address)
 
-        // Abrir Google Maps con la ruta
-        const mapsUrl = `https://www.google.com/maps/dir/${origin}/${destination}`
-        window.open(mapsUrl, "_blank")
+        // Construir la URL según el dispositivo
+        let mapsUrl
+        if (isMobileDevice) {
+          // Para dispositivos móviles, usar el esquema de URL de Google Maps
+          mapsUrl = `google.navigation:q=${destination}`
+          
+          // Intentar abrir la app nativa primero
+          const appWindow = window.open(mapsUrl, '_blank')
+          
+          // Si no se puede abrir la app (después de 2 segundos), abrir en el navegador
+          setTimeout(() => {
+            if (appWindow) {
+              appWindow.close()
+            }
+            window.open(`https://www.google.com/maps/dir/${origin}/${destination}`, '_blank')
+          }, 2000)
+        } else {
+          // Para escritorio, usar la URL web normal
+          mapsUrl = `https://www.google.com/maps/dir/${origin}/${destination}`
+          window.open(mapsUrl, '_blank')
+        }
       } catch (error) {
         // Si no se puede obtener la ubicación, abrir Google Maps con solo el destino
         const destination = encodeURIComponent(address)
-        const mapsUrl = `https://www.google.com/maps/search/${destination}`
-        window.open(mapsUrl, "_blank")
+        
+        if (isMobileDevice) {
+          const mapsUrl = `google.navigation:q=${destination}`
+          const appWindow = window.open(mapsUrl, '_blank')
+          
+          setTimeout(() => {
+            if (appWindow) {
+              appWindow.close()
+            }
+            window.open(`https://www.google.com/maps/search/${destination}`, '_blank')
+          }, 2000)
+        } else {
+          window.open(`https://www.google.com/maps/search/${destination}`, '_blank')
+        }
       }
     } else {
       // Fallback si no hay geolocalización
       const destination = encodeURIComponent(address)
-      const mapsUrl = `https://www.google.com/maps/search/${destination}`
-      window.open(mapsUrl, "_blank")
+      
+      if (isMobileDevice) {
+        const mapsUrl = `google.navigation:q=${destination}`
+        const appWindow = window.open(mapsUrl, '_blank')
+        
+        setTimeout(() => {
+          if (appWindow) {
+            appWindow.close()
+          }
+          window.open(`https://www.google.com/maps/search/${destination}`, '_blank')
+        }, 2000)
+      } else {
+        window.open(`https://www.google.com/maps/search/${destination}`, '_blank')
+      }
     }
   }
 
