@@ -226,10 +226,10 @@ const sections: Section[] = [
   {
     id: "nightlife",
     title: {
-      es: "Vida Nocturna",
+      es: "Noche",
       en: "Night Life",
-      pt: "Vida Noturna",
-      fr: "Vie Nocturne",
+      pt: "Noite",
+      fr: "Nuit",
     },
     icon: <Wine className="w-6 h-6" />,
     emoji: "🍸",
