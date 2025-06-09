@@ -64,7 +64,7 @@ interface Translations {
 
 const translations: Translations = {
   es: {
-    welcome: "Bienvenido a Experiencas JDP 🇵🇪",
+    welcome: "Bienvenido a Experiencias JDP 🇵🇪",
     subtitle: "Explora lo mejor de Lima desde tu alojamiento",
     greeting: "Hola",
     enjoyStay: "esperamos que disfrutes tu estadía",
@@ -106,7 +106,7 @@ const translations: Translations = {
     currentLocation: "Current Location"
   },
   pt: {
-    welcome: "Bem-vindo ao Barranco 🇵🇪",
+    welcome: "Bem-vindo à JDP Experiences 🇵🇪",
     subtitle: "Explore o melhor de Lima da sua acomodação",
     greeting: "Olá",
     enjoyStay: "esperamos que aproveite sua estadia",
@@ -127,7 +127,7 @@ const translations: Translations = {
     currentLocation: "Localização atual"
   },
   fr: {
-    welcome: "Bienvenue à Barranco 🇵🇪",
+    welcome: "Bienvenue chez JDP Experiences 🇵🇪",
     subtitle: "Explorez le meilleur de Lima depuis votre logement",
     greeting: "Bonjour",
     enjoyStay: "nous espérons que vous apprécierez votre séjour",
@@ -595,6 +595,13 @@ export default function BarrancoGuide() {
   const [guestName, setGuestName] = useState<string>("")
   const [language, setLanguage] = useState<string>("es")
 
+  // Función para manejar el cambio de sección
+  const handleSectionChange = (sectionId: string | null) => {
+    setSelectedSection(sectionId)
+    // Scroll al inicio de la página
+    window.scrollTo({ top: 0, behavior: 'smooth' })
+  }
+
   const detectLanguage = () => {
     if (typeof window === "undefined") return "es"
 
@@ -741,25 +748,34 @@ export default function BarrancoGuide() {
 
   const currentSection = sections.find((s) => s.id === selectedSection)
 
-  // Animaciones
+  // Animaciones optimizadas
   const container = {
     hidden: { opacity: 0 },
     show: {
       opacity: 1,
       transition: {
-        staggerChildren: 0.1,
+        staggerChildren: 0.05,
+        delayChildren: 0.1,
       },
     },
   }
 
   const item = {
-    hidden: { y: 20, opacity: 0 },
-    show: { y: 0, opacity: 1 },
+    hidden: { y: 10, opacity: 0 },
+    show: { 
+      y: 0, 
+      opacity: 1,
+      transition: {
+        type: "spring",
+        stiffness: 300,
+        damping: 20,
+        mass: 0.5
+      }
+    },
   }
 
   if (selectedSection && currentSection) {
     const handleDragEnd = (event: MouseEvent | TouchEvent | PointerEvent, info: PanInfo) => {
-      // Si el usuario desliza más de 100px hacia la derecha, volver a la página principal
       if (info.offset.x > 100) {
         setSelectedSection(null)
       }
@@ -771,10 +787,15 @@ export default function BarrancoGuide() {
         drag="x"
         dragConstraints={{ left: 0, right: 0 }}
         onDragEnd={handleDragEnd}
-        dragElastic={0.2}
+        dragElastic={0.1}
         initial={{ x: 0 }}
         animate={{ x: 0 }}
-        transition={{ type: "spring", stiffness: 300, damping: 30 }}
+        transition={{ 
+          type: "spring", 
+          stiffness: 200, 
+          damping: 25,
+          mass: 0.8
+        }}
       >
         <div className="max-w-md mx-auto">
           <div className="flex items-center justify-between mb-6">
@@ -782,14 +803,15 @@ export default function BarrancoGuide() {
               <Button
                 variant="ghost"
                 size="sm"
-                onClick={() => setSelectedSection(null)}
+                onClick={() => handleSectionChange(null)}
                 className="p-2 hover:bg-orange-100 transition-colors"
               >
                 <ArrowLeft className="w-5 h-5" />
               </Button>
               <motion.div
-                initial={{ opacity: 0, x: -20 }}
+                initial={{ opacity: 0, x: -10 }}
                 animate={{ opacity: 1, x: 0 }}
+                transition={{ duration: 0.2 }}
                 className="flex items-center gap-2"
               >
                 {currentSection.icon}
@@ -870,9 +892,9 @@ export default function BarrancoGuide() {
         {/* Header */}
         <motion.div
           className="text-center mb-8"
-          initial={{ opacity: 0, y: -20 }}
+          initial={{ opacity: 0, y: -10 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5 }}
+          transition={{ duration: 0.3 }}
         >
           <div className="flex flex-col items-center mb-4">
             <h1 className="text-4xl font-bold text-gray-800 flex-2 px-4 tracking-wide leading-tight text-center mb-4">{t.welcome}</h1>
@@ -897,16 +919,16 @@ export default function BarrancoGuide() {
             className="text-gray-600 mb-4"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            transition={{ delay: 0.2 }}
+            transition={{ delay: 0.1, duration: 0.2 }}
           >
             {t.subtitle}
           </motion.p>
 
           {guestName && (
             <motion.div
-              initial={{ opacity: 0, scale: 0.8 }}
+              initial={{ opacity: 0, scale: 0.95 }}
               animate={{ opacity: 1, scale: 1 }}
-              transition={{ delay: 0.4, type: "spring" }}
+              transition={{ delay: 0.2, duration: 0.2 }}
             >
               <Badge variant="secondary" className="bg-orange-100 text-orange-800">
                 {t.greeting} {guestName}, {t.enjoyStay}
@@ -916,25 +938,27 @@ export default function BarrancoGuide() {
         </motion.div>
 
         {/* Sections Grid */}
-        <motion.div className="grid grid-cols-2 gap-4 mb-8" variants={container} initial="hidden" animate="show">
+        <motion.div 
+          className="grid grid-cols-2 gap-4 mb-8" 
+          variants={container} 
+          initial="hidden" 
+          animate="show"
+        >
           {sections.map((section, index) => (
             <motion.div key={section.id} variants={item}>
               <Card
                 className="cursor-pointer transition-all duration-300 hover:shadow-xl hover:scale-105 active:scale-95 border-orange-100 shadow-lg"
-                onClick={() => setSelectedSection(section.id)}
+                onClick={() => handleSectionChange(section.id)}
               >
                 <CardContent className="p-6 text-center">
                   <motion.div
                     className="text-4xl mb-3"
-                    whileHover={{ scale: 1.2, rotate: 5 }}
+                    whileHover={{ scale: 1.1, rotate: 5 }}
                     transition={{ type: "spring", stiffness: 400, damping: 10 }}
                   >
                     {section.emoji}
                   </motion.div>
                   <div className="flex items-center justify-center gap-2 mb-2">
-                    <motion.div whileHover={{ rotate: 15 }} transition={{ type: "spring", stiffness: 300 }}>
-                      {section.icon}
-                    </motion.div>
                     <h3 className="font-semibold text-gray-800">{section.title[language]}</h3>
                   </div>
                   <p className="text-xs text-gray-500">
@@ -947,7 +971,11 @@ export default function BarrancoGuide() {
         </motion.div>
 
         {/* Footer */}
-        <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.6 }}>
+        <motion.div 
+          initial={{ opacity: 0, y: 10 }} 
+          animate={{ opacity: 1, y: 0 }} 
+          transition={{ delay: 0.3, duration: 0.2 }}
+        >
           <Card className="bg-orange-100 border-orange-200 shadow-xl">
             <CardContent className="p-4 text-center">
               <h4 className="font-semibold text-orange-800 mb-2">{t.thanks}</h4>
