@@ -634,9 +634,6 @@ export default function BarrancoGuide() {
         (window.navigator as any).userAgent || ''
       )
 
-    const isIOS = typeof window !== 'undefined' && 
-      /iPhone|iPad|iPod/i.test((window.navigator as any).userAgent || '')
-
     const isAndroid = typeof window !== 'undefined' && 
       /Android/i.test((window.navigator as any).userAgent || '')
 
@@ -649,20 +646,21 @@ export default function BarrancoGuide() {
       if (isMobileDevice) {
         let mapsUrl = ''
         
-        if (isIOS) {
-          mapsUrl = `maps://maps.apple.com/?daddr=${destination}&saddr=${origin}`
-        } else if (isAndroid) {
+        if (isAndroid) {
+          // Para Android usar el esquema de URL nativo
           mapsUrl = `google.navigation:q=${destination}`
-        }
-
-        const appWindow = window.open(mapsUrl, '_blank')
-        
-        setTimeout(() => {
-          if (appWindow) {
-            appWindow.close()
-          }
+          const appWindow = window.open(mapsUrl, '_blank')
+          
+          setTimeout(() => {
+            if (appWindow) {
+              appWindow.close()
+            }
+            window.location.href = `https://www.google.com/maps/dir/${origin}/${destination}`
+          }, 1000)
+        } else {
+          // Para iOS y otros dispositivos, usar directamente Google Maps web
           window.location.href = `https://www.google.com/maps/dir/${origin}/${destination}`
-        }, 1000)
+        }
       } else {
         window.open(`https://www.google.com/maps/dir/${origin}/${destination}`, '_blank')
       }
@@ -676,36 +674,49 @@ export default function BarrancoGuide() {
         const origin = `${latitude},${longitude}`
 
         if (isMobileDevice) {
-          let mapsUrl = ''
-          
-          if (isIOS) {
-            mapsUrl = `maps://maps.apple.com/?daddr=${destination}&saddr=${origin}`
-          } else if (isAndroid) {
-            mapsUrl = `google.navigation:q=${destination}`
-          }
-
-          const appWindow = window.open(mapsUrl, '_blank')
-          
-          setTimeout(() => {
-            if (appWindow) {
-              appWindow.close()
-            }
+          if (isAndroid) {
+            // Para Android usar el esquema de URL nativo
+            const mapsUrl = `google.navigation:q=${destination}`
+            const appWindow = window.open(mapsUrl, '_blank')
+            
+            setTimeout(() => {
+              if (appWindow) {
+                appWindow.close()
+              }
+              window.location.href = `https://www.google.com/maps/dir/${origin}/${destination}`
+            }, 1000)
+          } else {
+            // Para iOS y otros dispositivos, usar directamente Google Maps web
             window.location.href = `https://www.google.com/maps/dir/${origin}/${destination}`
-          }, 1000)
+          }
         } else {
           window.open(`https://www.google.com/maps/dir/${origin}/${destination}`, '_blank')
         }
       } catch (error) {
         // Si no se puede obtener la ubicación
         if (isMobileDevice) {
-          let mapsUrl = ''
-          
-          if (isIOS) {
-            mapsUrl = `maps://maps.apple.com/?q=${destination}`
-          } else if (isAndroid) {
-            mapsUrl = `google.navigation:q=${destination}`
+          if (isAndroid) {
+            const mapsUrl = `google.navigation:q=${destination}`
+            const appWindow = window.open(mapsUrl, '_blank')
+            
+            setTimeout(() => {
+              if (appWindow) {
+                appWindow.close()
+              }
+              window.location.href = `https://www.google.com/maps/search/${destination}`
+            }, 1000)
+          } else {
+            window.location.href = `https://www.google.com/maps/search/${destination}`
           }
-
+        } else {
+          window.open(`https://www.google.com/maps/search/${destination}`, '_blank')
+        }
+      }
+    } else {
+      // Fallback si no hay geolocalización
+      if (isMobileDevice) {
+        if (isAndroid) {
+          const mapsUrl = `google.navigation:q=${destination}`
           const appWindow = window.open(mapsUrl, '_blank')
           
           setTimeout(() => {
@@ -715,28 +726,8 @@ export default function BarrancoGuide() {
             window.location.href = `https://www.google.com/maps/search/${destination}`
           }, 1000)
         } else {
-          window.open(`https://www.google.com/maps/search/${destination}`, '_blank')
-        }
-      }
-    } else {
-      // Fallback si no hay geolocalización
-      if (isMobileDevice) {
-        let mapsUrl = ''
-        
-        if (isIOS) {
-          mapsUrl = `maps://maps.apple.com/?q=${destination}`
-        } else if (isAndroid) {
-          mapsUrl = `google.navigation:q=${destination}`
-        }
-
-        const appWindow = window.open(mapsUrl, '_blank')
-        
-        setTimeout(() => {
-          if (appWindow) {
-            appWindow.close()
-          }
           window.location.href = `https://www.google.com/maps/search/${destination}`
-        }, 1000)
+        }
       } else {
         window.open(`https://www.google.com/maps/search/${destination}`, '_blank')
       }
