@@ -1,0 +1,94 @@
+{
+  "cultura_y_arte": [
+    {
+      "name": "MAC Lima (Museo de Arte Contemporáneo)",
+      "description": {
+        "es": "Espacio moderno con exposiciones de arte contemporáneo nacional e internacional.",
+        "en": "Modern space with national and international contemporary art exhibitions.",
+        "pt": "Espaço moderno com exposições de arte contemporânea nacional e internacional.",
+        "fr": "Espace moderne avec des expositions d'art contemporain national et international."
+      },
+      "comment": { "es": "Espacio moderno con exposiciones de arte contemporáneo nacional e internacional.", "en": "Modern space with national and international contemporary art exhibitions.", "pt": "Espaço moderno com exposições de arte contemporânea nacional e internacional.", "fr": "Espace moderne avec des expositions d'art contemporain national et international." },
+      "rating": 4.5,
+      "userRatingsTotal": 2100,
+      "priceLevel": 2,
+      "priceIndicator": { "es": "Medio", "en": "Medium", "pt": "Médio", "fr": "Moyen" },
+      "address": "Av. Grau 1511, Barranco, Lima",
+      "googleMapsUrl": "https://maps.google.com/?q=MAC+Lima+Barranco+Lima"
+    }
+  ],
+  "historial_urbano": [
+    {
+      "name": "Puente de los Suspiros",
+      "description": {
+        "es": "Icono romántico de Barranco, ideal para fotos y paseos.",
+        "en": "Romantic icon of Barranco, ideal for photos and walks.",
+        "pt": "Ícone romântico de Barranco, ideal para fotos e passeios.",
+        "fr": "Icône romantique de Barranco, idéal pour des photos et des promenades."
+      },
+      "comment": { "es": "Icono romántico de Barranco, ideal para fotos y paseos.", "en": "Romantic icon of Barranco, ideal for photos and walks.", "pt": "Ícone romântico de Barranco, ideal para fotos e passeios.", "fr": "Icône romantique de Barranco, idéal pour des photos et des promenades." },
+      "rating": 4.7,
+      "userRatingsTotal": 5000,
+      "priceLevel": 1,
+      "priceIndicator": { "es": "Bajo", "en": "Low", "pt": "Baixo", "fr": "Bas" },
+      "address": "Bajada de Baños, Barranco, Lima",
+      "googleMapsUrl": "https://maps.google.com/?q=Puente+de+los+Suspiros+Barranco+Lima"
+    }
+  ],
+  "musica_cine_teatro": [
+    {
+      "name": "La Noche de Barranco",
+      "description": {
+        "es": "Música en vivo, conciertos y shows de teatro en un ambiente bohemio.",
+        "en": "Live music, concerts and theater shows in a bohemian atmosphere.",
+        "pt": "Música ao vivo, concertos e shows de teatro em um ambiente boêmio.",
+        "fr": "Musique live, concerts et spectacles de théâtre dans une ambiance bohème."
+      },
+      "comment": { "es": "Música en vivo, conciertos y shows de teatro en un ambiente bohemio.", "en": "Live music, concerts and theater shows in a bohemian atmosphere.", "pt": "Música ao vivo, concertos e shows de teatro em um ambiente boêmio.", "fr": "Musique live, concerts et spectacles de théâtre dans une ambiance bohème." },
+      "rating": 4.6,
+      "userRatingsTotal": 1200,
+      "priceLevel": 2,
+      "priceIndicator": { "es": "Medio", "en": "Medium", "pt": "Médio", "fr": "Moyen" },
+      "address": "Av. Bolognesi 307, Barranco, Lima",
+      "googleMapsUrl": "https://maps.google.com/?q=La+Noche+Barranco+Lima"
+    },
+    {
+      "name": "Teatro Marsano",
+      "description": {
+        "es": "Teatro clásico de Miraflores con obras nacionales e internacionales.",
+        "en": "Classic theater in Miraflores with national and international plays.",
+        "pt": "Teatro clássico em Miraflores com peças nacionais e internacionais.",
+        "fr": "Théâtre classique à Miraflores avec des pièces nationales et internationales."
+      },
+      "comment": { "es": "Teatro clásico de Miraflores con obras nacionales e internacionales.", "en": "Classic theater in Miraflores with national and international plays.", "pt": "Teatro clássico em Miraflores com peças nacionais e internacionais.", "fr": "Théâtre classique à Miraflores avec des pièces nationales et internationales." },
+      "rating": 4.4,
+      "userRatingsTotal": 900,
+      "priceLevel": 2,
+      "priceIndicator": { "es": "Medio", "en": "Medium", "pt": "Médio", "fr": "Moyen" },
+      "address": "Av. General Suárez 409, Miraflores, Lima",
+      "googleMapsUrl": "https://maps.google.com/?q=Teatro+Marsano+Miraflores+Lima"
+    },
+    {
+      "name": "Cinépolis Larcomar",
+      "description": {
+        "es": "El cine más moderno de Miraflores, con salas 2D, 3D y VIP y vista al mar.",
+        "en": "The most modern cinema in Miraflores, with 2D, 3D and VIP rooms and ocean view.",
+        "pt": "O cinema mais moderno de Miraflores, com salas 2D, 3D e VIP e vista para o mar.",
+        "fr": "Le cinéma le plus moderne de Miraflores, avec salles 2D, 3D et VIP et vue sur la mer."
+      },
+      "comment": {
+        "es": "Ideal para disfrutar de los últimos estrenos en un ambiente premium.",
+        "en": "Perfect to enjoy the latest releases in a premium environment.",
+        "pt": "Ideal para curtir os últimos lançamentos em um ambiente premium.",
+        "fr": "Idéal pour profiter des dernières sorties dans un environnement premium."
+      },
+      "rating": 4.5,
+      "userRatingsTotal": 3500,
+      "priceLevel": 2,
+      "priceIndicator": { "es": "Medio", "en": "Medium", "pt": "Médio", "fr": "Moyen" },
+      "address": "Malecón de la Reserva 610, Miraflores, Lima",
+      "googleMapsUrl": "https://maps.google.com/?q=Cinepolis+Larcomar+Miraflores+Lima",
+      "image": "/placeholder.svg?height=200&width=300"
+    }
+  ]
+} 

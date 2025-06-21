@@ -1,0 +1,128 @@
+{
+  "artesania": [
+    {
+      "name": "Dédalo Arte y Artesanía",
+      "description": {
+        "es": "Galería y tienda de arte y diseño peruano contemporáneo.",
+        "en": "Gallery and shop of contemporary Peruvian art and design.",
+        "pt": "Galeria e loja de arte e design peruano contemporâneo.",
+        "fr": "Galerie et boutique d'art et de design péruvien contemporain."
+      },
+      "comment": {
+        "es": "Galería y tienda de arte y diseño peruano contemporáneo.",
+        "en": "Galería y tienda de arte y diseño peruano contemporáneo.",
+        "pt": "Galería e loja de arte e design peruano contemporâneo.",
+        "fr": "Galerie et boutique d'art et de design péruvien contemporain."
+      },
+      "rating": 4.7,
+      "userRatingsTotal": 1500,
+      "address": "Jirón Sáenz Peña 295, Barranco, Lima",
+      "googleMapsUrl": "https://maps.google.com/?q=Dedalo+Arte+y+Artesania+Barranco+Lima",
+      "image": "/placeholder.svg?height=200&width=300"
+    }
+  ],
+  "librerias": [
+    {
+      "name": "Librería El Virrey",
+      "description": {
+        "es": "Librería tradicional con gran selección de literatura peruana y universal.",
+        "en": "Traditional bookstore with a great selection of Peruvian and world literature.",
+        "pt": "Livraria tradicional com grande seleção de literatura peruana e mundial.",
+        "fr": "Librairie traditionnelle avec un grand choix de littérature péruvienne et mondiale."
+      },
+      "comment": {
+        "es": "Librería tradicional con gran selección de literatura peruana y universal.",
+        "en": "Librería tradicional con gran selección de literatura peruana y universal.",
+        "pt": "Livraria tradicional com grande seleção de literatura peruana e mundial.",
+        "fr": "Librairie traditionnelle avec un grand choix de littérature péruvienne et mondiale."
+      },
+      "rating": 4.6,
+      "userRatingsTotal": 900,
+      "address": "Bolognesi 510, Miraflores, Lima",
+      "googleMapsUrl": "https://maps.google.com/?q=Libreria+El+Virrey+Miraflores+Lima",
+      "image": "/placeholder.svg?height=200&width=300"
+    }
+  ],
+  "moda_y_centros_comerciales": [
+    {
+      "name": "Larcomar",
+      "description": {
+        "es": "Centro comercial con vista al mar, tiendas de marcas y restaurantes.",
+        "en": "Shopping mall with ocean view, brand stores and restaurants.",
+        "pt": "Shopping com vista para o mar, lojas de marcas e restaurantes.",
+        "fr": "Centre commercial avec vue sur la mer, boutiques de marques et restaurants."
+      },
+      "comment": {
+        "es": "Centro comercial con vista al mar, tiendas de marcas y restaurantes.",
+        "en": "Centro comercial con vista al mar, tiendas de marcas y restaurantes.",
+        "pt": "Shopping com vista para o mar, lojas de marcas e restaurantes.",
+        "fr": "Centre commercial avec vue sur la mer, boutiques de marques et restaurants."
+      },
+      "rating": 4.7,
+      "userRatingsTotal": 12000,
+      "address": "Malecón de la Reserva 610, Miraflores, Lima",
+      "googleMapsUrl": "https://maps.google.com/?q=Larcomar+Miraflores+Lima",
+      "image": "/placeholder.svg?height=200&width=300"
+    },
+    {
+      "name": "Ermenegildo Zegna",
+      "description": {
+        "es": "Boutique de moda masculina de lujo italiana en Miraflores.",
+        "en": "Italian luxury menswear boutique in Miraflores.",
+        "pt": "Boutique de moda masculina de luxo italiana em Miraflores.",
+        "fr": "Boutique de mode masculine de luxe italienne à Miraflores."
+      },
+      "comment": {
+        "es": "Ropa de alta gama y atención personalizada.",
+        "en": "High-end clothing and personalized service.",
+        "pt": "Roupas de alto padrão e atendimento personalizado.",
+        "fr": "Vêtements haut de gamme et service personnalisé."
+      },
+      "rating": 4.8,
+      "userRatingsTotal": 120,
+      "address": "Larcomar, Malecón de la Reserva 610, Miraflores, Lima",
+      "googleMapsUrl": "https://maps.google.com/?q=Ermenegildo+Zegna+Larcomar+Miraflores+Lima",
+      "image": "/placeholder.svg?height=200&width=300"
+    },
+    {
+      "name": "Carolina Herrera",
+      "description": {
+        "es": "Tienda de moda femenina de lujo internacional en Miraflores.",
+        "en": "International luxury women's fashion store in Miraflores.",
+        "pt": "Loja de moda feminina de luxo internacional em Miraflores.",
+        "fr": "Boutique de mode féminine de luxe internationale à Miraflores."
+      },
+      "comment": {
+        "es": "Colecciones exclusivas y accesorios de alta gama.",
+        "en": "Exclusive collections and high-end accessories.",
+        "pt": "Coleções exclusivas e acessórios de alto padrão.",
+        "fr": "Collections exclusives et accessoires haut de gamme."
+      },
+      "rating": 4.7,
+      "userRatingsTotal": 95,
+      "address": "Larcomar, Malecón de la Reserva 610, Miraflores, Lima",
+      "googleMapsUrl": "https://maps.google.com/?q=Carolina+Herrera+Larcomar+Miraflores+Lima",
+      "image": "/placeholder.svg?height=200&width=300"
+    },
+    {
+      "name": "John Holden",
+      "description": {
+        "es": "Moda masculina elegante y exclusiva en Barranco.",
+        "en": "Elegant and exclusive men's fashion in Barranco.",
+        "pt": "Moda masculina elegante e exclusiva em Barranco.",
+        "fr": "Mode masculine élégante et exclusive à Barranco."
+      },
+      "comment": {
+        "es": "Trajes y camisas de alta calidad.",
+        "en": "High quality suits and shirts.",
+        "pt": "Ternos e camisas de alta qualidade.",
+        "fr": "Costumes et chemises de haute qualité."
+      },
+      "rating": 4.6,
+      "userRatingsTotal": 60,
+      "address": "Av. Pedro de Osma 135, Barranco, Lima",
+      "googleMapsUrl": "https://maps.google.com/?q=John+Holden+Barranco+Lima",
+      "image": "/placeholder.svg?height=200&width=300"
+    }
+  ]
+} 

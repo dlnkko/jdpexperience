@@ -1,0 +1,134 @@
+{
+  "bares": [
+    {
+      "name": "Ayahuasca",
+      "description": {
+        "es": "Bar de cócteles artesanales con ambiente bohemio y música en vivo.",
+        "en": "Craft cocktail bar with bohemian atmosphere and live music.",
+        "pt": "Bar de coquetéis artesanais com ambiente boêmio e música ao vivo.",
+        "fr": "Bar à cocktails artisanaux avec ambiance bohème et musique live."
+      },
+      "comment": { "es": "Bar de cócteles artesanales con ambiente bohemio y música en vivo." },
+      "address": "Av. San Martín 130, Barranco, Lima",
+      "rating": 4.5,
+      "userRatingsTotal": 800,
+      "priceLevel": 3,
+      "priceIndicator": { "es": "Medio", "en": "Medium", "pt": "Médio", "fr": "Moyen" },
+      "googleMapsUrl": "https://maps.google.com/?q=Ayahuasca+Bar+Barranco+Lima"
+    },
+    {
+      "name": "Dada",
+      "description": {
+        "es": "Bar de vinos y tapas con terraza y vista al mar.",
+        "en": "Wine and tapas bar with terrace and ocean view.",
+        "pt": "Bar de vinhos e tapas com terraço e vista para o mar.",
+        "fr": "Bar à vin et tapas avec terrasse et vue sur l'océan."
+      },
+      "comment": { "es": "Bar de vinos y tapas con terraza y vista al mar." },
+      "address": "Av. San Martín 154, Barranco, Lima",
+      "rating": 4.4,
+      "userRatingsTotal": 600,
+      "priceLevel": 3,
+      "priceIndicator": { "es": "Medio", "en": "Medium", "pt": "Médio", "fr": "Moyen" },
+      "googleMapsUrl": "https://maps.google.com/?q=Dada+Bar+Barranco+Lima"
+    },
+    {
+      "name": "BarBarian Miraflores",
+      "description": {
+        "es": "Bar de cervezas artesanales con ambiente relajado y buena música.",
+        "en": "Craft beer bar with a relaxed atmosphere and good music.",
+        "pt": "Bar de cervejas artesanais com ambiente descontraído e boa música.",
+        "fr": "Bar à bières artisanales avec une ambiance détendue et de la bonne musique."
+      },
+      "comment": { "es": "Bar de cervezas artesanales con ambiente relajado y buena música." },
+      "address": "Calle Manuel Bonilla 108, Miraflores, Lima",
+      "rating": 4.6,
+      "userRatingsTotal": 1200,
+      "priceLevel": 2,
+      "priceIndicator": { "es": "Medio", "en": "Medium", "pt": "Médio", "fr": "Moyen" },
+      "googleMapsUrl": "https://maps.google.com/?q=BarBarian+Miraflores+Lima"
+    },
+    {
+      "name": "Juanito de Barranco",
+      "description": {
+        "es": "Taberna tradicional, famosa por sus sánguches y ambiente bohemio.",
+        "en": "Traditional tavern, famous for its sandwiches and bohemian vibe.",
+        "pt": "Taberna tradicional, famosa por seus sanduíches e ambiente boêmio.",
+        "fr": "Taverne traditionnelle, célèbre pour ses sandwichs et son ambiance bohème."
+      },
+      "comment": { "es": "Taberna tradicional, famosa por sus sánguches y ambiente bohemio." },
+      "address": "Av. Almte. Miguel Grau 270, Barranco, Lima",
+      "rating": 4.5,
+      "userRatingsTotal": 900,
+      "priceLevel": 2,
+      "priceIndicator": { "es": "Medio", "en": "Medium", "pt": "Médio", "fr": "Moyen" },
+      "googleMapsUrl": "https://maps.google.com/?q=Juanito+de+Barranco+Lima"
+    }
+  ],
+  "discotecas": [
+    {
+      "name": "La Noche",
+      "description": {
+        "es": "Discoteca icónica con música en vivo y DJs internacionales.",
+        "en": "Iconic nightclub with live music and international DJs.",
+        "pt": "Casa noturna icônica com música ao vivo e DJs internacionais.",
+        "fr": "Discothèque emblématique avec musique live et DJs internationaux."
+      },
+      "comment": { "es": "Discoteca icónica con música en vivo y DJs internacionales." },
+      "address": "Av. Bolognesi 307, Barranco, Lima",
+      "rating": 4.6,
+      "userRatingsTotal": 1200,
+      "priceLevel": 3,
+      "priceIndicator": { "es": "Medio", "en": "Medium", "pt": "Médio", "fr": "Moyen" },
+      "googleMapsUrl": "https://maps.google.com/?q=La+Noche+Barranco+Lima"
+    },
+    {
+      "name": "Sargento Pimienta",
+      "description": {
+        "es": "Bar y discoteca con ambiente retro y música de los 60s y 70s.",
+        "en": "Bar and nightclub with retro atmosphere and 60s and 70s music.",
+        "pt": "Bar e casa noturna com ambiente retrô e música dos anos 60 e 70.",
+        "fr": "Bar et discothèque avec ambiance retro et musique des années 60 et 70."
+      },
+      "comment": { "es": "Bar y discoteca con ambiente retro y música de los 60s y 70s." },
+      "address": "Av. Grau 266, Barranco, Lima",
+      "rating": 4.3,
+      "userRatingsTotal": 900,
+      "priceLevel": 2,
+      "priceIndicator": { "es": "Medio", "en": "Medium", "pt": "Médio", "fr": "Moyen" },
+      "googleMapsUrl": "https://maps.google.com/?q=Sargento+Pimienta+Barranco+Lima"
+    },
+    {
+      "name": "Gótica",
+      "description": {
+        "es": "Discoteca elegante y moderna en Miraflores, famosa por sus fiestas y DJs.",
+        "en": "Elegant and modern nightclub in Miraflores, famous for its parties and DJs.",
+        "pt": "Discoteca elegante e moderna em Miraflores, famosa por suas festas e DJs.",
+        "fr": "Discothèque élégante et moderne à Miraflores, célèbre pour ses soirées et DJs."
+      },
+      "comment": { "es": "Discoteca elegante y moderna en Miraflores, famosa por sus fiestas y DJs." },
+      "address": "C.C. Larcomar, Miraflores, Lima",
+      "rating": 4.4,
+      "userRatingsTotal": 1100,
+      "priceLevel": 3,
+      "priceIndicator": { "es": "Medio-Alto", "en": "Medium-High", "pt": "Médio-Alto", "fr": "Moyen-Élevé" },
+      "googleMapsUrl": "https://maps.google.com/?q=Gotica+Discoteca+Miraflores+Lima"
+    },
+    {
+      "name": "Bizarro Club",
+      "description": {
+        "es": "Discoteca popular con música variada y ambiente juvenil en Miraflores.",
+        "en": "Popular nightclub with varied music and youthful atmosphere in Miraflores.",
+        "pt": "Discoteca popular com música variada e ambiente jovem em Miraflores.",
+        "fr": "Discothèque populaire avec musique variée et ambiance jeune à Miraflores."
+      },
+      "comment": { "es": "Discoteca popular con música variada y ambiente juvenil en Miraflores." },
+      "address": "Calle Bolognesi 755, Miraflores, Lima",
+      "rating": 4.2,
+      "userRatingsTotal": 950,
+      "priceLevel": 2,
+      "priceIndicator": { "es": "Medio", "en": "Medium", "pt": "Médio", "fr": "Moyen" },
+      "googleMapsUrl": "https://maps.google.com/?q=Bizarro+Club+Miraflores+Lima"
+    }
+  ]
+} 

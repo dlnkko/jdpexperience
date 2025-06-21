@@ -1,0 +1,59 @@
+{
+  "arte_y_museos": [
+    {
+      "name": "Museo Pedro de Osma",
+      "description": {
+        "es": "Colección de arte virreinal en una casona histórica de Barranco.",
+        "en": "Colonial art collection in a historic Barranco mansion.",
+        "pt": "Coleção de arte colonial em uma mansão histórica de Barranco.",
+        "fr": "Collection d'art colonial dans un manoir historique de Barranco."
+      },
+      "comment": { "es": "Colección de arte virreinal en una casona histórica de Barranco.", "en": "Colección de arte virreinal en una casona histórica de Barranco.", "pt": "Colección de arte virreinal en una casona histórica de Barranco.", "fr": "Colección de arte virreinal en una casona histórica de Barranco." },
+      "rating": 4.7,
+      "userRatingsTotal": 1800,
+      "priceLevel": 2,
+      "priceIndicator": { "es": "Medio", "en": "Medium", "pt": "Médio", "fr": "Moyen" },
+      "address": "Av. Pedro de Osma 423, Barranco, Lima",
+      "googleMapsUrl": "https://maps.google.com/?q=Museo+Pedro+de+Osma+Barranco+Lima",
+      "image": "/placeholder.svg?height=200&width=300"
+    }
+  ],
+  "caminatas": [
+    {
+      "name": "Malecón de Miraflores",
+      "description": {
+        "es": "Paseo costero con vistas al mar, ideal para caminar y relajarse.",
+        "en": "Coastal walk with ocean views, ideal for walking and relaxing.",
+        "pt": "Passeio costeiro com vista para o mar, ideal para caminhar e relaxar.",
+        "fr": "Promenade côtière avec vue sur la mer, idéale pour marcher et se détendre."
+      },
+      "comment": { "es": "Paseo costero con vistas al mar, ideal para caminar y relajarse.", "en": "Paseo costero con vistas al mar, ideal para caminar y relajarse.", "pt": "Passeio costeiro com vista para o mar, ideal para caminhar e relaxar.", "fr": "Promenade côtière avec vue sur la mer, idéale pour marcher et se détendre." },
+      "rating": 4.8,
+      "userRatingsTotal": 6000,
+      "priceLevel": 1,
+      "priceIndicator": { "es": "Bajo", "en": "Low", "pt": "Baixo", "fr": "Bas" },
+      "address": "Malecón de la Reserva, Miraflores, Lima",
+      "googleMapsUrl": "https://maps.google.com/?q=Malecón+de+la+Reserva+Miraflores+Lima",
+      "image": "/placeholder.svg?height=200&width=300"
+    }
+  ],
+  "turismo": [
+    {
+      "name": "Parque Kennedy",
+      "description": {
+        "es": "Corazón de Miraflores, rodeado de cafés, gatos y vida local.",
+        "en": "Heart of Miraflores, surrounded by cafés, cats and local life.",
+        "pt": "Coração de Miraflores, rodeado de cafés, gatos e vida local.",
+        "fr": "Cœur de Miraflores, entouré de cafés, chats et vie locale."
+      },
+      "comment": { "es": "Corazón de Miraflores, rodeado de cafés, gatos y vida local.", "en": "Corazón de Miraflores, rodeado de cafés, gatos y vida local.", "pt": "Corazón de Miraflores, rodeado de cafés, gatos e vida local.", "fr": "Corazón de Miraflores, entouré de cafés, chats et vie locale." },
+      "rating": 4.5,
+      "userRatingsTotal": 8000,
+      "priceLevel": 1,
+      "priceIndicator": { "es": "Bajo", "en": "Low", "pt": "Baixo", "fr": "Bas" },
+      "address": "Av. Diagonal, Miraflores, Lima",
+      "googleMapsUrl": "https://maps.google.com/?q=Parque+Kennedy+Miraflores+Lima",
+      "image": "/placeholder.svg?height=200&width=300"
+    }
+  ]
+} 

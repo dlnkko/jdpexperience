@@ -1,0 +1,68 @@
+{
+  "supermercados": [
+    {
+      "name": "Wong Bajada Balta",
+      "description": {
+        "es": "Supermercado grande, variedad de productos y atención 24h.",
+        "en": "Large supermarket, variety of products and 24h service.",
+        "pt": "Supermercado grande, variedade de produtos e atendimento 24h.",
+        "fr": "Grand supermarché, variété de produits et service 24h/24."
+      },
+      "comment": {
+        "es": "Supermercado grande, variedad de productos y atención 24h.",
+        "en": "Supermercado grande, variety of products and 24h service.",
+        "pt": "Supermercado grande, variedade de produtos e atendimento 24h.",
+        "fr": "Grand supermarché, variété de produits et service 24h/24."
+      },
+      "rating": 4.5,
+      "userRatingsTotal": 3000,
+      "address": "Bajada Balta 610, Miraflores, Lima",
+      "googleMapsUrl": "https://maps.google.com/?q=Wong+Bajada+Balta+Miraflores+Lima",
+      "image": "/placeholder.svg?height=200&width=300"
+    }
+  ],
+  "bodegas_y_panaderias": [
+    {
+      "name": "Panadería San Antonio",
+      "description": {
+        "es": "Panadería tradicional con los mejores postres y panes frescos.",
+        "en": "Traditional bakery with the best desserts and fresh bread.",
+        "pt": "Padaria tradicional com as melhores sobremesas e pães frescos.",
+        "fr": "Boulangerie traditionnelle avec les meilleurs desserts et pains frais."
+      },
+      "comment": {
+        "es": "Panadería tradicional con los mejores postres y panes frescos.",
+        "en": "Traditional bakery with the best desserts and fresh bread.",
+        "pt": "Padaria tradicional com as melhores sobremesas e pães frescos.",
+        "fr": "Boulangerie traditionnelle avec les meilleurs desserts et pains frais."
+      },
+      "rating": 4.6,
+      "userRatingsTotal": 2000,
+      "address": "Av. La Mar 770, Miraflores, Lima",
+      "googleMapsUrl": "https://maps.google.com/?q=Panaderia+San+Antonio+Miraflores+Lima",
+      "image": "/placeholder.svg?height=200&width=300"
+    }
+  ],
+  "mercados": [
+    {
+      "name": "Mercado de Surquillo N°1",
+      "description": {
+        "es": "Mercado tradicional con productos frescos y locales.",
+        "en": "Traditional market with fresh and local products.",
+        "pt": "Mercado tradicional com produtos frescos e locais.",
+        "fr": "Marché traditionnel avec des produits frais et locaux."
+      },
+      "comment": {
+        "es": "Mercado tradicional con productos frescos y locales.",
+        "en": "Traditional market with fresh and local products.",
+        "pt": "Mercado tradicional com produtos frescos e locais.",
+        "fr": "Marché traditionnel avec des produits frais et locaux."
+      },
+      "rating": 4.4,
+      "userRatingsTotal": 2500,
+      "address": "Paseo de la República 4875, Miraflores, Lima",
+      "googleMapsUrl": "https://maps.google.com/?q=Mercado+de+Surquillo+1+Miraflores+Lima",
+      "image": "/placeholder.svg?height=200&width=300"
+    }
+  ]
+} 
