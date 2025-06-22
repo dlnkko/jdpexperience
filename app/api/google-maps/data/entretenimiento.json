@@ -17,7 +17,6 @@
           "fr": "Centre culturel de Mario Testino, notable pour sa collection et son architecture."
         },
         "rating": 4.5,
-        "userRatingsTotal": 831,
         "priceLevel": 2,
         "priceIndicator": { "es":"Medio", "en":"Medium", "pt":"Médio", "fr":"Moyen" },
         "address": "Av. Pedro de Osma 409, Barranco 15063, Lima",
@@ -39,7 +38,6 @@
           "fr": "Remarquable pour sa collection de la culture Chancay."
         },
         "rating": 4.4,
-        "userRatingsTotal": 500,
         "priceLevel": 2,
         "priceIndicator": { "es":"Medio", "en":"Medium", "pt":"Médio", "fr":"Moyen" },
         "address": "Av. Pedro de Osma 415, Barranco 15063, Lima",
@@ -61,7 +59,6 @@
           "fr": "Espace très apprécié, programmation fréquente et entrée gratuite."
         },
         "rating": 4.5,
-        "userRatingsTotal": 108,
         "priceLevel": 0,
         "priceIndicator": { "es":"Gratuito", "en":"Free", "pt":"Gratuito", "fr":"Gratuit" },
         "address": "Av. Angamos Oeste 160, Miraflores 15074, Lima",
@@ -83,7 +80,6 @@
           "fr": "Foire régulière avec artisanat, antiquités et ambiance détendue."
         },
         "rating": 3.8,
-        "userRatingsTotal": 38,
         "priceLevel": 1,
         "priceIndicator": { "es":"Bajo", "en":"Low", "pt":"Baixo", "fr":"Faible" },
         "address": "VXH9+4W4, Miraflores 15074, Perú (Parque Kennedy)",
@@ -108,7 +104,6 @@
         "fr": "Pyramide en adobe et point historique de Lima."
       },
       "rating": 4.6,
-      "userRatingsTotal": 15000,
       "priceLevel": 2,
       "priceIndicator": { "es": "Medio", "en": "Medium", "pt": "Médio", "fr": "Moyen" },
       "address": "Calle General Borgoño cuadra 8, Miraflores 15074, Lima",
@@ -129,7 +124,6 @@
         "fr": "Patrimoine Culturel, a inspiré Ribeyro."
       },
       "rating": 4.5,
-      "userRatingsTotal": 200,
       "priceLevel": 1,
       "priceIndicator": { "es": "Bajo", "en": "Low", "pt": "Baixo", "fr": "Faible" },
       "address": "Av. 28 de Julio 836, Miraflores 15074, Lima",
@@ -150,7 +144,6 @@
         "fr": "Visité dans la route culturelle 24 h de Miraflores."
       },
       "rating": 4.4,
-      "userRatingsTotal": 60,
       "priceLevel": 0,
       "priceIndicator": { "es": "Gratuito", "en": "Free", "pt": "Gratuito", "fr": "Gratuit" },
       "address": "Esquina Av. José Larco y Calle Esperanza, Miraflores, Lima",
@@ -171,7 +164,6 @@
         "fr": "Icône bohème et lieu incontournable."
       },
       "rating": 4.7,
-      "userRatingsTotal": 18769,
       "priceLevel": 0,
       "priceIndicator": { "es": "Gratuito", "en": "Free", "pt": "Gratuito", "fr": "Gratuit" },
       "address": "Jr. Batallón Ayacucho 271, Barranco 15063, Lima",
@@ -190,7 +182,6 @@
       },
       "comment": { "es": "Música en vivo, conciertos y shows de teatro en un ambiente bohemio.", "en": "Live music, concerts and theater shows in a bohemian atmosphere.", "pt": "Música ao vivo, concertos e shows de teatro em um ambiente boêmio.", "fr": "Musique live, concerts et spectacles de théâtre dans une ambiance bohème." },
       "rating": 4.6,
-      "userRatingsTotal": 1200,
       "priceLevel": 2,
       "priceIndicator": { "es": "Medio", "en": "Medium", "pt": "Médio", "fr": "Moyen" },
       "address": "Av. Bolognesi 307, Barranco, Lima",
@@ -207,7 +198,6 @@
       },
       "comment": { "es": "Teatro clásico de Miraflores con obras nacionales e internacionales.", "en": "Classic theater in Miraflores with national and international plays.", "pt": "Teatro clássico em Miraflores com peças nacionais e internacionais.", "fr": "Théâtre classique à Miraflores avec des pièces nationales et internationales." },
       "rating": 4.4,
-      "userRatingsTotal": 900,
       "priceLevel": 2,
       "priceIndicator": { "es": "Medio", "en": "Medium", "pt": "Médio", "fr": "Moyen" },
       "address": "Av. General Suárez 409, Miraflores, Lima",
@@ -229,7 +219,6 @@
         "fr": "Idéal pour profiter des dernières sorties dans un environnement premium."
       },
       "rating": 4.5,
-      "userRatingsTotal": 3500,
       "priceLevel": 2,
       "priceIndicator": { "es": "Medio", "en": "Medium", "pt": "Médio", "fr": "Moyen" },
       "address": "Malecón de la Reserva 610, Miraflores, Lima",

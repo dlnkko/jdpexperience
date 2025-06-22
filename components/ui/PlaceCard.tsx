@@ -52,7 +52,7 @@ export function PlaceCard({ place, language, translations, onGetDirections }: Pl
           <div className="flex items-center gap-2 mb-3">
             {place.rating && (
               <Badge variant="secondary" className="bg-yellow-100 text-yellow-800">
-                ⭐ {place.rating.toFixed(1)} ({place.userRatingsTotal})
+                ⭐ {place.rating.toFixed(1)}
               </Badge>
             )}
             {priceIndicator && (

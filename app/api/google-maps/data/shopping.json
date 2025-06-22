@@ -20,7 +20,6 @@
         "fr": "Probablement la meilleure sélection d'artisanat péruvien en ville."
       },
       "rating": 4.4,
-      "userRatingsTotal": 0,
       "priceLevel": 1,
       "priceIndicator": { "es":"Bajo", "en":"Low", "pt":"Baixo", "fr":"Faible" },
       "address": "Av. Petit Thouars, cuadra 52–55, Miraflores 15074, Lima",
@@ -46,7 +45,6 @@
         "fr": "Fréquenté par les touristes, bon rapport qualité‑prix."
       },
       "rating": 4.3,
-      "userRatingsTotal": 114,
       "priceLevel": 1,
       "priceIndicator": { "es":"Bajo", "en":"Low", "pt":"Baixo", "fr":"Faible" },
       "address": "Gonzáles Prada 280, Miraflores 15074, Lima",
@@ -72,7 +70,6 @@
         "fr": "Endroit idéal pour de l'artisanat d'auteur plus sélect."
       },
       "rating": 4.6,
-      "userRatingsTotal": 0,
       "priceLevel": 2,
       "priceIndicator": { "es":"Medio", "en":"Medium", "pt":"Médio", "fr":"Moyen" },
       "address": "Saénz Peña 295, Barranco 15063, Lima",
@@ -98,7 +95,6 @@
         "fr": "100 % des bénéfices sont réinvestis dans les artisans andins."
       },
       "rating": 4.5,
-      "userRatingsTotal": 0,
       "priceLevel": 2,
       "priceIndicator": { "es":"Medio", "en":"Medium", "pt":"Médio", "fr":"Moyen" },
       "address": "Av. Almirante Miguel Grau, Barranco, Lima",
@@ -126,7 +122,6 @@
         "fr": "Note 4.8 (35 avis), weekend 11 h–20 h."
       },
       "rating": 4.8,
-      "userRatingsTotal": 35,
       "priceLevel": 2,
       "priceIndicator": { "es":"Medio", "en":"Medium", "pt":"Médio", "fr":"Moyen" },
       "address": "Av. San Martín 670, Barranco 15063, Lima",
@@ -152,7 +147,6 @@
         "fr": "Note 4.8 avec 88 avis, ouvert tous les jours."
       },
       "rating": 4.8,
-      "userRatingsTotal": 88,
       "priceLevel": 2,
       "priceIndicator": { "es":"Medio", "en":"Medium", "pt":"Médio", "fr":"Moyen" },
       "address": "Jr. Batalla de Junín 260, Barranco 15063, Lima",
@@ -178,7 +172,6 @@
         "fr": "~4.6 avec 1 862 avis ; événements et lectures."
       },
       "rating": 4.6,
-      "userRatingsTotal": 1862,
       "priceLevel": 2,
       "priceIndicator": { "es":"Medio", "en":"Medium", "pt":"Médio", "fr":"Moyen" },
       "address": "Av. Bolognesi 510, Miraflores 15074, Lima",
@@ -204,7 +197,6 @@
         "fr": "Bonne variété, horaires prolongés jusqu'à 21 h."
       },
       "rating": 4.2,
-      "userRatingsTotal": 62,
       "priceLevel": 2,
       "priceIndicator": { "es":"Medio", "en":"Medium", "pt":"Médio", "fr":"Moyen" },
       "address": "Av. Larco 199, Miraflores 15074, Lima",
@@ -227,7 +219,6 @@
         "fr": "Centre commercial avec vue sur la mer, boutiques de marques et restaurants."
       },
       "rating": 4.7,
-      "userRatingsTotal": 12000,
       "address": "Malecón de la Reserva 610, Miraflores, Lima",
       "googleMapsUrl": "https://maps.google.com/?q=Larcomar+Miraflores+Lima",
       "image": "/placeholder.svg?height=200&width=300"
@@ -247,7 +238,6 @@
         "fr": "Vêtements haut de gamme et service personnalisé."
       },
       "rating": 4.8,
-      "userRatingsTotal": 120,
       "address": "Larcomar, Malecón de la Reserva 610, Miraflores, Lima",
       "googleMapsUrl": "https://maps.google.com/?q=Ermenegildo+Zegna+Larcomar+Miraflores+Lima",
       "image": "/placeholder.svg?height=200&width=300"
@@ -267,7 +257,6 @@
         "fr": "Collections exclusives et accessoires haut de gamme."
       },
       "rating": 4.7,
-      "userRatingsTotal": 95,
       "address": "Larcomar, Malecón de la Reserva 610, Miraflores, Lima",
       "googleMapsUrl": "https://maps.google.com/?q=Carolina+Herrera+Larcomar+Miraflores+Lima",
       "image": "/placeholder.svg?height=200&width=300"
@@ -287,7 +276,6 @@
         "fr": "Costumes et chemises de haute qualité."
       },
       "rating": 4.6,
-      "userRatingsTotal": 60,
       "address": "Av. Pedro de Osma 135, Barranco, Lima",
       "googleMapsUrl": "https://maps.google.com/?q=John+Holden+Barranco+Lima",
       "image": "/placeholder.svg?height=200&width=300"

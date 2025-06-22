@@ -20,7 +20,6 @@
         "fr": "Noté 4.4 sur 872 avis, ouvert de 7 h à 22 h."
       },
       "rating": 4.4,
-      "userRatingsTotal": 872,
       "priceLevel": 3,
       "priceIndicator": { "es":"Alto", "en":"High", "pt":"Alto", "fr":"Élevé" },
       "address": "Av. Malecón de la Reserva 610, Miraflores 15074, Lima",
@@ -46,7 +45,6 @@
         "fr": "Noté 4.1 sur 9 108 avis, situé au C. Schell 250."
       },
       "rating": 4.1,
-      "userRatingsTotal": 9108,
       "priceLevel": 2,
       "priceIndicator": { "es":"Medio", "en":"Medium", "pt":"Médio", "fr":"Moyen" },
       "address": "Calle Schell 250, Miraflores 15074, Lima",
@@ -72,7 +70,6 @@
         "fr": "Situé à l’Av. Grau 513, propose un catalogue actualisé et des horaires standards."
       },
       "rating": 4.0,
-      "userRatingsTotal": 0,
       "priceLevel": 2,
       "priceIndicator": { "es":"Medio", "en":"Medium", "pt":"Médio", "fr":"Moyen" },
       "address": "Av. Almirante Grau 513, Barranco 15063, Lima",
@@ -98,7 +95,6 @@
         "fr": "Situé sur l’Av. República de Panamá avec bon accès public."
       },
       "rating": 4.2,
-      "userRatingsTotal": 0,
       "priceLevel": 1,
       "priceIndicator": { "es":"Bajo", "en":"Low", "pt":"Baixo", "fr":"Faible" },
       "address": "Av. República de Panamá con Estación Balta, Barranco 15063, Lima",
@@ -121,32 +117,211 @@
         "fr": "Boulangerie traditionnelle avec les meilleurs desserts et pains frais."
       },
       "rating": 4.6,
-      "userRatingsTotal": 2000,
       "address": "Av. La Mar 770, Miraflores, Lima",
       "googleMapsUrl": "https://maps.google.com/?q=Panaderia+San+Antonio+Miraflores+Lima",
       "image": "/placeholder.svg?height=200&width=300"
+    },
+    {
+      "name": {
+        "es": "El Pan de la Chola",
+        "en": "El Pan de la Chola",
+        "pt": "El Pan de la Chola",
+        "fr": "El Pan de la Chola"
+      },
+      "description": {
+        "es": "Panadería moderna y artesanal con masa madre, sándwiches y café orgánico.",
+        "en": "Modern artisanal bakery with sourdough, sandwiches, and organic coffee.",
+        "pt": "Padaria moderna artesanal com massa mãe, sanduíches e café orgânico.",
+        "fr": "Boulangerie artisanale moderne avec levain, sandwichs et café bio."
+      },
+      "comment": {
+        "es": "Premiada Mejores Panaderías Lima 2024; valoración 4.3 con +850 reseñas.",
+        "en": "Awarded Best Bakery Lima 2024; rated 4.3 with 850+ reviews.",
+        "pt": "Premiada Melhor Padaria Lima 2024; avaliado 4.3 com 850+ avaliações.",
+        "fr": "Élue meilleure boulangerie Lima 2024; note 4.3 avec plus de 850 avis."
+      },
+      "rating": 4.3,
+      "priceLevel": 2,
+      "priceIndicator": { "es":"Medio", "en":"Medium", "pt":"Médio", "fr":"Moyen" },
+      "address": "Av. La Mar 918, Miraflores 15074, Lima",
+      "googleMapsUrl": "https://maps.google.com/?q=Av.+La+Mar+918+Miraflores+Lima"
+    },
+    {
+      "name": {
+        "es": "Pan Atelier",
+        "en": "Pan Atelier",
+        "pt": "Pan Atelier",
+        "fr": "Pan Atelier"
+      },
+      "description": {
+        "es": "Panadería artesanal con masa madre, focaccias, croissants y café.",
+        "en": "Artisanal bakery with sourdough, focaccias, croissants and coffee.",
+        "pt": "Padaria artesanal com massa mãe, focaccias, croissants e café.",
+        "fr": "Boulangerie artisanale avec levain, focaccias, croissants et café."
+      },
+      "comment": {
+        "es": "Muy valorada en Miraflores; horario 7 h–22 h diarios.",
+        "en": "Highly rated in Miraflores; open 7 am–10 pm daily.",
+        "pt": "Muito bem avaliada em Miraflores; abre 7 h–22 h diariamente.",
+        "fr": "Très bien notée à Miraflores ; ouverte 7 h–22 h chaque jour."
+      },
+      "rating": 4.5,
+      "priceLevel": 2,
+      "priceIndicator": { "es":"Medio", "en":"Medium", "pt":"Médio", "fr":"Moyen" },
+      "address": "C. Cantuarias 167, Miraflores 15074, Lima",
+      "googleMapsUrl": "https://maps.google.com/?q=Cantuarias+167+Miraflores+Lima"
+    },
+    {
+      "name": {
+        "es": "Panadería Carmelitas",
+        "en": "Panadería Carmelitas",
+        "pt": "Panadería Carmelitas",
+        "fr": "Panadería Carmelitas"
+      },
+      "description": {
+        "es": "Clásica panadería elabora pan tradicional y dulces peruanos.",
+        "en": "Classic bakery crafting traditional bread and Peruvian sweets.",
+        "pt": "Padaria clássica elaborando pão tradicional e doces peruanos.",
+        "fr": "Boulangerie classique produisant pains traditionnels et douceurs péruviennes."
+      },
+      "comment": {
+        "es": "Ubicada en Av. 28 de Julio 1328; calificación 4.5 y horario 6 h–18 h.",
+        "en": "Located at Av. 28 de Julio 1328; rated 4.5 and open 6 am–6 pm.",
+        "pt": "Localizada na Av. 28 de Julio 1328; nota 4.5 e abre 6 h–18 h.",
+        "fr": "Située au Av. 28 de Julio 1328 ; note 4.5 et ouverte 6 h–18 h."
+      },
+      "rating": 4.5,
+      "priceLevel": 2,
+      "priceIndicator": { "es":"Medio", "en":"Medium", "pt":"Médio", "fr":"Moyen" },
+      "address": "Av. 28 de Julio 1328, Miraflores 15074, Lima",
+      "googleMapsUrl": "https://maps.google.com/?q=Av.+28+de+Julio+1328+Miraflores+Lima"
+    },
+    {
+      "name": {
+        "es": "La Panetteria Barranco",
+        "en": "La Panetteria Barranco",
+        "pt": "La Panetteria Barranco",
+        "fr": "La Panetteria Barranco"
+      },
+      "description": {
+        "es": "Panadería con masa madre y focaccias estilo italiano en Barranco.",
+        "en": "Bakery with sourdough and Italian-style focaccias in Barranco.",
+        "pt": "Padaria com massa mãe e focaccias estilo italiano em Barranco.",
+        "fr": "Boulangerie avec levain et focaccias italiennes à Barranco."
+      },
+      "comment": {
+        "es": "Destacada por Premios Somos 2024; abre 8 h–22 h.",
+        "en": "Featured by Somos Awards 2024; open 8 am–10 pm.",
+        "pt": "Destaque nos Prêmios Somos 2024; abre 8 h–22 h.",
+        "fr": "Vedette des Prix Somos 2024 ; ouverte 8 h–22 h."
+      },
+      "rating": 4.4,
+      "priceLevel": 2,
+      "priceIndicator": { "es":"Medio", "en":"Medium", "pt":"Médio", "fr":"Moyen" },
+      "address": "Av. Grau 369, Barranco 15063, Lima",
+      "googleMapsUrl": "https://maps.google.com/?q=Av.+Grau+369+Barranco+Lima"
     }
   ],
   "mercados": [
     {
-      "name": { "es": "Mercado de Surquillo N°1", "en": "Mercado de Surquillo N°1", "pt": "Mercado de Surquillo N°1", "fr": "Mercado de Surquillo N°1" },
+      "name": {
+        "es": "Mercado Municipal de Miraflores",
+        "en": "Mercado Municipal de Miraflores",
+        "pt": "Mercado Municipal de Miraflores",
+        "fr": "Mercado Municipal de Miraflores"
+      },
       "description": {
-        "es": "Mercado tradicional con productos frescos y locales.",
-        "en": "Traditional market with fresh and local products.",
-        "pt": "Mercado tradicional com produtos frescos e locais.",
-        "fr": "Marché traditionnel avec des produits frais et locaux."
+        "es": "Mercado de abastos con productos frescos, comida típica y artesanía, muy animado.",
+        "en": "Food market with fresh produce, typical eats and crafts, very lively.",
+        "pt": "Mercado com produtos frescos, comida típica e artesanato, muito animado.",
+        "fr": "Marché avec produits frais, cuisine typique et artisanat, très animé."
       },
       "comment": {
-        "es": "Mercado tradicional con productos frescos y locales.",
-        "en": "Traditional market with fresh and local products.",
-        "pt": "Mercado tradicional com produtos frescos e locais.",
-        "fr": "Marché traditionnel avec des produits frais et locaux."
+        "es": "Calificación 4.2, abierto 8–20:30 h (domingo desde las 12:30), ideal para gastronomía local.",
+        "en": "Rated 4.2, open 8 am–8:30 pm (Sundays from 12:30), ideal for local gastronomy.",
+        "pt": "Avaliado 4.2, aberto 8h–20:30h (domingo desde 12:30), ideal para gastronomia local.",
+        "fr": "Note 4.2, ouvert 8h–20h30 (dimanche dès 12h30), idéal pour gastronomie locale."
+      },
+      "rating": 4.2,
+      "priceLevel": 1,
+      "priceIndicator": { "es":"Bajo", "en":"Low", "pt":"Baixo", "fr":"Faible" },
+      "address": "Av. Gral. Mendiburu 1080, Miraflores 15074, Lima",
+      "googleMapsUrl": "https://maps.google.com/?q=Av.+Gral.+Mendiburu+1080+Miraflores+Lima"
+    },
+    {
+      "name": {
+        "es": "Mercado Santa Cruz",
+        "en": "Mercado Santa Cruz",
+        "pt": "Mercado Santa Cruz",
+        "fr": "Mercado Santa Cruz"
+      },
+      "description": {
+        "es": "Mercado emblemático de productos saludables y frescos en Miraflores.",
+        "en": "Iconic market for healthy and fresh products in Miraflores.",
+        "pt": "Mercado emblemático de produtos saudáveis e frescos em Miraflores.",
+        "fr": "Marché emblématique de produits sains et frais à Miraflores."
+      },
+      "comment": {
+        "es": "Promueve estilo de vida saludable, alta variedad y ambiente agradable.",
+        "en": "Promotes healthy lifestyle, wide variety and pleasant atmosphere.",
+        "pt": "Promove vida saudável, variedade e ambiente agradável.",
+        "fr": "Favorise un mode de vie sain, grande variété et ambiance agréable."
+      },
+      "rating": null,
+      "priceLevel": 1,
+      "priceIndicator": { "es":"Bajo", "en":"Low", "pt":"Baixo", "fr":"Faible" },
+      "address": "Av. Gral. Mendiburu 1175, Miraflores 15074, Lima",
+      "googleMapsUrl": "https://maps.google.com/?q=Av.+Gral.+Mendiburu+1175+Miraflores+Lima"
+    },
+    {
+      "name": {
+        "es": "Mercado Nro. 2 de Barranco",
+        "en": "Mercado Nro. 2 de Barranco",
+        "pt": "Mercado Nro. 2 de Barranco",
+        "fr": "Mercado Nro. 2 de Barranco"
+      },
+      "description": {
+        "es": "Mercado municipal tradicional con frutas, verduras, carnes y comida típica.",
+        "en": "Traditional municipal market with fruits, vegetables, meats and typical food.",
+        "pt": "Mercado municipal tradicional com frutas, legumes, carnes e comida típica.",
+        "fr": "Marché municipal traditionnel avec fruits, légumes, viandes et cuisine typique."
+      },
+      "comment": {
+        "es": "Alta valoración (~4.4), 350 puestos, se usa diario 6–20 h.",
+        "en": "High rating (~4.4), 350 stalls, open daily 6 am–8 pm.",
+        "pt": "Alta classificação (~4.4), 350 bancas, abierto diariamente 6h–20h.",
+        "fr": "Bonne note (~4.4), 350 étals, ouvert quotidiennement 6h–20h."
       },
       "rating": 4.4,
-      "userRatingsTotal": 2500,
-      "address": "Paseo de la República 4875, Miraflores, Lima",
-      "googleMapsUrl": "https://maps.google.com/?q=Mercado+de+Surquillo+1+Miraflores+Lima",
-      "image": "/placeholder.svg?height=200&width=300"
+      "priceLevel": 1,
+      "priceIndicator": { "es":"Bajo", "en":"Low", "pt":"Baixo", "fr":"Faible" },
+      "address": "Jirón Arica 279, Barranco 15049, Lima",
+      "googleMapsUrl": "https://maps.google.com/?q=Jir%C3%B3n+Arica+279+Barranco+Lima"
+    },
+    {
+      "name": {
+        "es": "Mercado Artesanal de Miraflores",
+        "en": "Mercado Artesanal de Miraflores",
+        "pt": "Mercado Artesanal de Miraflores",
+        "fr": "Mercado Artesanal de Miraflores"
+      },
+      "description": {
+        "es": "Feria de artesanías con expositores locales, ideal para souvenirs.",
+        "en": "Artisan fair with local exhibitors, ideal for souvenirs.",
+        "pt": "Feira de artesanato com expositores locais, ideal para souvenirs.",
+        "fr": "Foire artisanale avec exposants locaux, idéal pour souvenirs."
+      },
+      "comment": {
+        "es": "Alta valoración (~4.3), gran variedad de piezas hechas a mano, fines de semana.",
+        "en": "High rating (~4.3), great variety of handmade pieces, weekends.",
+        "pt": "Boa avaliação (~4.3), grande variedade de peças artesanais, fins de semana.",
+        "fr": "Bonne note (~4.3), grande variété de pièces artisanales, weekends."
+      },
+      "rating": 4.3,
+      "priceLevel": 1,
+      "priceIndicator": { "es":"Bajo", "en":"Low", "pt":"Baixo", "fr":"Faible" },
+      "address": "Calle Gral. Suárez 315, Miraflores 15074, Lima",
+      "googleMapsUrl": "https://maps.google.com/?q=Gral.+Su%C3%A1rez+315+Miraflores+Lima"
     }
   ]
 } 

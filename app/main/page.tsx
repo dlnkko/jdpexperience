@@ -200,7 +200,6 @@ export default function BarrancoGuide() {
                   transition={{ duration: 0.2 }}
                   className="flex items-center gap-2"
                 >
-                  {currentSection.icon}
                   <h1 className="text-2xl font-bold text-gray-800">
                     {category.name[language]}
                   </h1>
@@ -294,7 +293,6 @@ export default function BarrancoGuide() {
                 transition={{ duration: 0.2 }}
                 className="flex items-center gap-2"
               >
-                {currentSection.icon}
                 <h1 className="text-2xl font-bold text-gray-800">
                   {currentSection.emoji} {currentSection.title[language]}
                 </h1>

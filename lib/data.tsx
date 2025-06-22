@@ -13,7 +13,6 @@ export interface Place {
   image: string
   emoji?: string
   rating?: number
-  userRatingsTotal?: number
   priceLevel?: number
   priceIndicator?: { [key: string]: string }
   subcategories?: {
@@ -21,7 +20,6 @@ export interface Place {
     description: { [key: string]: string }
     address: string
     rating?: number
-    userRatingsTotal?: number
     priceLevel?: number
     priceIndicator?: { [key: string]: string }
   }[]
@@ -201,7 +199,6 @@ export const sections: Section[] = [
             },
             address: "Av. San Martín 201, Barranco, Lima",
             rating: 4.5,
-            userRatingsTotal: 1200,
             priceLevel: 3,
             priceIndicator: { es: "Alto", en: "High", pt: "Alto", fr: "Élevé" },
           },
@@ -215,7 +212,6 @@ export const sections: Section[] = [
             },
             address: "Av. La Mar 770, Miraflores, Lima",
             rating: 4.7,
-            userRatingsTotal: 2500,
             priceLevel: 4,
             priceIndicator: { es: "Alto", en: "High", pt: "Alto", fr: "Élevé" },
           },
@@ -229,7 +225,6 @@ export const sections: Section[] = [
             },
             address: "Calle Bolognesi 215, Barranco, Lima",
             rating: 4.3,
-            userRatingsTotal: 900,
             priceLevel: 3,
             priceIndicator: { es: "Medio", en: "Medium", pt: "Médio", fr: "Moyen" },
           }
@@ -263,7 +258,6 @@ export const sections: Section[] = [
             },
             address: "Av. Pedro de Osma 301, Barranco, Lima",
             rating: 4.8,
-            userRatingsTotal: 3000,
             priceLevel: 4,
             priceIndicator: { es: "Alto", en: "High", pt: "Alto", fr: "Élevé" },
           },
@@ -277,7 +271,6 @@ export const sections: Section[] = [
             },
             address: "Av. San Martín 101, Barranco, Lima",
             rating: 4.4,
-            userRatingsTotal: 1800,
             priceLevel: 2,
             priceIndicator: { es: "Medio", en: "Medium", pt: "Médio", fr: "Moyen" },
           },
@@ -291,7 +284,6 @@ export const sections: Section[] = [
             },
             address: "Av. Paz Soldán 290, Miraflores, Lima",
             rating: 4.6,
-            userRatingsTotal: 2000,
             priceLevel: 4,
             priceIndicator: { es: "Alto", en: "High", pt: "Alto", fr: "Élevé" },
           }
@@ -325,7 +317,6 @@ export const sections: Section[] = [
             },
             address: "Av. Grau 340, Barranco, Lima",
             rating: 4.2,
-            userRatingsTotal: 700,
             priceLevel: 1,
             priceIndicator: { es: "Barato", en: "Low", pt: "Barato", fr: "Bon marché" },
           },
@@ -339,7 +330,6 @@ export const sections: Section[] = [
             },
             address: "Av. Pedro de Osma 127, Barranco, Lima",
             rating: 4.1,
-            userRatingsTotal: 500,
             priceLevel: 1,
             priceIndicator: { es: "Barato", en: "Low", pt: "Barato", fr: "Bon marché" },
           }
@@ -373,7 +363,6 @@ export const sections: Section[] = [
             },
             address: "Av. La Mar 1100, Miraflores, Lima",
             rating: 4.6,
-            userRatingsTotal: 1500,
             priceLevel: 4,
             priceIndicator: { es: "Alto", en: "High", pt: "Alto", fr: "Élevé" },
           },
@@ -387,7 +376,6 @@ export const sections: Section[] = [
             },
             address: "Hipólito Unanue 203, Miraflores, Lima",
             rating: 4.4,
-            userRatingsTotal: 1100,
             priceLevel: 3,
             priceIndicator: { es: "Medio", en: "Medium", pt: "Médio", fr: "Moyen" },
           }
@@ -434,7 +422,6 @@ export const sections: Section[] = [
             },
             address: "Av. La Mar 1234, Miraflores, Lima",
             rating: 4.7,
-            userRatingsTotal: 2000,
             priceLevel: 4,
             priceIndicator: { es: "Alto", en: "High", pt: "Alto", fr: "Élevé" },
           },
@@ -448,7 +435,6 @@ export const sections: Section[] = [
             },
             address: "Av. San Martín 567, Barranco, Lima",
             rating: 4.5,
-            userRatingsTotal: 1500,
             priceLevel: 3,
             priceIndicator: { es: "Medio", en: "Medium", pt: "Médio", fr: "Moyen" },
           }
@@ -482,7 +468,6 @@ export const sections: Section[] = [
             },
             address: "Av. Pedro de Osma 789, Barranco, Lima",
             rating: 4.6,
-            userRatingsTotal: 1800,
             priceLevel: 2,
             priceIndicator: { es: "Medio", en: "Medium", pt: "Médio", fr: "Moyen" },
           },
@@ -496,7 +481,6 @@ export const sections: Section[] = [
             },
             address: "Av. Pedro de Osma 421, Barranco, Lima",
             rating: 4.6,
-            userRatingsTotal: 1800,
             priceLevel: 2,
             priceIndicator: { es: "Medio", en: "Medium", pt: "Médio", fr: "Moyen" },
           },
@@ -837,7 +821,6 @@ export const sections: Section[] = [
             },
             address: "Av. San Martín 130, Barranco, Lima",
             rating: 4.5,
-            userRatingsTotal: 800,
             priceLevel: 3,
             priceIndicator: { es: "Medio", en: "Medium", pt: "Médio", fr: "Moyen" }
           },
@@ -851,7 +834,6 @@ export const sections: Section[] = [
             },
             address: "Av. San Martín 154, Barranco, Lima",
             rating: 4.4,
-            userRatingsTotal: 600,
             priceLevel: 3,
             priceIndicator: { es: "Medio", en: "Medium", pt: "Médio", fr: "Moyen" }
           }
@@ -885,7 +867,6 @@ export const sections: Section[] = [
             },
             address: "Av. Bolognesi 307, Barranco, Lima",
             rating: 4.6,
-            userRatingsTotal: 1200,
             priceLevel: 3,
             priceIndicator: { es: "Medio", en: "Medium", pt: "Médio", fr: "Moyen" }
           },
@@ -899,7 +880,6 @@ export const sections: Section[] = [
             },
             address: "Av. Grau 266, Barranco, Lima",
             rating: 4.3,
-            userRatingsTotal: 900,
             priceLevel: 2,
             priceIndicator: { es: "Medio", en: "Medium", pt: "Médio", fr: "Moyen" }
           }

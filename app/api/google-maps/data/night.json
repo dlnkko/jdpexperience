@@ -16,7 +16,6 @@
       "comment": { "es": "Bar de cócteles artesanales con ambiente bohemio y música en vivo." },
       "address": "Av. San Martín 130, Barranco, Lima",
       "rating": 4.5,
-      "userRatingsTotal": 800,
       "priceLevel": 3,
       "priceIndicator": { "es": "Medio", "en": "Medium", "pt": "Médio", "fr": "Moyen" },
       "googleMapsUrl": "https://maps.google.com/?q=Ayahuasca+Bar+Barranco+Lima"
@@ -37,7 +36,6 @@
       "comment": { "es": "Bar de vinos y tapas con terraza y vista al mar." },
       "address": "Av. San Martín 154, Barranco, Lima",
       "rating": 4.4,
-      "userRatingsTotal": 600,
       "priceLevel": 3,
       "priceIndicator": { "es": "Medio", "en": "Medium", "pt": "Médio", "fr": "Moyen" },
       "googleMapsUrl": "https://maps.google.com/?q=Dada+Bar+Barranco+Lima"
@@ -58,7 +56,6 @@
       "comment": { "es": "Bar de cervezas artesanales con ambiente relajado y buena música." },
       "address": "Calle Manuel Bonilla 108, Miraflores, Lima",
       "rating": 4.6,
-      "userRatingsTotal": 1200,
       "priceLevel": 2,
       "priceIndicator": { "es": "Medio", "en": "Medium", "pt": "Médio", "fr": "Moyen" },
       "googleMapsUrl": "https://maps.google.com/?q=BarBarian+Miraflores+Lima"
@@ -79,7 +76,6 @@
       "comment": { "es": "Taberna tradicional, famosa por sus sánguches y ambiente bohemio." },
       "address": "Av. Almte. Miguel Grau 270, Barranco, Lima",
       "rating": 4.5,
-      "userRatingsTotal": 900,
       "priceLevel": 2,
       "priceIndicator": { "es": "Medio", "en": "Medium", "pt": "Médio", "fr": "Moyen" },
       "googleMapsUrl": "https://maps.google.com/?q=Juanito+de+Barranco+Lima"
@@ -106,7 +102,6 @@
         "fr": "Classique de Miraflores, DJs internationaux et vue sur le Pacifique."
       },
       "rating": 4.4,
-      "userRatingsTotal": 0,
       "priceLevel": 3,
       "priceIndicator": { "es":"Alto", "en":"High", "pt":"Alto", "fr":"Élevé" },
       "address": "Calle José Gonzáles 516, Miraflores 15074, Lima",
@@ -132,7 +127,6 @@
         "fr": "Ambiance vibrante et éclectique à Miraflores."
       },
       "rating": 4.1,
-      "userRatingsTotal": 2393,
       "priceLevel": 2,
       "priceIndicator": { "es":"Medio", "en":"Medium", "pt":"Médio", "fr":"Moyen" },
       "address": "Francisco de Paula Camino 220, Miraflores 15074, Lima",
@@ -158,7 +152,6 @@
         "fr": "\"Bonne boîte, musique excellente, 3 pistes de danse\", d'après TripAdvisor."
       },
       "rating": 4.3,
-      "userRatingsTotal": 41,
       "priceLevel": 2,
       "priceIndicator": { "es":"Medio", "en":"Medium", "pt":"Médio", "fr":"Moyen" },
       "address": "Psje. Los Pinos 172, Miraflores 15074, Lima",
@@ -184,7 +177,6 @@
         "fr": "Bien notée (~4,2) avec 260+ avis ; ouverte 24 h Sam–Dim."
       },
       "rating": 4.2,
-      "userRatingsTotal": 262,
       "priceLevel": 1,
       "priceIndicator": { "es":"Medio", "en":"Medium", "pt":"Médio", "fr":"Moyen" },
       "address": "Calle Catalino Miranda 158, Barranco 15049, Lima",

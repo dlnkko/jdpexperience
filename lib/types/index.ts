@@ -8,7 +8,6 @@ export interface Place {
   image: string
   emoji?: string
   rating?: number
-  userRatingsTotal?: number
   priceLevel?: number
   priceIndicator?: { [key: string]: string }
   comment?: { [key: string]: string }
@@ -19,7 +18,6 @@ export interface Place {
     description: { [key: string]: string }
     address: string
     rating?: number
-    userRatingsTotal?: number
     priceLevel?: number
     priceIndicator?: { [key: string]: string }
     comment?: { [key: string]: string }

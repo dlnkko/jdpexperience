@@ -63,7 +63,6 @@ export default function Landing() {
           </h1>
           {/* Subtítulo */}
           <div className="flex flex-col items-center gap-1 mb-2 w-full justify-center">
-            <svg width="40" height="40" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="5" r="2" fill="#38bdf8"/><path d="M12 7v4" stroke="#7dd3fc" strokeWidth="2" strokeLinecap="round"/><path d="M12 11l-2 4" stroke="#fbbf24" strokeWidth="2" strokeLinecap="round"/><path d="M12 11l2 4" stroke="#fbbf24" strokeWidth="2" strokeLinecap="round"/><path d="M12 9l-3 2" stroke="#7dd3fc" strokeWidth="2" strokeLinecap="round"/><path d="M12 9l3 2" stroke="#7dd3fc" strokeWidth="2" strokeLinecap="round"/></svg>
             <p className="text-base md:text-lg text-gray-700 text-center max-w-xs mx-auto">
               {language === "es" && "Encuentra lo mejor cerca a tu alojamiento"}
               {language === "en" && "Find the best near your accommodation"}
