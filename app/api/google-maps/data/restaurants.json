@@ -15,10 +15,10 @@
         "fr": "Fortement apprécié sur Tripadvisor, 4,7 avec plus de 1 100 avis."
       },
       "rating": 4.7,
-      "userRatingsTotal": 1112,
+      "userRatingsTotal": 1330,
       "priceLevel": 2,
       "priceIndicator": { "es":"Medio", "en":"Medium", "pt":"Médio", "fr":"Moyen" },
-      "address": "Miraflores, Lima",
+      "address": "Av. 28 de Julio 795, Miraflores 15074, Lima",
       "googleMapsUrl": ""
     },
     {
@@ -36,10 +36,10 @@
         "fr": "Parmi les 5 meilleurs churrascarias selon guide BCP."
       },
       "rating": 4.8,
-      "userRatingsTotal": 800,
+      "userRatingsTotal": 2480,
       "priceLevel": 3,
       "priceIndicator": { "es":"Alto", "en":"High", "pt":"Alto", "fr":"Élevé" },
-      "address": "Miraflores, Lima",
+      "address": "Calle Elías Aguirre 698, Miraflores, Lima",
       "googleMapsUrl": ""
     },
     {
@@ -60,7 +60,7 @@
       "userRatingsTotal": 1623,
       "priceLevel": 2,
       "priceIndicator": { "es":"Medio", "en":"Medium", "pt":"Médio", "fr":"Moyen" },
-      "address": "Miraflores, Lima",
+      "address": "Av. Petit Thouars 4599, Miraflores 15046, Lima",
       "googleMapsUrl": ""
     },
     {
@@ -77,11 +77,11 @@
         "pt": "Entre os top‑20 da América Latina, excelente seleção de cortes.",
         "fr": "Parmi les 20 meilleurs d'Amérique latine, excellente sélection."
       },
-      "rating": 4.6,
-      "userRatingsTotal": 900,
+      "rating": 4.4,
+      "userRatingsTotal": 1932,
       "priceLevel": 3,
       "priceIndicator": { "es":"Alto", "en":"High", "pt":"Alto", "fr":"Élevé" },
-      "address": "Miraflores, Lima",
+      "address": "Calle Enrique Palacios 140, Miraflores 15074, Lima",
       "googleMapsUrl": ""
     }
   ],
@@ -103,9 +103,9 @@
       "rating": 4.7,
       "userRatingsTotal": 12000,
       "priceLevel": 3,
-      "priceIndicator": { "es":"Alto", "en":"High", "pt":"Alto", "fr":"Élevé" },
-      "address": "Miraflores",
-      "googleMapsUrl": ""
+      "priceIndicator": { "es": "Alto", "en": "High", "pt": "Alto", "fr": "Élevé" },
+      "address": "Av. La Mar 770, Miraflores 15074, Lima",
+      "googleMapsUrl": "https://maps.google.com/?q=Av.+La+Mar+770+Miraflores+Lima"
     },
     {
       "name": "Isolina",
@@ -124,9 +124,9 @@
       "rating": 4.6,
       "userRatingsTotal": 8000,
       "priceLevel": 2,
-      "priceIndicator": { "es":"Medio", "en":"Medium", "pt":"Médio", "fr":"Moyen" },
-      "address": "Barranco",
-      "googleMapsUrl": ""
+      "priceIndicator": { "es": "Medio", "en": "Medium", "pt": "Médio", "fr": "Moyen" },
+      "address": "Av. San Martín 101, Barranco 15063, Lima",
+      "googleMapsUrl": "https://maps.google.com/?q=Av.+San+Martín+101+Barranco+Lima"
     },
     {
       "name": "Central",
@@ -137,17 +137,17 @@
         "fr": "Haute cuisine péruvienne, restaurant de renommée mondiale."
       },
       "comment": {
-        "es": "Ubicado en Miraflores, #1 en The World's 50 Best de 2023.",
-        "en": "Located in Miraflores, #1 in 2023's World's 50 Best.",
-        "pt": "Localizado em Miraflores, #1 no World's 50 Best de 2023.",
-        "fr": "Situé à Miraflores, #1 du World's 50 Best en 2023."
+        "es": "Ubicado en Barranco, #1 en The World's 50 Best de 2023.",
+        "en": "Located in Barranco, #1 in 2023's World's 50 Best.",
+        "pt": "Localizado em Barranco, #1 no World's 50 Best de 2023.",
+        "fr": "Situé à Barranco, #1 du World's 50 Best en 2023."
       },
       "rating": 4.8,
       "userRatingsTotal": 15000,
       "priceLevel": 4,
-      "priceIndicator": { "es":"Muy alto", "en":"Very high", "pt":"Muito alto", "fr":"Très élevé" },
-      "address": "Miraflores",
-      "googleMapsUrl": ""
+      "priceIndicator": { "es": "Muy alto", "en": "Very high", "pt": "Muito alto", "fr": "Très élevé" },
+      "address": "Calle Santa Isabel 376, Miraflores 15074, Lima",
+      "googleMapsUrl": "https://maps.google.com/?q=Calle+Santa+Isabel+376+Miraflores+Lima"
     },
     {
       "name": "Maido",
@@ -166,9 +166,9 @@
       "rating": 4.9,
       "userRatingsTotal": 9000,
       "priceLevel": 4,
-      "priceIndicator": { "es":"Muy alto", "en":"Very high", "pt":"Muito alto", "fr":"Très élevé" },
-      "address": "Miraflores",
-      "googleMapsUrl": ""
+      "priceIndicator": { "es": "Muy alto", "en": "Very high", "pt": "Muito alto", "fr": "Très élevé" },
+      "address": "Calle San Martín 399, Miraflores 15074, Lima",
+      "googleMapsUrl": "https://maps.google.com/?q=Calle+San+Martín+399+Miraflores+Lima"
     }
   ],
   "desayunos_y_postres": [
@@ -176,7 +176,7 @@
       "name": "La Tiendecita Blanca",
       "description": {
         "es": "Café suizo con desayunos gourmet y ambiente encantador.",
-        "en": "Swiss-style café with gourmet breakfasts and charming atmosphere.",
+        "en": "Swiss‑style café with gourmet breakfasts and charming atmosphere.",
         "pt": "Café estilo suíço com cafés da manhã gourmet e ambiente encantador.",
         "fr": "Café de style suisse avec petits‑déjeuners gastronomiques et ambiance charmante."
       },
@@ -187,11 +187,16 @@
         "fr": "Classique à Miraflores, recommandé par les guides locaux."
       },
       "rating": 4.5,
-      "userRatingsTotal": 11223,
+      "userRatingsTotal": 3101,
       "priceLevel": 2,
-      "priceIndicator": { "es":"Medio", "en":"Medium", "pt":"Médio", "fr":"Moyen" },
-      "address": "Miraflores, Lima",
-      "googleMapsUrl": ""
+      "priceIndicator": {
+        "es": "Medio",
+        "en": "Medium",
+        "pt": "Médio",
+        "fr": "Moyen"
+      },
+      "address": "Av. José Larco 111, Miraflores 15074, Lima",
+      "googleMapsUrl": "https://maps.google.com/?q=Av.+José+Larco+111+Miraflores+Lima"
     },
     {
       "name": "Pastelería San Antonio",
@@ -202,17 +207,22 @@
         "fr": "Boulangerie traditionnelle avec pâtisseries artisanales."
       },
       "comment": {
-        "es": "Muy bien calificada (4.5) por más de 4 200 reseñas Google en Miraflores.",
-        "en": "Highly rated (4.5) by over 4,200 Google reviews in Miraflores.",
-        "pt": "Altamente avaliada (4,5) por mais de 4.200 avaliações no Google em Miraflores.",
-        "fr": "Très bien notée (4,5) par plus de 4 200 avis Google à Miraflores."
+        "es": "Muy bien calificada (4.5) por más de 4 289 reseñas Google en Miraflores.",
+        "en": "Highly rated (4.5) by over 4,289 Google reviews in Miraflores.",
+        "pt": "Altamente avaliada (4,5) por mais de 4.289 avaliações no Google em Miraflores.",
+        "fr": "Très bien notée (4,5) par plus de 4 289 avis Google à Miraflores."
       },
       "rating": 4.5,
-      "userRatingsTotal": 4207,
+      "userRatingsTotal": 4289,
       "priceLevel": 2,
-      "priceIndicator": { "es":"Medio", "en":"Medium", "pt":"Médio", "fr":"Moyen" },
-      "address": "Av. 123, Miraflores, Lima",
-      "googleMapsUrl": ""
+      "priceIndicator": {
+        "es": "Medio",
+        "en": "Medium",
+        "pt": "Médio",
+        "fr": "Moyen"
+      },
+      "address": "Av. Vasco Núñez de Balboa 770, Miraflores 15074, Lima",
+      "googleMapsUrl": "https://maps.google.com/?q=Av.+Vasco+Núñez+de+Balboa+770+Miraflores+Lima"
     },
     {
       "name": "El Bigote Coffee & Waffles",
@@ -228,12 +238,17 @@
         "pt": "Altamente recomendado como um dos melhores cafés da manhã em Barranco.",
         "fr": "Fortement recommandé comme l'un des meilleurs petits‑déjeuners à Barranco."
       },
-      "rating": 4.4,
-      "userRatingsTotal": 500,
+      "rating": 4.5,
+      "userRatingsTotal": 1154,
       "priceLevel": 2,
-      "priceIndicator": { "es":"Medio", "en":"Medium", "pt":"Médio", "fr":"Moyen" },
-      "address": "Barranco, Lima",
-      "googleMapsUrl": ""
+      "priceIndicator": {
+        "es": "Medio",
+        "en": "Medium",
+        "pt": "Médio",
+        "fr": "Moyen"
+      },
+      "address": "Av. Almirante Miguel Grau 1460, Barranco 15063, Lima",
+      "googleMapsUrl": "https://maps.google.com/?q=Av.+Almirante+Miguel+Grau+1460+Barranco+Lima"
     },
     {
       "name": "Sienna Bakery",
@@ -249,12 +264,17 @@
         "pt": "Premiada como um dos melhores cafés de Lima em 2023.",
         "fr": "Primée comme l'un des meilleurs cafés de Lima en 2023."
       },
-      "rating": 4.6,
-      "userRatingsTotal": 1500,
+      "rating": 4.5,
+      "userRatingsTotal": 224,
       "priceLevel": 2,
-      "priceIndicator": { "es":"Medio", "en":"Medium", "pt":"Médio", "fr":"Moyen" },
-      "address": "Av. Santa Cruz 1119, Miraflores, Lima",
-      "googleMapsUrl": ""
+      "priceIndicator": {
+        "es": "Medio",
+        "en": "Medium",
+        "pt": "Médio",
+        "fr": "Moyen"
+      },
+      "address": "Av. Santa Cruz 1119, Miraflores 15074, Lima",
+      "googleMapsUrl": "https://maps.google.com/?q=Av.+Santa+Cruz+1119+Miraflores+Lima"
     }
   ],
   "comida_china_e_internacional": [
@@ -276,8 +296,8 @@
       "userRatingsTotal": 8000,
       "priceLevel": 3,
       "priceIndicator": { "es":"Alto", "en":"High", "pt":"Alto", "fr":"Élevé" },
-      "address": "Espigón Costa Verde, Miraflores, Lima",
-      "googleMapsUrl": ""
+      "address": "Espigón 4, Circuito de Playas, Miraflores 15074, Lima",
+      "googleMapsUrl": "https://maps.google.com/?q=Espigón+4+Circuito+de+Playas+Miraflores+Lima"
     },
     {
       "name": "Mangos Restaurante",
@@ -293,12 +313,12 @@
         "pt": "Vistas panorâmicas e menu variado segundo guia local.",
         "fr": "Vues panoramiques et menu varié selon guide local."
       },
-      "rating": 4.5,
+      "rating": 4.4,
       "userRatingsTotal": 11223,
       "priceLevel": 3,
       "priceIndicator": { "es":"Alto", "en":"High", "pt":"Alto", "fr":"Élevé" },
-      "address": "Larcomar, Miraflores, Lima",
-      "googleMapsUrl": ""
+      "address": "Malecón de la Reserva 610, C.C. Larcomar Tda. 402, Miraflores 15074, Lima",
+      "googleMapsUrl": "https://maps.google.com/?q=Malecón+de+la+Reserva+610+Miraflores+Lima"
     },
     {
       "name": "Aromia Cocina Internacional",
@@ -314,12 +334,12 @@
         "pt": "Elegante e bem avaliado por visitantes.",
         "fr": "Élégant et bien noté par les visiteurs."
       },
-      "rating": 4.4,
+      "rating": 4.2,
       "userRatingsTotal": 600,
       "priceLevel": 3,
       "priceIndicator": { "es":"Alto", "en":"High", "pt":"Alto", "fr":"Élevé" },
-      "address": "Barranco, Lima",
-      "googleMapsUrl": ""
+      "address": "Calle Libertad 415, Miraflores 15074, Lima",
+      "googleMapsUrl": "https://maps.google.com/?q=Calle+Libertad+415+Miraflores+Lima"
     },
     {
       "name": "Cosme",
@@ -339,8 +359,8 @@
       "userRatingsTotal": 1500,
       "priceLevel": 3,
       "priceIndicator": { "es":"Alto", "en":"High", "pt":"Alto", "fr":"Élevé" },
-      "address": "Miraflores, Lima",
-      "googleMapsUrl": ""
+      "address": "Calle Tudela y Varela 168, Miraflores 15074, Lima",
+      "googleMapsUrl": "https://maps.google.com/?q=Calle+Tudela+y+Varela+168+Miraflores+Lima"
     }
   ],
   "comida_rapida": [
@@ -362,7 +382,7 @@
       "userRatingsTotal": 4240,
       "priceLevel": 1,
       "priceIndicator": { "es": "Bajo", "en": "Low", "pt": "Baixo", "fr": "Faible" },
-      "address": "Av. Alfredo Benavides 1821, Miraflores, Lima",
+      "address": "Av. José Larco 1111, Miraflores, Lima",
       "googleMapsUrl": ""
     },
     {
@@ -425,7 +445,7 @@
       "userRatingsTotal": 1603,
       "priceLevel": 1,
       "priceIndicator": { "es": "Bajo", "en": "Low", "pt": "Baixo", "fr": "Faible" },
-      "address": "Av. Oscar R. Benavides 344, Miraflores, Lima",
+      "address": "Av. Alfredo Benavides 1821, Miraflores, Lima",
       "googleMapsUrl": ""
     },
     {
@@ -446,7 +466,7 @@
       "userRatingsTotal": 9968,
       "priceLevel": 1,
       "priceIndicator": { "es": "Bajo", "en": "Low", "pt": "Baixo", "fr": "Faible" },
-      "address": "Av. Oscar R. Benavides 140, Miraflores, Lima",
+      "address": "Av. Alfredo Benavides 1821, Miraflores, Lima",
       "googleMapsUrl": ""
     }
   ]

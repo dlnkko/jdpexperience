@@ -38,7 +38,7 @@ export function PlaceCard({ place, language, translations, onGetDirections }: Pl
         <CardHeader className="pb-2">
           <div className="flex items-center justify-between">
             <div>
-              <CardTitle className="text-[28px] font-bold text-orange-500 leading-tight">{place.name[language]}</CardTitle>
+              <CardTitle className="text-[20px] md:text-[20px] font-bold text-orange-500 leading-tight">{place.name[language]}</CardTitle>
               <CardDescription className="text-sm">{place.description[language]}</CardDescription>
             </div>
           </div>

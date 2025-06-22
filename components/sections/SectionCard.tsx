@@ -27,7 +27,7 @@ export function SectionCard({ section, language, onClick }: SectionCardProps) {
             {section.emoji}
           </motion.div>
           <div className="flex items-center justify-center gap-2 mb-2">
-            <h3 className="font-bold text-orange-500 text-[28px] leading-tight">{section.title[language]}</h3>
+            <h3 className="font-bold text-orange-500 text-[20px] md:text-[20px] leading-tight">{section.title[language]}</h3>
           </div>
         </CardContent>
       </Card>
