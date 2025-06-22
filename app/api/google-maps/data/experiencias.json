@@ -1,59 +1,194 @@
 {
-  "arte_y_museos": [
-    {
-      "name": { "es": "Museo Pedro de Osma", "en": "Museo Pedro de Osma", "pt": "Museo Pedro de Osma", "fr": "Museo Pedro de Osma" },
-      "description": {
-        "es": "Colección de arte virreinal en una casona histórica de Barranco.",
-        "en": "Colonial art collection in a historic Barranco mansion.",
-        "pt": "Coleção de arte colonial em uma mansão histórica de Barranco.",
-        "fr": "Collection d'art colonial dans un manoir historique de Barranco."
-      },
-      "comment": { "es": "Colección de arte virreinal en una casona histórica de Barranco.", "en": "Colección de arte virreinal en una casona histórica de Barranco.", "pt": "Colección de arte virreinal en una casona histórica de Barranco.", "fr": "Colección de arte virreinal en una casona histórica de Barranco." },
-      "rating": 4.7,
-      "userRatingsTotal": 1800,
-      "priceLevel": 2,
-      "priceIndicator": { "es": "Medio", "en": "Medium", "pt": "Médio", "fr": "Moyen" },
-      "address": "Av. Pedro de Osma 423, Barranco, Lima",
-      "googleMapsUrl": "https://maps.google.com/?q=Museo+Pedro+de+Osma+Barranco+Lima",
-      "image": "/placeholder.svg?height=200&width=300"
-    }
-  ],
   "caminatas": [
     {
-      "name": { "es": "Malecón de Miraflores", "en": "Malecón de Miraflores", "pt": "Malecón de Miraflores", "fr": "Malecón de Miraflores" },
+      "name": { "es": "Malecón de la Reserva", "en": "Malecón de la Reserva", "pt": "Malecón de la Reserva", "fr": "Malecón de la Reserva" },
       "description": {
-        "es": "Paseo costero con vistas al mar, ideal para caminar y relajarse.",
-        "en": "Coastal walk with ocean views, ideal for walking and relaxing.",
-        "pt": "Passeio costeiro com vista para o mar, ideal para caminhar e relaxar.",
-        "fr": "Promenade côtière avec vue sur la mer, idéale pour marcher et se détendre."
+        "es": "Paseo urbano sobre acantilados con parques, esculturas y vistas al Pacífico.",
+        "en": "Urban boardwalk on cliffs with parks, sculptures and Pacific views.",
+        "pt": "Calçadão urbano sobre penhascos com parques, esculturas e vistas para o Pacífico.",
+        "fr": "Promenade urbaine sur falaises avec parcs, sculptures et vue sur le Pacifique."
       },
-      "comment": { "es": "Paseo costero con vistas al mar, ideal para caminar y relajarse.", "en": "Paseo costero con vistas al mar, ideal para caminar y relajarse.", "pt": "Passeio costeiro com vista para o mar, ideal para caminhar e relaxar.", "fr": "Promenade côtière avec vue sur la mer, idéale pour marcher et se détendre." },
-      "rating": 4.8,
-      "userRatingsTotal": 6000,
-      "priceLevel": 1,
-      "priceIndicator": { "es": "Bajo", "en": "Low", "pt": "Baixo", "fr": "Bas" },
-      "address": "Malecón de la Reserva, Miraflores, Lima",
-      "googleMapsUrl": "https://maps.google.com/?q=Malecón+de+la+Reserva+Miraflores+Lima",
-      "image": "/placeholder.svg?height=200&width=300"
+      "comment": {
+        "es": "Ideal para caminar, correr o sentarse a observar los parapentes sobre el mar.",
+        "en": "Perfect for walking, running, or watching paragliders over the sea.",
+        "pt": "Perfeito para caminhar, correr ou observar parapentes sobre o mar.",
+        "fr": "Parfait pour marcher, courir ou regarder les parapentes au‑dessus de la mer."
+      },
+      "rating": 4.6,
+      "userRatingsTotal": 5459,
+      "priceLevel": 0,
+      "priceIndicator": { "es":"Gratuito", "en":"Free", "pt":"Gratuito", "fr":"Gratuit" },
+      "address": "Malecón de la Reserva, Miraflores 15074, Lima",
+      "googleMapsUrl": "https://maps.google.com/?q=Malecón+de+la+Reserva+Miraflores+Lima"
+    },
+    {
+      "name": { "es": "Circuito de Playas y Malecones Miraflores‑Barranco", "en": "Circuito de Playas y Malecones Miraflores‑Barranco", "pt": "Circuito de Playas y Malecones Miraflores‑Barranco", "fr": "Circuito de Playas y Malecones Miraflores‑Barranco" },
+      "description": {
+        "es": "Ruta de casi 10 km que atraviesa senderos junto al mar, acantilados y escaleras.",
+        "en": "Almost 10 km route across seaside paths, cliffs and stairs.",
+        "pt": "Rota de quase 10 km por trilhas à beira mar, penhascos e escadarias.",
+        "fr": "Parcours d’environ 10 km entre sentiers en bord de mer, falaises et escaliers."
+      },
+      "comment": {
+        "es": "Recorridos moderados, vistas espectaculares y puntos de descanso.",
+        "en": "Moderate hikes, spectacular views and rest spots.",
+        "pt": "Trilhas moderadas, vistas espetaculares e locais de descanso.",
+        "fr": "Randonnées modérées, vues spectaculaires et lieux de repos."
+      },
+      "rating": 4.3,
+      "userRatingsTotal": 41,
+      "priceLevel": 0,
+      "priceIndicator": { "es":"Gratuito", "en":"Free", "pt":"Gratuito", "fr":"Gratuit" },
+      "address": "Inicio en Av. 28 de Julio, Miraflores, hasta Bajada de Armendariz, Barranco",
+      "googleMapsUrl": "https://maps.google.com/?q=Circuito+de+Playas+Miraflores+Barranco"
+    },
+    {
+      "name": { "es": "Bajada de los Baños", "en": "Bajada de los Baños", "pt": "Bajada de los Baños", "fr": "Bajada de los Baños" },
+      "description": {
+        "es": "Paseo peatonal en quebrada con jardines, murales y acceso al mar en Barranco.",
+        "en": "Pedestrian walkway in a ravine with gardens, murals and sea access in Barranco.",
+        "pt": "Calçada em uma ravina com jardins, murais e acesso ao mar em Barranco.",
+        "fr": "Allée piétonne en ravin avec jardins, murales et accès à la mer à Barranco."
+      },
+      "comment": {
+        "es": "Caminar entre casonas, arte urbano y terminar con vista al Pacífico.",
+        "en": "Walk among mansions, urban art and end with Pacific views.",
+        "pt": "Caminhar entre mansões, arte urbana e terminar com vista para o Pacífico.",
+        "fr": "Se promener entre maisons, art urbain et finir avec vue sur le Pacifique."
+      },
+      "rating": 4.5,
+      "userRatingsTotal": 0,
+      "priceLevel": 0,
+      "priceIndicator": { "es":"Gratuito", "en":"Free", "pt":"Gratuito", "fr":"Gratuit" },
+      "address": "Jr. Domeyer y Bajada de los Baños, Barranco 15063, Lima",
+      "googleMapsUrl": "https://maps.google.com/?q=Bajada+de+los+Baños+Barranco+Lima"
+    },
+    {
+      "name": { "es": "Parque Alberto Andrade (Parque del Amor)", "en": "Parque Alberto Andrade (Parque del Amor)", "pt": "Parque Alberto Andrade (Parque del Amor)", "fr": "Parque Alberto Andrade (Parque del Amor)" },
+      "description": {
+        "es": "Parque romántico con mosaicos y escultura 'El Beso', junto al mar.",
+        "en": "Romantic park with mosaics and the 'El Beso' sculpture by the sea.",
+        "pt": "Parque romântico com mosaicos e escultura 'El Beso', junto ao mar.",
+        "fr": "Parc romantique avec mosaïques et sculpture 'El Beso', en bord de mer."
+      },
+      "comment": {
+        "es": "Lugar emblemático para caminar y ver atardeceres junto al mar.",
+        "en": "Iconic spot to walk and watch sunsets by the sea.",
+        "pt": "Local emblemático para caminhar e ver o pôr do sol à beira‑mar.",
+        "fr": "Endroit emblématique pour se promener et voir le coucher du soleil au bord de la mer."
+      },
+      "rating": 4.7,
+      "userRatingsTotal": 0,
+      "priceLevel": 0,
+      "priceIndicator": { "es":"Gratuito", "en":"Free", "pt":"Gratuito", "fr":"Gratuit" },
+      "address": "Malecón Cisneros, Miraflores 15074, Lima",
+      "googleMapsUrl": "https://maps.google.com/?q=Parque+Alberto+Andrade+Miraflores+Lima"
     }
   ],
   "turismo": [
     {
-      "name": { "es": "Parque Kennedy", "en": "Parque Kennedy", "pt": "Parque Kennedy", "fr": "Parque Kennedy" },
-      "description": {
-        "es": "Corazón de Miraflores, rodeado de cafés, gatos y vida local.",
-        "en": "Heart of Miraflores, surrounded by cafés, cats and local life.",
-        "pt": "Coração de Miraflores, rodeado de cafés, gatos e vida local.",
-        "fr": "Cœur de Miraflores, entouré de cafés, chats et vie locale."
+      "name": {
+        "es": "Parque Kennedy",
+        "en": "Parque Kennedy",
+        "pt": "Parque Kennedy",
+        "fr": "Parque Kennedy"
       },
-      "comment": { "es": "Corazón de Miraflores, rodeado de cafés, gatos y vida local.", "en": "Corazón de Miraflores, rodeado de cafés, gatos y vida local.", "pt": "Corazón de Miraflores, rodeado de cafés, gatos e vida local.", "fr": "Corazón de Miraflores, entouré de cafés, chats et vie locale." },
+      "description": {
+        "es": "Parque central de Miraflores, famoso por sus gatos, ferias y eventos culturales.",
+        "en": "Central Miraflores park, famous for its cats, craft fairs and cultural events.",
+        "pt": "Parque central de Miraflores, famoso por seus gatos, feiras de artesanato e eventos culturais.",
+        "fr": "Parc central de Miraflores, célèbre pour ses chats, marchés artisanaux et événements culturels."
+      },
+      "comment": {
+        "es": "Se usa para ferias del libro, exposiciones y maratones.",
+        "en": "Hosts book fairs, exhibits and marathons.",
+        "pt": "Abriga feiras do livro, exposições e maratonas.",
+        "fr": "Accueille foires du livre, expositions et marathons."
+      },
       "rating": 4.5,
-      "userRatingsTotal": 8000,
+      "userRatingsTotal": 5000,
       "priceLevel": 1,
-      "priceIndicator": { "es": "Bajo", "en": "Low", "pt": "Baixo", "fr": "Bas" },
-      "address": "Av. Diagonal, Miraflores, Lima",
-      "googleMapsUrl": "https://maps.google.com/?q=Parque+Kennedy+Miraflores+Lima",
-      "image": "/placeholder.svg?height=200&width=300"
+      "priceIndicator": { "es":"Bajo", "en":"Low", "pt":"Baixo", "fr":"Faible" },
+      "address": "Parque Kennedy, Miraflores 15074, Lima",
+      "googleMapsUrl": "https://maps.google.com/?q=Parque+Kennedy+Miraflores+Lima"
+    },
+    {
+      "name": {
+        "es": "Parque Municipal de Barranco",
+        "en": "Parque Municipal de Barranco",
+        "pt": "Parque Municipal de Barranco",
+        "fr": "Parque Municipal de Barranco"
+      },
+      "description": {
+        "es": "Plaza principal de Barranco con pérgola, esculturas y rodeada de casonas patrimoniales.",
+        "en": "Barranco's main plaza with a pergola, sculptures and surrounded by heritage mansions.",
+        "pt": "Praça principal de Barranco com pérgola, esculturas e cercada por casarões históricos.",
+        "fr": "Place principale de Barranco avec pergola, sculptures et entourée de demeures patrimoniales."
+      },
+      "comment": {
+        "es": "Incluye la Iglesia Santísima Cruz y la Biblioteca Municipal.",
+        "en": "Includes Santísima Cruz Church and the Municipal Library.",
+        "pt": "Inclui a Igreja Santísima Cruz e a Biblioteca Municipal.",
+        "fr": "Comprend l'église Santísima Cruz et la Bibliothèque municipale."
+      },
+      "rating": 4.4,
+      "userRatingsTotal": 800,
+      "priceLevel": 0,
+      "priceIndicator": { "es":"Gratuito", "en":"Free", "pt":"Gratuito", "fr":"Gratuit" },
+      "address": "Av. San Martín s/n, Barranco 15063, Lima",
+      "googleMapsUrl": "https://maps.google.com/?q=Av.+San+Martín+s/n+Barranco+Lima"
+    },
+    {
+      "name": {
+        "es": "Plaza Butters",
+        "en": "Plaza Butters",
+        "pt": "Plaza Butters",
+        "fr": "Plaza Butters"
+      },
+      "description": {
+        "es": "Plazuela histórica en Barranco, frecuentada por locales y turistas.",
+        "en": "Historic little plaza in Barranco, popular with locals and tourists.",
+        "pt": "Pequena praça histórica em Barranco, frequentada por locais e turistas.",
+        "fr": "Petite place historique à Barranco, prisée des habitants et des touristes."
+      },
+      "comment": {
+        "es": "Mencionada en rutas turísticas de Barranco Histórico.",
+        "en": "Featured in Barranco Histórico tourist routes.",
+        "pt": "Destacada em roteiros turísticos do Barranco Histórico.",
+        "fr": "Mentionnée dans les circuits touristiques Barranco Histórico."
+      },
+      "rating": 4.3,
+      "userRatingsTotal": 150,
+      "priceLevel": 0,
+      "priceIndicator": { "es":"Gratuito", "en":"Free", "pt":"Gratuito", "fr":"Gratuit" },
+      "address": "Pasaje Butters, Barranco 15063, Lima",
+      "googleMapsUrl": "https://maps.google.com/?q=Pasaje+Butters+Barranco+Lima"
+    },
+    {
+      "name": {
+        "es": "Plaza de Armas de Miraflores (Óvalo)",
+        "en": "Plaza de Armas de Miraflores (Óvalo)",
+        "pt": "Plaza de Armas de Miraflores (Óvalo)",
+        "fr": "Plaza de Armas de Miraflores (Óvalo)"
+      },
+      "description": {
+        "es": "Eje cívico de Miraflores, frente al Palacio Municipal y centro de actividades.",
+        "en": "Civic axis of Miraflores, in front of the Municipal Palace and hub of activities.",
+        "pt": "Eixo cívico de Miraflores, em frente ao Palácio Municipal e centro de atividades.",
+        "fr": "Axe civique de Miraflores, devant le Palais Municipal et centre d'activités."
+      },
+      "comment": {
+        "es": "Lugar emblemático con eventos oficiales y decoraciones festivas.",
+        "en": "Emblematic spot with official events and festive decorations.",
+        "pt": "Local emblemático com eventos oficiais e decorações festivas.",
+        "fr": "Lieu emblématique avec événements officiels et décorations festives."
+      },
+      "rating": 4.4,
+      "userRatingsTotal": 900,
+      "priceLevel": 0,
+      "priceIndicator": { "es":"Gratuito", "en":"Free", "pt":"Gratuito", "fr":"Gratuit" },
+      "address": "Av. Larco 400, Miraflores 15074, Lima",
+      "googleMapsUrl": "https://maps.google.com/?q=Av.+Larco+400+Miraflores+Lima"
     }
   ]
 } 

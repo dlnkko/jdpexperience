@@ -1,46 +1,214 @@
 {
   "artesania": [
     {
-      "name": { "es": "Dédalo Arte y Artesanía", "en": "Dédalo Arte y Artesanía", "pt": "Dédalo Arte y Artesanía", "fr": "Dédalo Arte y Artesanía" },
+      "name": {
+        "es": "Mercado Indio / Indian Market (Artesanal Miraflores)",
+        "en": "Mercado Indio / Indian Market (Artesanal Miraflores)",
+        "pt": "Mercado Indio / Indian Market (Artesanal Miraflores)",
+        "fr": "Mercado Indio / Indian Market (Artesanal Miraflores)"
+      },
       "description": {
-        "es": "Galería y tienda de arte y diseño peruano contemporáneo.",
-        "en": "Gallery and shop of contemporary Peruvian art and design.",
-        "pt": "Galeria e loja de arte e design peruano contemporâneo.",
-        "fr": "Galerie et boutique d'art et de design péruvien contemporain."
+        "es": "Mercado de artesanías con múltiples puestos sobre Av. Petit Thouars.",
+        "en": "Craft market with multiple stalls along Av. Petit Thouars.",
+        "pt": "Mercado de artesanato com barracas ao longo da Av. Petit Thouars.",
+        "fr": "Marché d'artisanat avec de nombreux stands sur Av. Petit Thouars."
       },
       "comment": {
-        "es": "Galería y tienda de arte y diseño peruano contemporáneo.",
-        "en": "Galería y tienda de arte y diseño peruano contemporáneo.",
-        "pt": "Galería e loja de arte e design peruano contemporâneo.",
-        "fr": "Galerie et boutique d'art et de design péruvien contemporain."
+        "es": "Aquí se encuentra la mejor oferta de artesanía peruana en la ciudad.",
+        "en": "This is probably the best selection of Peruvian handicrafts in town.",
+        "pt": "Provavelmente a melhor seleção de artesanato peruano na cidade.",
+        "fr": "Probablement la meilleure sélection d'artisanat péruvien en ville."
       },
-      "rating": 4.7,
-      "userRatingsTotal": 1500,
-      "address": "Jirón Sáenz Peña 295, Barranco, Lima",
-      "googleMapsUrl": "https://maps.google.com/?q=Dedalo+Arte+y+Artesania+Barranco+Lima",
-      "image": "/placeholder.svg?height=200&width=300"
+      "rating": 4.4,
+      "userRatingsTotal": 0,
+      "priceLevel": 1,
+      "priceIndicator": { "es":"Bajo", "en":"Low", "pt":"Baixo", "fr":"Faible" },
+      "address": "Av. Petit Thouars, cuadra 52–55, Miraflores 15074, Lima",
+      "googleMapsUrl": "https://maps.google.com/?q=Av.+Petit+Thouars+52+Miraflores+Lima"
+    },
+    {
+      "name": {
+        "es": "Inka Market (Mercado Artesanal)",
+        "en": "Inka Market (Mercado Artesanal)",
+        "pt": "Inka Market (Mercado Artesanal)",
+        "fr": "Inka Market (Mercado Artesanal)"
+      },
+      "description": {
+        "es": "Centro comercial de artesanía peruana conectado al mercado Indio.",
+        "en": "Handicraft shopping center connected to the Indian Market.",
+        "pt": "Centro comercial de artesanato peruano conectado ao Mercado Indio.",
+        "fr": "Centre commercial d'artisanat péruvien relié au Indian Market."
+      },
+      "comment": {
+        "es": "Muy frecuentado por turistas, buen balance precio‑calidad.",
+        "en": "Popular with tourists, good price‑quality balance.",
+        "pt": "Frequentado por turistas, bom equilíbrio preço‑qualidade.",
+        "fr": "Fréquenté par les touristes, bon rapport qualité‑prix."
+      },
+      "rating": 4.3,
+      "userRatingsTotal": 114,
+      "priceLevel": 1,
+      "priceIndicator": { "es":"Bajo", "en":"Low", "pt":"Baixo", "fr":"Faible" },
+      "address": "Gonzáles Prada 280, Miraflores 15074, Lima",
+      "googleMapsUrl": "https://maps.google.com/?q=Gonzáles+Prada+280+Miraflores+Lima"
+    },
+    {
+      "name": {
+        "es": "Dédalo Arte & Artesanía",
+        "en": "Dédalo Arte & Artesanía",
+        "pt": "Dédalo Arte & Artesanía",
+        "fr": "Dédalo Arte & Artesanía"
+      },
+      "description": {
+        "es": "Galería-espacio creativo en Barranco con piezas de diseñadores locales.",
+        "en": "Gallery-creative space in Barranco with pieces from local designers.",
+        "pt": "Galeria-espaço criativo em Barranco com peças de designers locais.",
+        "fr": "Galerie-espace créatif à Barranco avec pièces de créateurs locaux."
+      },
+      "comment": {
+        "es": "Lugar ideal para encontrar artesanías de autor más selectas.",
+        "en": "Ideal spot for more curated, designer handicrafts.",
+        "pt": "Lugar ideal para artesanato autoral mais selecionado.",
+        "fr": "Endroit idéal pour de l'artisanat d'auteur plus sélect."
+      },
+      "rating": 4.6,
+      "userRatingsTotal": 0,
+      "priceLevel": 2,
+      "priceIndicator": { "es":"Medio", "en":"Medium", "pt":"Médio", "fr":"Moyen" },
+      "address": "Saénz Peña 295, Barranco 15063, Lima",
+      "googleMapsUrl": "https://maps.google.com/?q=Saénz+Peña+295+Barranco+Lima"
+    },
+    {
+      "name": {
+        "es": "Artesanos Don Bosco",
+        "en": "Artesanos Don Bosco",
+        "pt": "Artesanos Don Bosco",
+        "fr": "Artesanos Don Bosco"
+      },
+      "description": {
+        "es": "Tienda de muebles y artesanía que apoya a comunidades andinas.",
+        "en": "Furniture and crafts shop supporting Andean artisan communities.",
+        "pt": "Loja de móveis e artesanato apoiando comunidades andinas.",
+        "fr": "Boutique de meubles et artisanat soutenant communautés andines."
+      },
+      "comment": {
+        "es": "100 % de utilidades se reinvierten en los artesanos de los Andes.",
+        "en": "100 % of profits are reinvested in Andean artisans.",
+        "pt": "100 % dos lucros são reinvestidos nos artesãos andinos.",
+        "fr": "100 % des bénéfices sont réinvestis dans les artisans andins."
+      },
+      "rating": 4.5,
+      "userRatingsTotal": 0,
+      "priceLevel": 2,
+      "priceIndicator": { "es":"Medio", "en":"Medium", "pt":"Médio", "fr":"Moyen" },
+      "address": "Av. Almirante Miguel Grau, Barranco, Lima",
+      "googleMapsUrl": "https://maps.google.com/?q=Av.+Almirante+Miguel+Grau+Barranco+Lima"
     }
   ],
   "librerias": [
     {
-      "name": { "es": "Librería El Virrey", "en": "Librería El Virrey", "pt": "Librería El Virrey", "fr": "Librería El Virrey" },
+      "name": {
+        "es": "La Casa de Kanú",
+        "en": "La Casa de Kanú",
+        "pt": "La Casa de Kanú",
+        "fr": "La Casa de Kanú"
+      },
       "description": {
-        "es": "Librería tradicional con gran selección de literatura peruana y universal.",
-        "en": "Traditional bookstore with a great selection of Peruvian and world literature.",
-        "pt": "Livraria tradicional com grande seleção de literatura peruana e mundial.",
-        "fr": "Librairie traditionnelle avec un grand choix de littérature péruvienne et mondiale."
+        "es": "Librería acogedora en Barranco con café y catálogo variado.",
+        "en": "Cozy bookstore in Barranco with café and varied catalog.",
+        "pt": "Livraria acolhedora em Barranco com café e catálogo variado.",
+        "fr": "Librairie chaleureuse à Barranco avec café et catalogue varié."
       },
       "comment": {
-        "es": "Librería tradicional con gran selección de literatura peruana y universal.",
-        "en": "Librería tradicional con gran selección de literatura peruana y universal.",
-        "pt": "Livraria tradicional com grande seleção de literatura peruana e mundial.",
-        "fr": "Librairie traditionnelle avec un grand choix de littérature péruvienne et mondiale."
+        "es": "Valoración 4.8 (35 opiniones), horario weekend 11–20 h.",
+        "en": "Rating 4.8 (35 reviews), weekend hours 11 a.m.–8 p.m.",
+        "pt": "Avaliação 4.8 (35 avaliações), fim de semana 11 h–20 h.",
+        "fr": "Note 4.8 (35 avis), weekend 11 h–20 h."
+      },
+      "rating": 4.8,
+      "userRatingsTotal": 35,
+      "priceLevel": 2,
+      "priceIndicator": { "es":"Medio", "en":"Medium", "pt":"Médio", "fr":"Moyen" },
+      "address": "Av. San Martín 670, Barranco 15063, Lima",
+      "googleMapsUrl": "https://maps.google.com/?q=Av.+San+Martín+670+Barranco+Lima"
+    },
+    {
+      "name": {
+        "es": "Librería La Rebelde",
+        "en": "Librería La Rebelde",
+        "pt": "Librería La Rebelde",
+        "fr": "Librería La Rebelde"
+      },
+      "description": {
+        "es": "Espacio cultural en Barranco con selección de clásicos y novedades.",
+        "en": "Cultural space in Barranco with classics and new releases.",
+        "pt": "Espaço cultural em Barranco com clássicos e novidades.",
+        "fr": "Espace culturel à Barranco avec classiques et nouveautés."
+      },
+      "comment": {
+        "es": "Valoración 4.8 con 88 opiniones, abierto todos los días.",
+        "en": "4.8 rating from 88 reviews, open daily.",
+        "pt": "Avaliação 4.8 com 88 avaliações, aberto diariamente.",
+        "fr": "Note 4.8 avec 88 avis, ouvert tous les jours."
+      },
+      "rating": 4.8,
+      "userRatingsTotal": 88,
+      "priceLevel": 2,
+      "priceIndicator": { "es":"Medio", "en":"Medium", "pt":"Médio", "fr":"Moyen" },
+      "address": "Jr. Batalla de Junín 260, Barranco 15063, Lima",
+      "googleMapsUrl": "https://maps.google.com/?q=Jr.+Batalla+de+Junín+260+Barranco+Lima"
+    },
+    {
+      "name": {
+        "es": "Librería El Virrey",
+        "en": "Librería El Virrey",
+        "pt": "Librería El Virrey",
+        "fr": "Librería El Virrey"
+      },
+      "description": {
+        "es": "Historia y literatura; sede principal en Miraflores con eventos culturales.",
+        "en": "History and literature; main branch in Miraflores with cultural events.",
+        "pt": "História e literatura; filial principal em Miraflores com eventos culturais.",
+        "fr": "Histoire et littérature ; succursale principale à Miraflores avec événements culturels."
+      },
+      "comment": {
+        "es": "Rating ~4.6 con 1 862 opiniones; eventos y presentaciones.",
+        "en": "~4.6 rating from 1,862 reviews; events and readings.",
+        "pt": "~4.6 com 1.862 avaliações; eventos e leituras.",
+        "fr": "~4.6 avec 1 862 avis ; événements et lectures."
       },
       "rating": 4.6,
-      "userRatingsTotal": 900,
-      "address": "Bolognesi 510, Miraflores, Lima",
-      "googleMapsUrl": "https://maps.google.com/?q=Libreria+El+Virrey+Miraflores+Lima",
-      "image": "/placeholder.svg?height=200&width=300"
+      "userRatingsTotal": 1862,
+      "priceLevel": 2,
+      "priceIndicator": { "es":"Medio", "en":"Medium", "pt":"Médio", "fr":"Moyen" },
+      "address": "Av. Bolognesi 510, Miraflores 15074, Lima",
+      "googleMapsUrl": "https://maps.google.com/?q=Av.+Bolognesi+510+Miraflores+Lima"
+    },
+    {
+      "name": {
+        "es": "Ibero Librerías",
+        "en": "Ibero Librerías",
+        "pt": "Ibero Librerías",
+        "fr": "Ibero Librerías"
+      },
+      "description": {
+        "es": "Cadena infantil/adulta con cómics, agenda y libros generales.",
+        "en": "Chain store for adults/kids with comics, planners, and general books.",
+        "pt": "Rede com livros infantis/adultos, quadrinhos e agendas.",
+        "fr": "Chaîne pour adultes/enfants avec BD, agendas et livres en général."
+      },
+      "comment": {
+        "es": "Buena variedad, horario extendido hasta 21 h.",
+        "en": "Good variety, extended hours until 9 p.m.",
+        "pt": "Boa variedade, horário até 21 h.",
+        "fr": "Bonne variété, horaires prolongés jusqu'à 21 h."
+      },
+      "rating": 4.2,
+      "userRatingsTotal": 62,
+      "priceLevel": 2,
+      "priceIndicator": { "es":"Medio", "en":"Medium", "pt":"Médio", "fr":"Moyen" },
+      "address": "Av. Larco 199, Miraflores 15074, Lima",
+      "googleMapsUrl": "https://maps.google.com/?q=Av.+Larco+199+Miraflores+Lima"
     }
   ],
   "moda_y_centros_comerciales": [

@@ -24,6 +24,8 @@ export const translations: Translations = {
     priceAlto: "Alto",
     priceMedio: "Medio",
     priceBarato: "Barato",
+    welcomeTitle: "¡Bienvenidos a ",
+    welcomeSubtitle: "Encantado de recibirlos y guiarlos a lo mejor de la zona: deliciosa gastronomía, rincones únicos y las mejores opciones de shopping."
   },
   en: {
     welcome: "Welcome to JDP Experiences 🇵🇪",
@@ -48,6 +50,8 @@ export const translations: Translations = {
     priceAlto: "High",
     priceMedio: "Medium",
     priceBarato: "Low",
+    welcomeTitle: "Welcome to ",
+    welcomeSubtitle: "Delighted to welcome you and guide you to the best of the area: delicious gastronomy, unique spots, and the best shopping options."
   },
   pt: {
     welcome: "Bem-vindo à JDP Experiences 🇵🇪",
@@ -72,6 +76,8 @@ export const translations: Translations = {
     priceAlto: "Alto",
     priceMedio: "Médio",
     priceBarato: "Barato",
+    welcomeTitle: "Bem-vindos à ",
+    welcomeSubtitle: "É um prazer recebê-los e guiá-los ao melhor da região: gastronomia deliciosa, lugares únicos e as melhores opções de compras."
   },
   fr: {
     welcome: "Bienvenue chez JDP Experiences 🇵🇪",
@@ -96,5 +102,7 @@ export const translations: Translations = {
     priceAlto: "Élevé",
     priceMedio: "Moyen",
     priceBarato: "Bon marché",
+    welcomeTitle: "Bienvenue à ",
+    welcomeSubtitle: "Ravi de vous accueillir et de vous guider vers le meilleur de la région : une gastronomie délicieuse, des endroits uniques et les meilleures options de shopping."
   },
 } 

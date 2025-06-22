@@ -94,21 +94,88 @@
   ],
   "historial_urbano": [
     {
-      "name": { "es": "Puente de los Suspiros", "en": "Puente de los Suspiros", "pt": "Puente de los Suspiros", "fr": "Puente de los Suspiros" },
-      "image": "/images/entretenimiento/puente-suspiros.jpg",
+      "name": { "es": "Huaca Pucllana", "en": "Huaca Pucllana", "pt": "Huaca Pucllana", "fr": "Huaca Pucllana" },
       "description": {
-        "es": "Icono romántico de Barranco, ideal para fotos y paseos.",
-        "en": "Romantic icon of Barranco, ideal for photos and walks.",
-        "pt": "Ícone romântico de Barranco, ideal para fotos e passeios.",
-        "fr": "Icône romantique de Barranco, idéal pour des photos et des promenades."
+        "es": "Sitio arqueológico preincaico en pleno Miraflores.",
+        "en": "Pre-Inca archaeological site in the heart of Miraflores.",
+        "pt": "Sítio arqueológico pré-inca no coração de Miraflores.",
+        "fr": "Site archéologique pré-inca au cœur de Miraflores."
       },
-      "comment": { "es": "Icono romántico de Barranco, ideal para fotos y paseos.", "en": "Romantic icon of Barranco, ideal for photos and walks.", "pt": "Ícone romântico de Barranco, ideal para fotos e passeios.", "fr": "Icône romantique de Barranco, idéal pour des photos et des promenades." },
-      "rating": 4.7,
-      "userRatingsTotal": 5000,
+      "comment": {
+        "es": "Pirámide de adobe y punto de referencia histórico de Lima.",
+        "en": "Adobe pyramid and a historical landmark of Lima.",
+        "pt": "Pirâmide de adobe e marco histórico de Lima.",
+        "fr": "Pyramide en adobe et point historique de Lima."
+      },
+      "rating": 4.6,
+      "userRatingsTotal": 15000,
+      "priceLevel": 2,
+      "priceIndicator": { "es": "Medio", "en": "Medium", "pt": "Médio", "fr": "Moyen" },
+      "address": "Calle General Borgoño cuadra 8, Miraflores 15074, Lima",
+      "googleMapsUrl": "https://maps.google.com/?q=Calle+General+Borgoño+8+Miraflores+Lima"
+    },
+    {
+      "name": { "es": "Quinta Leuro", "en": "Quinta Leuro", "pt": "Quinta Leuro", "fr": "Quinta Leuro" },
+      "description": {
+        "es": "Villa histórica de estilo ecléctico de inicios del siglo XX.",
+        "en": "Historic early 20th-century eclectic-style villa.",
+        "pt": "Villa histórica de estilo eclético do início do século XIX.",
+        "fr": "Villa historique de style éclectique du début du XXᵉ siècle."
+      },
+      "comment": {
+        "es": "Declarada Patrimonio Cultural, inspiró a Ribeyro.",
+        "en": "Declared Cultural Heritage, inspired Ribeyro.",
+        "pt": "Patrimônio Cultural, inspirou Ribeyro.",
+        "fr": "Patrimoine Culturel, a inspiré Ribeyro."
+      },
+      "rating": 4.5,
+      "userRatingsTotal": 200,
       "priceLevel": 1,
-      "priceIndicator": { "es": "Bajo", "en": "Low", "pt": "Baixo", "fr": "Bas" },
-      "address": "Bajada de Baños, Barranco, Lima",
-      "googleMapsUrl": "https://maps.google.com/?q=Puente+de+los+Suspiros+Barranco+Lima"
+      "priceIndicator": { "es": "Bajo", "en": "Low", "pt": "Baixo", "fr": "Faible" },
+      "address": "Av. 28 de Julio 836, Miraflores 15074, Lima",
+      "googleMapsUrl": "https://maps.google.com/?q=Av.+28+de+Julio+836+Miraflores+Lima"
+    },
+    {
+      "name": { "es": "Casa García Alvarado", "en": "Casa García Alvarado", "pt": "Casa García Alvarado", "fr": "Casa García Alvarado" },
+      "description": {
+        "es": "Ejemplo de arquitectura republicana en Miraflores.",
+        "en": "Example of republican-era architecture in Miraflores.",
+        "pt": "Exemplo de arquitetura republicana em Miraflores.",
+        "fr": "Exemple d'architecture républicaine à Miraflores."
+      },
+      "comment": {
+        "es": "Visitada en ruta cultural de Miraflores 24 h.",
+        "en": "Part of the 24 h cultural route through Miraflores.",
+        "pt": "Visitada no roteiro cultural 24 h de Miraflores.",
+        "fr": "Visité dans la route culturelle 24 h de Miraflores."
+      },
+      "rating": 4.4,
+      "userRatingsTotal": 60,
+      "priceLevel": 0,
+      "priceIndicator": { "es": "Gratuito", "en": "Free", "pt": "Gratuito", "fr": "Gratuit" },
+      "address": "Esquina Av. José Larco y Calle Esperanza, Miraflores, Lima",
+      "googleMapsUrl": "https://maps.google.com/?q=Av.+José+Larco+y+Esperanza+Miraflores+Lima"
+    },
+    {
+      "name": { "es": "Puente de los Suspiros", "en": "Puente de los Suspiros", "pt": "Puente de los Suspiros", "fr": "Puente de los Suspiros" },
+      "description": {
+        "es": "Puente romántico del siglo XIX en Barranco.",
+        "en": "19th-century romantic wooden bridge in Barranco.",
+        "pt": "Ponte romântica de madeira do século XIX em Barranco.",
+        "fr": "Pont romantique en bois du XIXᵉ siècle à Barranco."
+      },
+      "comment": {
+        "es": "Ícono bohemio y punto de visita obligado.",
+        "en": "Bohemian icon and must‑visit spot.",
+        "pt": "Ícone boêmio e ponto obrigatório.",
+        "fr": "Icône bohème et lieu incontournable."
+      },
+      "rating": 4.7,
+      "userRatingsTotal": 18769,
+      "priceLevel": 0,
+      "priceIndicator": { "es": "Gratuito", "en": "Free", "pt": "Gratuito", "fr": "Gratuit" },
+      "address": "Jr. Batallón Ayacucho 271, Barranco 15063, Lima",
+      "googleMapsUrl": "https://maps.google.com/?q=Jr.+Batallón+Ayacucho+271+Barranco+Lima"
     }
   ],
   "musica_cine_teatro": [

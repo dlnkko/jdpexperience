@@ -356,21 +356,20 @@ export default function BarrancoGuide() {
     <div className="min-h-screen bg-gradient-to-br from-cyan-300 via-sky-200 to-blue-100 p-4">
       <div className="max-w-md mx-auto">
         <motion.div
-          className="flex flex-col items-center mb-8"
-          initial={{ opacity: 0, y: -10 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.3 }}
-        >
-          <div className="bg-white/80 border border-gray-200 rounded-2xl shadow-lg px-5 py-4 w-full max-w-lg flex flex-col items-center">
-            <span className="text-3xl mb-2">👋</span>
-            <h2 className="text-xl font-extrabold text-orange-600 mb-1 text-center">
-              ¡Bienvenidos a Barranco & Miraflores!
-            </h2>
-            <p className="text-gray-700 text-sm text-center">
-              Descubre la mejor gastronomía, rincones únicos y las mejores opciones de shopping. <br />
-              <span className="font-semibold text-orange-500">¡Disfruta tu estadía!</span>
-            </p>
-          </div>
+         className="flex flex-col items-center mb-8"
+         initial={{ opacity: 0, y: -10 }}
+         animate={{ opacity: 1, y: 0 }}
+         transition={{ duration: 0.3 }}
+       >
+         <div className="bg-white/80 border border-gray-200 rounded-2xl shadow-lg px-5 py-4 w-full max-w-lg flex flex-col items-center">
+           <span className="text-3xl mb-2">👋</span>
+           <h2 className="text-2xl font-extrabold text-gray-800 mb-1 text-center">
+             {t.welcomeTitle}<span className="text-orange-500">JDP Experience!</span>
+           </h2>
+           <p className="text-gray-700 text-sm text-center">
+            {t.welcomeSubtitle}
+           </p>
+         </div>
         </motion.div>
 
         <motion.div 

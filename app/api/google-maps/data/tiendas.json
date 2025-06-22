@@ -1,24 +1,108 @@
 {
   "supermercados": [
     {
-      "name": { "es": "Wong Bajada Balta", "en": "Wong Bajada Balta", "pt": "Wong Bajada Balta", "fr": "Wong Bajada Balta" },
+      "name": {
+        "es": "Wong Larcomar",
+        "en": "Wong Larcomar",
+        "pt": "Wong Larcomar",
+        "fr": "Wong Larcomar"
+      },
       "description": {
-        "es": "Supermercado grande, variedad de productos y atención 24h.",
-        "en": "Large supermarket, variety of products and 24h service.",
-        "pt": "Supermercado grande, variedade de produtos e atendimento 24h.",
-        "fr": "Grand supermarché, variété de produits et service 24h/24."
+        "es": "Supermercado gourmet dentro del centro comercial Larcomar, con productos importados y frescos.",
+        "en": "Gourmet supermarket inside Larcomar mall, offering imported and fresh products.",
+        "pt": "Supermercado gourmet dentro do shopping Larcomar, com produtos importados e frescos.",
+        "fr": "Supermarché gourmet à l’intérieur du centre commercial Larcomar, proposant des produits importés et frais."
       },
       "comment": {
-        "es": "Supermercado grande, variedad de productos y atención 24h.",
-        "en": "Supermercado grande, variety of products and 24h service.",
-        "pt": "Supermercado grande, variedade de produtos e atendimento 24h.",
-        "fr": "Grand supermarché, variété de produits et service 24h/24."
+        "es": "Calificación de 4.4 según 872 opiniones, horarios de 7 a 10 p.m.",
+        "en": "Rated 4.4 from 872 reviews, open 7 a.m.–10 p.m.",
+        "pt": "Avaliado com 4.4 por 872 avaliações, aberto das 7 h às 22 h.",
+        "fr": "Noté 4.4 sur 872 avis, ouvert de 7 h à 22 h."
       },
-      "rating": 4.5,
-      "userRatingsTotal": 3000,
-      "address": "Bajada Balta 610, Miraflores, Lima",
-      "googleMapsUrl": "https://maps.google.com/?q=Wong+Bajada+Balta+Miraflores+Lima",
-      "image": "/placeholder.svg?height=200&width=300"
+      "rating": 4.4,
+      "userRatingsTotal": 872,
+      "priceLevel": 3,
+      "priceIndicator": { "es":"Alto", "en":"High", "pt":"Alto", "fr":"Élevé" },
+      "address": "Av. Malecón de la Reserva 610, Miraflores 15074, Lima",
+      "googleMapsUrl": "https://maps.google.com/?q=Av.+Malecón+de+la+Reserva+610+Miraflores+Lima"
+    },
+    {
+      "name": {
+        "es": "Metro Schell (24 h)",
+        "en": "Metro Schell (24 h)",
+        "pt": "Metro Schell (24 h)",
+        "fr": "Metro Schell (24 h)"
+      },
+      "description": {
+        "es": "Supermercado Metro abierto las 24 h, ideal para compras a cualquier hora.",
+        "en": "Metro supermarket open 24 h, great for shopping at any time.",
+        "pt": "Supermercado Metro aberto 24 h, ideal para compras a qualquer hora.",
+        "fr": "Supermarché Metro ouvert 24 h, parfait pour faire des courses à toute heure."
+      },
+      "comment": {
+        "es": "Rating de 4.1 con 9 108 opiniones, ubicado en C. Schell 250.",
+        "en": "Rated 4.1 from 9,108 reviews, located at C. Schell 250.",
+        "pt": "Avaliado com 4.1 por 9.108 avaliações, localizado na C. Schell 250.",
+        "fr": "Noté 4.1 sur 9 108 avis, situé au C. Schell 250."
+      },
+      "rating": 4.1,
+      "userRatingsTotal": 9108,
+      "priceLevel": 2,
+      "priceIndicator": { "es":"Medio", "en":"Medium", "pt":"Médio", "fr":"Moyen" },
+      "address": "Calle Schell 250, Miraflores 15074, Lima",
+      "googleMapsUrl": "https://maps.google.com/?q=Calle+Schell+250+Miraflores+Lima"
+    },
+    {
+      "name": {
+        "es": "Metro Av. Grau (Barranco)",
+        "en": "Metro Av. Grau (Barranco)",
+        "pt": "Metro Av. Grau (Barranco)",
+        "fr": "Metro Av. Grau (Barranco)"
+      },
+      "description": {
+        "es": "Sucursal Metro en Barranco, bien surtida y cerca del Puente de los Suspiros.",
+        "en": "Metro branch in Barranco, well stocked and near the Bridge of Sighs.",
+        "pt": "Filial Metro em Barranco, bem abastecida e perto da Ponte dos Suspiros.",
+        "fr": "Succursale Metro à Barranco, bien approvisionnée et près du Pont des Soupirs."
+      },
+      "comment": {
+        "es": "Ubicado en Av. Grau 513, ofrece catálogo actualizado y horarios estándar.",
+        "en": "Located at Av. Grau 513, offers updated catalog and standard hours.",
+        "pt": "Localizado na Av. Grau 513, oferece catálogo atualizado e horários regulares.",
+        "fr": "Situé à l’Av. Grau 513, propose un catalogue actualisé et des horaires standards."
+      },
+      "rating": 4.0,
+      "userRatingsTotal": 0,
+      "priceLevel": 2,
+      "priceIndicator": { "es":"Medio", "en":"Medium", "pt":"Médio", "fr":"Moyen" },
+      "address": "Av. Almirante Grau 513, Barranco 15063, Lima",
+      "googleMapsUrl": "https://maps.google.com/?q=Av.+Almirante+Grau+513+Barranco+Lima"
+    },
+    {
+      "name": {
+        "es": "Tambo Barranco",
+        "en": "Tambo Barranco",
+        "pt": "Tambo Barranco",
+        "fr": "Tambo Barranco"
+      },
+      "description": {
+        "es": "Mini‑supermercado Tambo en Barranco ideal para compras rápidas.",
+        "en": "Tambo convenience supermarket in Barranco ideal for quick buys.",
+        "pt": "Mini‑supermercado Tambo em Barranco ideal para compras rápidas.",
+        "fr": "Mini‑supermarché Tambo à Barranco idéal pour achats rapides."
+      },
+      "comment": {
+        "es": "Ubicado en Av. República de Panamá con buen acceso público.",
+        "en": "Located on Av. República de Panamá with good public access.",
+        "pt": "Localizado na Av. República de Panamá com bom acesso público.",
+        "fr": "Situé sur l’Av. República de Panamá avec bon accès public."
+      },
+      "rating": 4.2,
+      "userRatingsTotal": 0,
+      "priceLevel": 1,
+      "priceIndicator": { "es":"Bajo", "en":"Low", "pt":"Baixo", "fr":"Faible" },
+      "address": "Av. República de Panamá con Estación Balta, Barranco 15063, Lima",
+      "googleMapsUrl": "https://maps.google.com/?q=Av.+República+de+Panamá+Barranco+Lima"
     }
   ],
   "bodegas_y_panaderias": [

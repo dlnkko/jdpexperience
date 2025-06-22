@@ -5,6 +5,7 @@ import entretenimientoData from '../app/api/google-maps/data/entretenimiento.jso
 import tiendasData from '../app/api/google-maps/data/tiendas.json';
 import shoppingData from '../app/api/google-maps/data/shopping.json';
 import experienciasData from '../app/api/google-maps/data/experiencias.json';
+import nightData from '../app/api/google-maps/data/night.json';
 
 export const sections: Section[] = [
   {
@@ -131,7 +132,7 @@ export const sections: Section[] = [
         name: { es: "Cultura y Arte", en: "Culture & Art", pt: "Cultura e Arte", fr: "Culture et Art" },
         description: { es: "...", en: "...", pt: "...", fr: "..." },
         address: "Barranco y Miraflores, Lima",
-        image: "/images/entretenimiento/cultura-arte.jpg",
+        image: "/images/entretenimiento/mate.jpg",
         emoji: "🎨",
         subcategories: entretenimientoData.cultura_y_arte[0]
       },
@@ -140,7 +141,7 @@ export const sections: Section[] = [
         name: { es: "Historial Urbano", en: "Urban History", pt: "História Urbana", fr: "Histoire Urbaine" },
         description: { es: "...", en: "...", pt: "...", fr: "..." },
         address: "Barranco y Miraflores, Lima",
-        image: "/images/entretenimiento/historial-urbano.jpg",
+        image: "/images/entretenimiento/suspiros.jpg",
         emoji: "🏙️",
         subcategories: entretenimientoData.historial_urbano
       },
@@ -149,7 +150,7 @@ export const sections: Section[] = [
         name: { es: "Música, Cine y Teatro", en: "Music, Cinema & Theater", pt: "Música, Cinema e Teatro", fr: "Musique, Cinéma et Théâtre" },
         description: { es: "...", en: "...", pt: "...", fr: "..." },
         address: "Barranco y Miraflores, Lima",
-        image: "/images/entretenimiento/musica-cine-teatro.jpg",
+        image: "/images/entretenimiento/cine.jpg",
         emoji: "🎭",
         subcategories: entretenimientoData.musica_cine_teatro
       }
@@ -167,25 +168,6 @@ export const sections: Section[] = [
     emoji: "✨",
     places: [
       {
-        id: 3001,
-        name: {
-          es: "Arte y Museo",
-          en: "Art & Museum",
-          pt: "Arte e Museu",
-          fr: "Art et Musée"
-        },
-        description: {
-          es: "Museos y espacios de arte imperdibles",
-          en: "Must-see museums and art spaces",
-          pt: "Museus e espaços de arte imperdíveis",
-          fr: "Musées et espaces d'art incontournables"
-        },
-        address: "Barranco y Miraflores, Lima",
-        image: "/placeholder.svg?height=200&width=300",
-        emoji: "🖼️",
-        subcategories: experienciasData.arte_y_museos
-      },
-      {
         id: 3002,
         name: {
           es: "Caminata",
@@ -200,7 +182,7 @@ export const sections: Section[] = [
           fr: "Les meilleures promenades et quais"
         },
         address: "Barranco y Miraflores, Lima",
-        image: "/placeholder.svg?height=200&width=300",
+        image: "/images/experiencias/caminata.jpg",
         emoji: "🚶",
         subcategories: experienciasData.caminatas
       },
@@ -219,7 +201,7 @@ export const sections: Section[] = [
           fr: "Sites touristiques et places principales"
         },
         address: "Barranco y Miraflores, Lima",
-        image: "/placeholder.svg?height=200&width=300",
+        image: "/images/experiencias/turismo.jpg",
         emoji: "🗺️",
         subcategories: experienciasData.turismo
       }
@@ -251,7 +233,7 @@ export const sections: Section[] = [
           fr: "Les meilleurs supermarchés de Miraflores et Barranco"
         },
         address: "Miraflores y Barranco, Lima",
-        image: "/placeholder.svg?height=200&width=300",
+        image: "/images/abarrotes/wong.jpg",
         emoji: "🛒",
         subcategories: tiendasData.supermercados
       },
@@ -270,7 +252,7 @@ export const sections: Section[] = [
           fr: "Les boulangeries les plus traditionnelles et délicieuses"
         },
         address: "Miraflores y Barranco, Lima",
-        image: "/placeholder.svg?height=200&width=300",
+        image: "/images/abarrotes/pan.jpg",
         emoji: "🍞",
         subcategories: tiendasData.bodegas_y_panaderias
       },
@@ -289,7 +271,7 @@ export const sections: Section[] = [
           fr: "Marchés avec des produits frais et locaux"
         },
         address: "Miraflores y Barranco, Lima",
-        image: "/placeholder.svg?height=200&width=300",
+        image: "/images/abarrotes/mercado.jpg",
         emoji: "🥬",
         subcategories: tiendasData.mercados
       }
@@ -314,7 +296,6 @@ export const sections: Section[] = [
           pt: "Bares",
           fr: "Bars"
         },
-
         description: {
           es: "Los mejores bares y pubs para disfrutar la noche",
           en: "The best bars and pubs to enjoy the night",
@@ -322,90 +303,9 @@ export const sections: Section[] = [
           fr: "Les meilleurs bars et pubs pour profiter de la nuit"
         },
         address: "",
-        image: "",
+        image: "/images/noche/bares.jpg",
         emoji: "🍸",
-        subcategories: [
-          {
-            name: {
-              es: "Ayahuasca",
-              en: "Ayahuasca",
-              pt: "Ayahuasca",
-              fr: "Ayahuasca"
-            },
-            description: {
-              es: "Bar de cócteles artesanales con ambiente bohemio y música en vivo.",
-              en: "Craft cocktail bar with bohemian atmosphere and live music.",
-              pt: "Bar de coquetéis artesanais com ambiente boêmio e música ao vivo.",
-              fr: "Bar à cocktails artisanaux avec ambiance bohème et musique live."
-            },
-            address: "Av. San Martín 130, Barranco, Lima",
-            rating: 4.5,
-            userRatingsTotal: 800,
-            priceLevel: 3,
-            priceIndicator: { es: "Medio", en: "Medium", pt: "Médio", fr: "Moyen" },
-            googleMapsUrl: "https://maps.google.com/?q=Ayahuasca+Bar+Barranco+Lima"
-          },
-          {
-            name: {
-              es: "Dada",
-              en: "Dada",
-              pt: "Dada",
-              fr: "Dada"
-            },
-            description: {
-              es: "Bar de vinos y tapas con terraza y vista al mar.",
-              en: "Wine and tapas bar with terrace and ocean view.",
-              pt: "Bar de vinhos e tapas com terraço e vista para o mar.",
-              fr: "Bar à vin et tapas avec terrasse et vue sur l'océan."
-            },
-            address: "Av. San Martín 154, Barranco, Lima",
-            rating: 4.4,
-            userRatingsTotal: 600,
-            priceLevel: 3,
-            priceIndicator: { es: "Medio", en: "Medium", pt: "Médio", fr: "Moyen" },
-            googleMapsUrl: "https://maps.google.com/?q=Dada+Bar+Barranco+Lima"
-          },
-          {
-            name: {
-              es: "BarBarian Miraflores",
-              en: "BarBarian Miraflores",
-              pt: "BarBarian Miraflores",
-              fr: "BarBarian Miraflores"
-            },
-            description: {
-              es: "Bar de cervezas artesanales con ambiente relajado y buena música.",
-              en: "Craft beer bar with a relaxed atmosphere and good music.",
-              pt: "Bar de cervejas artesanais com ambiente descontraído e boa música.",
-              fr: "Bar à bières artisanales avec une ambiance détendue et de la bonne musique."
-            },
-            address: "Calle Manuel Bonilla 108, Miraflores, Lima",
-            rating: 4.6,
-            userRatingsTotal: 1200,
-            priceLevel: 2,
-            priceIndicator: { es: "Medio", en: "Medium", pt: "Médio", fr: "Moyen" },
-            googleMapsUrl: "https://maps.google.com/?q=BarBarian+Miraflores+Lima"
-          },
-          {
-            name: {
-              es: "Juanito de Barranco",
-              en: "Juanito de Barranco",
-              pt: "Juanito de Barranco",
-              fr: "Juanito de Barranco"
-            },
-            description: {
-              es: "Taberna tradicional, famosa por sus sánguches y ambiente bohemio.",
-              en: "Traditional tavern, famous for its sandwiches and bohemian vibe.",
-              pt: "Taberna tradicional, famosa por seus sanduíches e ambiente boêmio.",
-              fr: "Taverne traditionnelle, célèbre pour ses sandwichs et son ambiance bohème."
-            },
-            address: "Av. Almte. Miguel Grau 270, Barranco, Lima",
-            rating: 4.5,
-            userRatingsTotal: 900,
-            priceLevel: 2,
-            priceIndicator: { es: "Medio", en: "Medium", pt: "Médio", fr: "Moyen" },
-            googleMapsUrl: "https://maps.google.com/?q=Juanito+de+Barranco+Lima"
-          }
-        ]
+        subcategories: nightData.bares
       },
       {
         id: 2,
@@ -415,7 +315,6 @@ export const sections: Section[] = [
           pt: "Discotecas",
           fr: "Discothèques"
         },
-
         description: {
           es: "Las mejores discotecas para bailar hasta el amanecer",
           en: "The best nightclubs to dance until dawn",
@@ -423,90 +322,9 @@ export const sections: Section[] = [
           fr: "Les meilleures discothèques pour danser jusqu'à l'aube"
         },
         address: "",
-        image: "",
+        image: "/images/noche/discoteca.jpeg",
         emoji: "🪩",
-        subcategories: [
-          {
-            name: {
-              es: "La Noche",
-              en: "La Noche",
-              pt: "La Noche",
-              fr: "La Noche"
-            },
-            description: {
-              es: "Discoteca icónica con música en vivo y DJs internacionales.",
-              en: "Iconic nightclub with live music and international DJs.",
-              pt: "Casa noturna icônica com música ao vivo e DJs internacionais.",
-              fr: "Discothèque emblématique avec musique live et DJs internationaux."
-            },
-            address: "Av. Bolognesi 307, Barranco, Lima",
-            rating: 4.6,
-            userRatingsTotal: 1200,
-            priceLevel: 3,
-            priceIndicator: { es: "Medio", en: "Medium", pt: "Médio", fr: "Moyen" },
-            googleMapsUrl: "https://maps.google.com/?q=La+Noche+Barranco+Lima"
-          },
-          {
-            name: {
-              es: "Sargento Pimienta",
-              en: "Sargento Pimienta",
-              pt: "Sargento Pimienta",
-              fr: "Sargento Pimienta"
-            },
-            description: {
-              es: "Bar y discoteca con ambiente retro y música de los 60s y 70s.",
-              en: "Bar and nightclub with retro atmosphere and 60s and 70s music.",
-              pt: "Bar e casa noturna com ambiente retrô e música dos anos 60 e 70.",
-              fr: "Bar et discothèque avec ambiance retro et musique des années 60 et 70."
-            },
-            address: "Av. Grau 266, Barranco, Lima",
-            rating: 4.3,
-            userRatingsTotal: 900,
-            priceLevel: 2,
-            priceIndicator: { es: "Medio", en: "Medium", pt: "Médio", fr: "Moyen" },
-            googleMapsUrl: "https://maps.google.com/?q=Sargento+Pimienta+Barranco+Lima"
-          },
-          {
-            name: {
-              es: "Gótica",
-              en: "Gótica",
-              pt: "Gótica",
-              fr: "Gótica"
-            },
-            description: {
-              es: "Discoteca elegante y moderna en Miraflores, famosa por sus fiestas y DJs.",
-              en: "Elegant and modern nightclub in Miraflores, famous for its parties and DJs.",
-              pt: "Discoteca elegante e moderna em Miraflores, famosa por suas festas e DJs.",
-              fr: "Discothèque élégante et moderne à Miraflores, célèbre pour ses soirées et DJs."
-            },
-            address: "C.C. Larcomar, Miraflores, Lima",
-            rating: 4.4,
-            userRatingsTotal: 1100,
-            priceLevel: 3,
-            priceIndicator: { es: "Medio-Alto", en: "Medium-High", pt: "Médio-Alto", fr: "Moyen-Élevé" },
-            googleMapsUrl: "https://maps.google.com/?q=Gotica+Discoteca+Miraflores+Lima"
-          },
-          {
-            name: {
-              es: "Bizarro Club",
-              en: "Bizarro Club",
-              pt: "Bizarro Club",
-              fr: "Bizarro Club"
-            },
-            description: {
-              es: "Discoteca popular con música variada y ambiente juvenil en Miraflores.",
-              en: "Popular nightclub with varied music and youthful atmosphere in Miraflores.",
-              pt: "Discoteca popular com música variada e ambiente jovem em Miraflores.",
-              fr: "Discothèque populaire avec musique variée et ambiance jeune à Miraflores."
-            },
-            address: "Calle Bolognesi 755, Miraflores, Lima",
-            rating: 4.2,
-            userRatingsTotal: 950,
-            priceLevel: 2,
-            priceIndicator: { es: "Medio", en: "Medium", pt: "Médio", fr: "Moyen" },
-            googleMapsUrl: "https://maps.google.com/?q=Bizarro+Club+Miraflores+Lima"
-          }
-        ]
+        subcategories: nightData.discotecas
       }
     ],
   },
@@ -536,7 +354,7 @@ export const sections: Section[] = [
           fr: "Art et artisanat péruviens de qualité"
         },
         address: "Barranco y Miraflores, Lima",
-        image: "/placeholder.svg?height=200&width=300",
+        image: "/images/shopping/artesania.jpg",
         emoji: "🧶",
         subcategories: shoppingData.artesania
       },
@@ -555,7 +373,7 @@ export const sections: Section[] = [
           fr: "Les meilleures librairies de la région"
         },
         address: "Barranco y Miraflores, Lima",
-        image: "/placeholder.svg?height=200&width=300",
+        image: "/images/shopping/librerias.jpg",
         emoji: "📚",
         subcategories: shoppingData.librerias
       },
@@ -574,7 +392,7 @@ export const sections: Section[] = [
           fr: "Mode, marques et centres commerciaux emblématiques"
         },
         address: "Barranco y Miraflores, Lima",
-        image: "/placeholder.svg?height=200&width=300",
+        image: "/images/shopping/larcomar.jpg",
         emoji: "🛒",
         subcategories: shoppingData.moda_y_centros_comerciales
       }

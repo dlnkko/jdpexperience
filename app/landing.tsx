@@ -39,8 +39,8 @@ export default function Landing() {
     <div className="min-h-screen w-full flex items-center justify-center bg-gradient-to-br from-cyan-300 via-sky-200 to-blue-100 relative overflow-hidden">
       <div className="absolute inset-0 pointer-events-none z-0">
         <svg width="100%" height="100%" viewBox="0 0 400 400" className="w-full h-full opacity-30">
-          <circle cx="320" cy="80" r="120" fill="#7dd3fc" />
-          <circle cx="80" cy="350" r="100" fill="#38bdf8" />
+          <circle cx="320" cy="80" r="120" fill="#7dd3fc" className="animate-[float_8s_ease-in-out_infinite]" />
+          <circle cx="80" cy="350" r="100" fill="#38bdf8" className="animate-[float_10s_ease-in-out_infinite_2s]" />
         </svg>
       </div>
       <main className="relative z-10 w-full max-w-md px-4 flex flex-col items-center justify-center">

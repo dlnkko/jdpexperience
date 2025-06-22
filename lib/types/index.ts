@@ -60,5 +60,7 @@ export interface Translations {
     priceAlto: string
     priceMedio: string
     priceBarato: string
+    welcomeTitle: string
+    welcomeSubtitle: string
   }
 } 
