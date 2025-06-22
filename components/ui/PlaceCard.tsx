@@ -38,8 +38,12 @@ export function PlaceCard({ place, language, translations, onGetDirections }: Pl
         <CardHeader className="pb-2">
           <div className="flex items-center justify-between">
             <div>
-              <CardTitle className="text-[20px] md:text-[20px] font-bold text-orange-500 leading-tight">{place.name[language]}</CardTitle>
-              <CardDescription className="text-sm">{place.description[language]}</CardDescription>
+              <CardTitle className="text-[20px] md:text-[20px] font-bold text-orange-500 leading-tight">
+                {typeof place.name === 'object' ? place.name[language] : (typeof place.name === 'string' ? place.name : '')}
+              </CardTitle>
+              <CardDescription className="text-sm">
+                {typeof place.description === 'object' ? place.description[language] : (typeof place.description === 'string' ? place.description : '')}
+              </CardDescription>
             </div>
           </div>
         </CardHeader>
@@ -66,13 +70,6 @@ export function PlaceCard({ place, language, translations, onGetDirections }: Pl
             )}
           </div>
 
-          {/* Comment */}
-          {place.comment && (
-            <div className="mb-3 p-2 bg-blue-50 rounded-lg border-l-4 border-blue-200">
-              <p className="text-xs text-blue-800 italic">"{place.comment[language]}"</p>
-            </div>
-          )}
-
           {/* Address */}
           <div className="flex items-start gap-2 mb-3">
             <MapPin className="w-4 h-4 text-gray-500 mt-0.5 flex-shrink-0" />
@@ -82,30 +79,31 @@ export function PlaceCard({ place, language, translations, onGetDirections }: Pl
           </div>
 
           {/* External Links */}
-          <div className="flex gap-2 mb-3">
-            {place.googleMapsUrl && (
-              <Button
-                onClick={() => window.open(place.googleMapsUrl, '_blank')}
-                variant="outline"
-                size="sm"
-                className="flex-1 text-xs"
-              >
-                <ExternalLink className="w-3 h-3 mr-1" />
-                Google Maps
-              </Button>
-            )}
-            {place.menuUrl && (
-              <Button
-                onClick={() => window.open(place.menuUrl, '_blank')}
-                variant="outline"
-                size="sm"
-                className="flex-1 text-xs"
-              >
-                <Menu className="w-3 h-3 mr-1" />
-                {place.menuUrl ? 'Sitio Web' : 'Menú'}
-              </Button>
-            )}
-          </div>
+          {/* Eliminar el botón de Google Maps */}
+          {/*
+          {place.googleMapsUrl && (
+            <Button
+              onClick={() => window.open(place.googleMapsUrl, '_blank')}
+              variant="outline"
+              size="sm"
+              className="flex-1 text-xs"
+            >
+              <ExternalLink className="w-3 h-3 mr-1" />
+              Google Maps
+            </Button>
+          )}
+          */}
+          {place.menuUrl && (
+            <Button
+              onClick={() => window.open(place.menuUrl, '_blank')}
+              variant="outline"
+              size="sm"
+              className="flex-1 text-xs"
+            >
+              <Menu className="w-3 h-3 mr-1" />
+              {place.menuUrl ? 'Sitio Web' : 'Menú'}
+            </Button>
+          )}
 
           {/* Direction Buttons */}
           <div className="grid grid-cols-3 gap-2">

@@ -21,24 +21,24 @@ export function FoodCategoryCard({ place, language, translations, onClick }: Foo
       "Carnes e Grelhados": "/images/food-categories/MK4grXJz7jgDwBhdK-2400-x_11zon.webp",
       "Viandes et Grillades": "/images/food-categories/MK4grXJz7jgDwBhdK-2400-x_11zon.webp",
       
-      "Comida Criolla": "/images/food-categories/comida-criolla.webp",
-      "Creole Food": "/images/food-categories/comida-criolla.webp",
-      "Comida Crioula": "/images/food-categories/comida-criolla.webp",
-      "Cuisine Créole": "/images/food-categories/comida-criolla.webp",
+      "Comida Criolla": "/images/food-categories/criolla.jpg",
+      "Creole Food": "/images/food-categories/criolla.jpg",
+      "Comida Crioula": "/images/food-categories/criolla.jpg",
+      "Cuisine Créole": "/images/food-categories/criolla.jpg",
       
-      "Desayunos y Postres": "/images/food-categories/desayunos-postres.webp",
-      "Breakfasts & Desserts": "/images/food-categories/desayunos-postres.webp",
-      "Cafés da Manhã e Sobremesas": "/images/food-categories/desayunos-postres.webp",
-      "Petits-déjeuners et Desserts": "/images/food-categories/desayunos-postres.webp",
+      "Desayunos y Postres": "/images/food-categories/desayunos.webp",
+      "Breakfasts & Desserts": "/images/food-categories/desayunos.webp",
+      "Cafés da Manhã e Sobremesas": "/images/food-categories/desayunos.webp",
+      "Petits-déjeuners et Desserts": "/images/food-categories/desayunos.webp",
       
-      "Comida China e Internacional": "/images/food-categories/comida-internacional.webp",
-      "Chinese & International Food": "/images/food-categories/comida-internacional.webp",
-      "Comida Chinesa e Internacional": "/images/food-categories/comida-internacional.webp",
-      "Cuisine Chinoise et Internationale": "/images/food-categories/comida-internacional.webp",
+      "Comida China e Internacional": "/images/food-categories/chifa.jpeg",
+      "Chinese & International Food": "/images/food-categories/chifa.jpeg",
+      "Comida Chinesa e Internacional": "/images/food-categories/chifa.jpeg",
+      "Cuisine Chinoise et Internationale": "/images/food-categories/chifa.jpeg",
       
-      "Comida Rápida": "/images/food-categories/comida-rapida.webp",
-      "Fast Food": "/images/food-categories/comida-rapida.webp",
-      "Restauration Rapide": "/images/food-categories/comida-rapida.webp",
+      "Comida Rápida": "/images/food-categories/fastfood.png",
+      "Fast Food": "/images/food-categories/fastfood.png",
+      "Restauration Rapide": "/images/food-categories/fastfood.png",
     }
     
     return categoryImages[categoryName] || "/images/food-categories/default.webp"
@@ -53,16 +53,17 @@ export function FoodCategoryCard({ place, language, translations, onClick }: Foo
       transition={{ duration: 0.3 }}
     >
       <Card 
-        className="overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 cursor-pointer hover:scale-[1.02] rounded-2xl bg-white/80 backdrop-blur-sm border-orange-200"
+        className="overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 cursor-pointer hover:scale-[1.02] rounded-2xl bg-white/80 backdrop-blur-sm border-orange-200 h-[120px] md:h-[160px] flex"
         onClick={onClick}
       >
-        <div className="flex">
+        <div className="flex h-full w-full items-stretch">
           {/* Imagen en la parte izquierda */}
-          <div className="w-24 h-24 md:w-32 md:h-32 flex-shrink-0">
+          <div className="w-24 md:w-32 flex-shrink-0 h-full flex items-stretch">
             <img 
               src={categoryImage} 
               alt={place.name[language]}
               className="w-full h-full object-cover rounded-l-2xl"
+              style={{ height: '100%' }}
               onError={(e) => {
                 // Si la imagen no carga, usar una imagen por defecto
                 e.currentTarget.src = "/placeholder.jpg"

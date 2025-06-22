@@ -1,7 +1,7 @@
 {
   "artesania": [
     {
-      "name": "Dédalo Arte y Artesanía",
+      "name": { "es": "Dédalo Arte y Artesanía", "en": "Dédalo Arte y Artesanía", "pt": "Dédalo Arte y Artesanía", "fr": "Dédalo Arte y Artesanía" },
       "description": {
         "es": "Galería y tienda de arte y diseño peruano contemporáneo.",
         "en": "Gallery and shop of contemporary Peruvian art and design.",
@@ -23,7 +23,7 @@
   ],
   "librerias": [
     {
-      "name": "Librería El Virrey",
+      "name": { "es": "Librería El Virrey", "en": "Librería El Virrey", "pt": "Librería El Virrey", "fr": "Librería El Virrey" },
       "description": {
         "es": "Librería tradicional con gran selección de literatura peruana y universal.",
         "en": "Traditional bookstore with a great selection of Peruvian and world literature.",
@@ -45,7 +45,7 @@
   ],
   "moda_y_centros_comerciales": [
     {
-      "name": "Larcomar",
+      "name": { "es": "Larcomar", "en": "Larcomar", "pt": "Larcomar", "fr": "Larcomar" },
       "description": {
         "es": "Centro comercial con vista al mar, tiendas de marcas y restaurantes.",
         "en": "Shopping mall with ocean view, brand stores and restaurants.",
@@ -65,7 +65,7 @@
       "image": "/placeholder.svg?height=200&width=300"
     },
     {
-      "name": "Ermenegildo Zegna",
+      "name": { "es": "Ermenegildo Zegna", "en": "Ermenegildo Zegna", "pt": "Ermenegildo Zegna", "fr": "Ermenegildo Zegna" },
       "description": {
         "es": "Boutique de moda masculina de lujo italiana en Miraflores.",
         "en": "Italian luxury menswear boutique in Miraflores.",
@@ -85,7 +85,7 @@
       "image": "/placeholder.svg?height=200&width=300"
     },
     {
-      "name": "Carolina Herrera",
+      "name": { "es": "Carolina Herrera", "en": "Carolina Herrera", "pt": "Carolina Herrera", "fr": "Carolina Herrera" },
       "description": {
         "es": "Tienda de moda femenina de lujo internacional en Miraflores.",
         "en": "International luxury women's fashion store in Miraflores.",
@@ -105,7 +105,7 @@
       "image": "/placeholder.svg?height=200&width=300"
     },
     {
-      "name": "John Holden",
+      "name": { "es": "John Holden", "en": "John Holden", "pt": "John Holden", "fr": "John Holden" },
       "description": {
         "es": "Moda masculina elegante y exclusiva en Barranco.",
         "en": "Elegant and exclusive men's fashion in Barranco.",

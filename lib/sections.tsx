@@ -131,16 +131,16 @@ export const sections: Section[] = [
         name: { es: "Cultura y Arte", en: "Culture & Art", pt: "Cultura e Arte", fr: "Culture et Art" },
         description: { es: "...", en: "...", pt: "...", fr: "..." },
         address: "Barranco y Miraflores, Lima",
-        image: "/placeholder.svg?height=200&width=300",
+        image: "/images/entretenimiento/cultura-arte.jpg",
         emoji: "🎨",
-        subcategories: entretenimientoData.cultura_y_arte
+        subcategories: entretenimientoData.cultura_y_arte[0]
       },
       {
         id: 2,
         name: { es: "Historial Urbano", en: "Urban History", pt: "História Urbana", fr: "Histoire Urbaine" },
         description: { es: "...", en: "...", pt: "...", fr: "..." },
         address: "Barranco y Miraflores, Lima",
-        image: "/placeholder.svg?height=200&width=300",
+        image: "/images/entretenimiento/historial-urbano.jpg",
         emoji: "🏙️",
         subcategories: entretenimientoData.historial_urbano
       },
@@ -149,7 +149,7 @@ export const sections: Section[] = [
         name: { es: "Música, Cine y Teatro", en: "Music, Cinema & Theater", pt: "Música, Cinema e Teatro", fr: "Musique, Cinéma et Théâtre" },
         description: { es: "...", en: "...", pt: "...", fr: "..." },
         address: "Barranco y Miraflores, Lima",
-        image: "/placeholder.svg?height=200&width=300",
+        image: "/images/entretenimiento/musica-cine-teatro.jpg",
         emoji: "🎭",
         subcategories: entretenimientoData.musica_cine_teatro
       }
@@ -326,7 +326,12 @@ export const sections: Section[] = [
         emoji: "🍸",
         subcategories: [
           {
-            name: "Ayahuasca",
+            name: {
+              es: "Ayahuasca",
+              en: "Ayahuasca",
+              pt: "Ayahuasca",
+              fr: "Ayahuasca"
+            },
             description: {
               es: "Bar de cócteles artesanales con ambiente bohemio y música en vivo.",
               en: "Craft cocktail bar with bohemian atmosphere and live music.",
@@ -341,7 +346,12 @@ export const sections: Section[] = [
             googleMapsUrl: "https://maps.google.com/?q=Ayahuasca+Bar+Barranco+Lima"
           },
           {
-            name: "Dada",
+            name: {
+              es: "Dada",
+              en: "Dada",
+              pt: "Dada",
+              fr: "Dada"
+            },
             description: {
               es: "Bar de vinos y tapas con terraza y vista al mar.",
               en: "Wine and tapas bar with terrace and ocean view.",
@@ -356,14 +366,19 @@ export const sections: Section[] = [
             googleMapsUrl: "https://maps.google.com/?q=Dada+Bar+Barranco+Lima"
           },
           {
-            name: "BarBarian Miraflores",
-        description: {
-          es: "Bar de cervezas artesanales con ambiente relajado y buena música.",
-          en: "Craft beer bar with a relaxed atmosphere and good music.",
-          pt: "Bar de cervejas artesanais com ambiente descontraído e boa música.",
-          fr: "Bar à bières artisanales avec une ambiance détendue et de la bonne musique."
-        },
-        address: "Calle Manuel Bonilla 108, Miraflores, Lima",
+            name: {
+              es: "BarBarian Miraflores",
+              en: "BarBarian Miraflores",
+              pt: "BarBarian Miraflores",
+              fr: "BarBarian Miraflores"
+            },
+            description: {
+              es: "Bar de cervezas artesanales con ambiente relajado y buena música.",
+              en: "Craft beer bar with a relaxed atmosphere and good music.",
+              pt: "Bar de cervejas artesanais com ambiente descontraído e boa música.",
+              fr: "Bar à bières artisanales avec une ambiance détendue et de la bonne musique."
+            },
+            address: "Calle Manuel Bonilla 108, Miraflores, Lima",
             rating: 4.6,
             userRatingsTotal: 1200,
             priceLevel: 2,
@@ -371,14 +386,19 @@ export const sections: Section[] = [
             googleMapsUrl: "https://maps.google.com/?q=BarBarian+Miraflores+Lima"
           },
           {
-            name: "Juanito de Barranco",
-        description: {
-          es: "Taberna tradicional, famosa por sus sánguches y ambiente bohemio.",
-          en: "Traditional tavern, famous for its sandwiches and bohemian vibe.",
-          pt: "Taberna tradicional, famosa por seus sanduíches e ambiente boêmio.",
-          fr: "Taverne traditionnelle, célèbre pour ses sandwichs et son ambiance bohème."
-        },
-        address: "Av. Almte. Miguel Grau 270, Barranco, Lima",
+            name: {
+              es: "Juanito de Barranco",
+              en: "Juanito de Barranco",
+              pt: "Juanito de Barranco",
+              fr: "Juanito de Barranco"
+            },
+            description: {
+              es: "Taberna tradicional, famosa por sus sánguches y ambiente bohemio.",
+              en: "Traditional tavern, famous for its sandwiches and bohemian vibe.",
+              pt: "Taberna tradicional, famosa por seus sanduíches e ambiente boêmio.",
+              fr: "Taverne traditionnelle, célèbre pour ses sandwichs et son ambiance bohème."
+            },
+            address: "Av. Almte. Miguel Grau 270, Barranco, Lima",
             rating: 4.5,
             userRatingsTotal: 900,
             priceLevel: 2,
@@ -407,7 +427,12 @@ export const sections: Section[] = [
         emoji: "🪩",
         subcategories: [
           {
-            name: "La Noche",
+            name: {
+              es: "La Noche",
+              en: "La Noche",
+              pt: "La Noche",
+              fr: "La Noche"
+            },
             description: {
               es: "Discoteca icónica con música en vivo y DJs internacionales.",
               en: "Iconic nightclub with live music and international DJs.",
@@ -422,7 +447,12 @@ export const sections: Section[] = [
             googleMapsUrl: "https://maps.google.com/?q=La+Noche+Barranco+Lima"
           },
           {
-            name: "Sargento Pimienta",
+            name: {
+              es: "Sargento Pimienta",
+              en: "Sargento Pimienta",
+              pt: "Sargento Pimienta",
+              fr: "Sargento Pimienta"
+            },
             description: {
               es: "Bar y discoteca con ambiente retro y música de los 60s y 70s.",
               en: "Bar and nightclub with retro atmosphere and 60s and 70s music.",
@@ -437,7 +467,12 @@ export const sections: Section[] = [
             googleMapsUrl: "https://maps.google.com/?q=Sargento+Pimienta+Barranco+Lima"
           },
           {
-            name: "Gótica",
+            name: {
+              es: "Gótica",
+              en: "Gótica",
+              pt: "Gótica",
+              fr: "Gótica"
+            },
             description: {
               es: "Discoteca elegante y moderna en Miraflores, famosa por sus fiestas y DJs.",
               en: "Elegant and modern nightclub in Miraflores, famous for its parties and DJs.",
@@ -452,7 +487,12 @@ export const sections: Section[] = [
             googleMapsUrl: "https://maps.google.com/?q=Gotica+Discoteca+Miraflores+Lima"
           },
           {
-            name: "Bizarro Club",
+            name: {
+              es: "Bizarro Club",
+              en: "Bizarro Club",
+              pt: "Bizarro Club",
+              fr: "Bizarro Club"
+            },
             description: {
               es: "Discoteca popular con música variada y ambiente juvenil en Miraflores.",
               en: "Popular nightclub with varied music and youthful atmosphere in Miraflores.",

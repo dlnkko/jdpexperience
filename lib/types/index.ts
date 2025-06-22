@@ -15,7 +15,7 @@ export interface Place {
   googleMapsUrl?: string
   menuUrl?: string
   subcategories?: {
-    name: string
+    name: { [key: string]: string }
     description: { [key: string]: string }
     address: string
     rating?: number

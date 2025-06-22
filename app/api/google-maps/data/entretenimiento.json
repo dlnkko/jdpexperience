@@ -1,25 +1,101 @@
 {
   "cultura_y_arte": [
-    {
-      "name": "MAC Lima (Museo de Arte Contemporáneo)",
-      "description": {
-        "es": "Espacio moderno con exposiciones de arte contemporáneo nacional e internacional.",
-        "en": "Modern space with national and international contemporary art exhibitions.",
-        "pt": "Espaço moderno com exposições de arte contemporânea nacional e internacional.",
-        "fr": "Espace moderne avec des expositions d'art contemporain national et international."
+    [
+      {
+        "name": { "es": "Museo Mario Testino (MATE)", "en": "Museo Mario Testino (MATE)", "pt": "Museo Mario Testino (MATE)", "fr": "Museo Mario Testino (MATE)" },
+        "image": "/images/entretenimiento/mate.jpg",
+        "description": {
+          "es": "Exposiciones de fotografía contemporánea en una casona republicana en Barranco.",
+          "en": "Contemporary photography exhibitions in a republican mansion in Barranco.",
+          "pt": "Exposições de fotografia contemporânea em uma mansão republicana em Barranco.",
+          "fr": "Expositions de photographie contemporaine dans une demeure républicaine à Barranco."
+        },
+        "comment": {
+          "es": "Centro cultural de Mario Testino, destacado por su colección y arquitectura.",
+          "en": "Mario Testino's cultural center, notable for its collection and architecture.",
+          "pt": "Centro cultural de Mario Testino, notável por sua coleção e arquitetura.",
+          "fr": "Centre culturel de Mario Testino, notable pour sa collection et son architecture."
+        },
+        "rating": 4.5,
+        "userRatingsTotal": 831,
+        "priceLevel": 2,
+        "priceIndicator": { "es":"Medio", "en":"Medium", "pt":"Médio", "fr":"Moyen" },
+        "address": "Av. Pedro de Osma 409, Barranco 15063, Lima",
+        "googleMapsUrl": "https://maps.google.com/?q=Av.+Pedro+de+Osma+409+Barranco+Lima"
       },
-      "comment": { "es": "Espacio moderno con exposiciones de arte contemporáneo nacional e internacional.", "en": "Modern space with national and international contemporary art exhibitions.", "pt": "Espaço moderno com exposições de arte contemporânea nacional e internacional.", "fr": "Espace moderne avec des expositions d'art contemporain national et international." },
-      "rating": 4.5,
-      "userRatingsTotal": 2100,
-      "priceLevel": 2,
-      "priceIndicator": { "es": "Medio", "en": "Medium", "pt": "Médio", "fr": "Moyen" },
-      "address": "Av. Grau 1511, Barranco, Lima",
-      "googleMapsUrl": "https://maps.google.com/?q=MAC+Lima+Barranco+Lima"
-    }
+      {
+        "name": { "es": "Museo Amano", "en": "Museo Amano", "pt": "Museo Amano", "fr": "Museo Amano" },
+        "image": "/images/entretenimiento/amano.jpg",
+        "description": {
+          "es": "Museo textil precolombino con piezas de cerámica y tejidos.",
+          "en": "Precolumbian textile museum with ceramics and fabrics.",
+          "pt": "Museu têxtil pré-colombiano com cerâmicas e tecidos.",
+          "fr": "Musée textile précolombien avec céramiques et étoffes."
+        },
+        "comment": {
+          "es": "Destacado por su colección de cultura Chancay.",
+          "en": "Noted for its Chancay culture collection.",
+          "pt": "Destacado por sua coleção da cultura Chancay.",
+          "fr": "Remarquable pour sa collection de la culture Chancay."
+        },
+        "rating": 4.4,
+        "userRatingsTotal": 500,
+        "priceLevel": 2,
+        "priceIndicator": { "es":"Medio", "en":"Medium", "pt":"Médio", "fr":"Moyen" },
+        "address": "Av. Pedro de Osma 415, Barranco 15063, Lima",
+        "googleMapsUrl": "https://maps.google.com/?q=Av.+Pedro+de+Osma+415+Barranco+Lima"
+      },
+      {
+        "name": { "es": "Galería ICPNA Miraflores", "en": "Galería ICPNA Miraflores", "pt": "Galería ICPNA Miraflores", "fr": "Galería ICPNA Miraflores" },
+        "image": "/images/entretenimiento/icpna.jpg",
+        "description": {
+          "es": "Galería de arte contemporáneo en espacio moderno en Miraflores.",
+          "en": "Contemporary art gallery in a modern space in Miraflores.",
+          "pt": "Galeria de arte contemporâneo em espaço moderno em Miraflores.",
+          "fr": "Galerie d'art contemporain dans un espace moderne à Miraflores."
+        },
+        "comment": {
+          "es": "Espacio muy valorado, programaciones frecuentes y acceso gratuito.",
+          "en": "Highly regarded space, frequent programming and free entry.",
+          "pt": "Espaço bem avaliado, programação frequente e entrada gratuita.",
+          "fr": "Espace très apprécié, programmation fréquente et entrée gratuite."
+        },
+        "rating": 4.5,
+        "userRatingsTotal": 108,
+        "priceLevel": 0,
+        "priceIndicator": { "es":"Gratuito", "en":"Free", "pt":"Gratuito", "fr":"Gratuit" },
+        "address": "Av. Angamos Oeste 160, Miraflores 15074, Lima",
+        "googleMapsUrl": "https://maps.google.com/?q=Av.+Angamos+Oeste+160+Miraflores+Lima"
+      },
+      {
+        "name": { "es": "Mercado de Pulgas del Parque Kennedy", "en": "Mercado de Pulgas del Parque Kennedy", "pt": "Mercado de Pulgas del Parque Kennedy", "fr": "Mercado de Pulgas del Parque Kennedy" },
+        "image": "/images/entretenimiento/mercado-pulgas.jpg",
+        "description": {
+          "es": "Mercado artesanal al aire libre en el corazón de Miraflores.",
+          "en": "Open-air artisan flea market in the heart of Miraflores.",
+          "pt": "Mercado ao ar livre de artesanato no coração de Miraflores.",
+          "fr": "Marché en plein air d'artisanat au cœur de Miraflores."
+        },
+        "comment": {
+          "es": "Feria frecuente con artesanías, antigüedades y ambiente relajado.",
+          "en": "Regular fair with crafts, antiques and a relaxed atmosphere.",
+          "pt": "Feira regular com artesanato, antiguidades e ambiente descontraído.",
+          "fr": "Foire régulière avec artisanat, antiquités et ambiance détendue."
+        },
+        "rating": 3.8,
+        "userRatingsTotal": 38,
+        "priceLevel": 1,
+        "priceIndicator": { "es":"Bajo", "en":"Low", "pt":"Baixo", "fr":"Faible" },
+        "address": "VXH9+4W4, Miraflores 15074, Perú (Parque Kennedy)",
+        "googleMapsUrl": "https://maps.google.com/?q=Parque+Kennedy+Miraflores+Lima"
+      }
+    ]
+    
   ],
   "historial_urbano": [
     {
-      "name": "Puente de los Suspiros",
+      "name": { "es": "Puente de los Suspiros", "en": "Puente de los Suspiros", "pt": "Puente de los Suspiros", "fr": "Puente de los Suspiros" },
+      "image": "/images/entretenimiento/puente-suspiros.jpg",
       "description": {
         "es": "Icono romántico de Barranco, ideal para fotos y paseos.",
         "en": "Romantic icon of Barranco, ideal for photos and walks.",
@@ -37,7 +113,8 @@
   ],
   "musica_cine_teatro": [
     {
-      "name": "La Noche de Barranco",
+      "name": { "es": "La Noche de Barranco", "en": "La Noche de Barranco", "pt": "La Noche de Barranco", "fr": "La Noche de Barranco" },
+      "image": "/images/entretenimiento/la-noche.jpg",
       "description": {
         "es": "Música en vivo, conciertos y shows de teatro en un ambiente bohemio.",
         "en": "Live music, concerts and theater shows in a bohemian atmosphere.",
@@ -53,7 +130,8 @@
       "googleMapsUrl": "https://maps.google.com/?q=La+Noche+Barranco+Lima"
     },
     {
-      "name": "Teatro Marsano",
+      "name": { "es": "Teatro Marsano", "en": "Teatro Marsano", "pt": "Teatro Marsano", "fr": "Teatro Marsano" },
+      "image": "/images/entretenimiento/marsano.jpg",
       "description": {
         "es": "Teatro clásico de Miraflores con obras nacionales e internacionales.",
         "en": "Classic theater in Miraflores with national and international plays.",
@@ -69,7 +147,8 @@
       "googleMapsUrl": "https://maps.google.com/?q=Teatro+Marsano+Miraflores+Lima"
     },
     {
-      "name": "Cinépolis Larcomar",
+      "name": { "es": "Cinépolis Larcomar", "en": "Cinépolis Larcomar", "pt": "Cinépolis Larcomar", "fr": "Cinépolis Larcomar" },
+      "image": "/placeholder.svg?height=200&width=300",
       "description": {
         "es": "El cine más moderno de Miraflores, con salas 2D, 3D y VIP y vista al mar.",
         "en": "The most modern cinema in Miraflores, with 2D, 3D and VIP rooms and ocean view.",
@@ -87,8 +166,7 @@
       "priceLevel": 2,
       "priceIndicator": { "es": "Medio", "en": "Medium", "pt": "Médio", "fr": "Moyen" },
       "address": "Malecón de la Reserva 610, Miraflores, Lima",
-      "googleMapsUrl": "https://maps.google.com/?q=Cinepolis+Larcomar+Miraflores+Lima",
-      "image": "/placeholder.svg?height=200&width=300"
+      "googleMapsUrl": "https://maps.google.com/?q=Cinepolis+Larcomar+Miraflores+Lima"
     }
   ]
 } 

@@ -1,7 +1,7 @@
 {
   "supermercados": [
     {
-      "name": "Wong Bajada Balta",
+      "name": { "es": "Wong Bajada Balta", "en": "Wong Bajada Balta", "pt": "Wong Bajada Balta", "fr": "Wong Bajada Balta" },
       "description": {
         "es": "Supermercado grande, variedad de productos y atención 24h.",
         "en": "Large supermarket, variety of products and 24h service.",
@@ -23,7 +23,7 @@
   ],
   "bodegas_y_panaderias": [
     {
-      "name": "Panadería San Antonio",
+      "name": { "es": "Panadería San Antonio", "en": "Panadería San Antonio", "pt": "Panadería San Antonio", "fr": "Panadería San Antonio" },
       "description": {
         "es": "Panadería tradicional con los mejores postres y panes frescos.",
         "en": "Traditional bakery with the best desserts and fresh bread.",
@@ -45,7 +45,7 @@
   ],
   "mercados": [
     {
-      "name": "Mercado de Surquillo N°1",
+      "name": { "es": "Mercado de Surquillo N°1", "en": "Mercado de Surquillo N°1", "pt": "Mercado de Surquillo N°1", "fr": "Mercado de Surquillo N°1" },
       "description": {
         "es": "Mercado tradicional con productos frescos y locales.",
         "en": "Traditional market with fresh and local products.",

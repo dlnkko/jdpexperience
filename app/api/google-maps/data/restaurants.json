@@ -1,7 +1,7 @@
 {
   "carnes_y_parrilla": [
     {
-      "name": "El Parrillón de Pablo Profumo",
+      "name": { "es": "El Parrillón de Pablo Profumo", "en": "El Parrillón de Pablo Profumo", "pt": "El Parrillón de Pablo Profumo", "fr": "El Parrillón de Pablo Profumo" },
       "description": {
         "es": "Churrasquería con excelentes cortes y ambiente acogedor.",
         "en": "Churrasquería with excellent cuts and a cozy atmosphere.",
@@ -22,7 +22,7 @@
       "googleMapsUrl": ""
     },
     {
-      "name": "Carnal Prime Steakhouse",
+      "name": { "es": "Carnal Prime Steakhouse", "en": "Carnal Prime Steakhouse", "pt": "Carnal Prime Steakhouse", "fr": "Carnal Prime Steakhouse" },
       "description": {
         "es": "Especializado en carnes Angus Aberdeen en el corazón de Miraflores.",
         "en": "Specializes in Angus Aberdeen meats in central Miraflores.",
@@ -43,7 +43,7 @@
       "googleMapsUrl": ""
     },
     {
-      "name": "El 10 Miraflores",
+      "name": { "es": "El 10 Miraflores", "en": "El 10 Miraflores", "pt": "El 10 Miraflores", "fr": "El 10 Miraflores" },
       "description": {
         "es": "Parrilla moderna, muy buena aceptación local.",
         "en": "Modern grill, very well received locally.",
@@ -64,7 +64,7 @@
       "googleMapsUrl": ""
     },
     {
-      "name": "La Cabrera",
+      "name": { "es": "La Cabrera", "en": "La Cabrera", "pt": "La Cabrera", "fr": "La Cabrera" },
       "description": {
         "es": "Carne argentina de alta calidad en Miraflores.",
         "en": "High‑quality Argentine meat in Miraflores.",
@@ -87,7 +87,7 @@
   ],
   "comida_criolla": [
     {
-      "name": "La Mar",
+      "name": { "es": "La Mar", "en": "La Mar", "pt": "La Mar", "fr": "La Mar" },
       "description": {
         "es": "Cevichería de autor junto al mar.",
         "en": "Signature ceviche spot by the sea.",
@@ -108,7 +108,7 @@
       "googleMapsUrl": "https://maps.google.com/?q=Av.+La+Mar+770+Miraflores+Lima"
     },
     {
-      "name": "Isolina",
+      "name": { "es": "Isolina", "en": "Isolina", "pt": "Isolina", "fr": "Isolina" },
       "description": {
         "es": "Comida criolla en ambiente tradicional en Barranco.",
         "en": "Traditional criollo cuisine in a classic setting.",
@@ -129,7 +129,7 @@
       "googleMapsUrl": "https://maps.google.com/?q=Av.+San+Martín+101+Barranco+Lima"
     },
     {
-      "name": "Central",
+      "name": { "es": "Central", "en": "Central", "pt": "Central", "fr": "Central" },
       "description": {
         "es": "Alta cocina peruana, uno de los mejores del mundo.",
         "en": "High‑end Peruvian cuisine, world‑class restaurant.",
@@ -150,7 +150,7 @@
       "googleMapsUrl": "https://maps.google.com/?q=Calle+Santa+Isabel+376+Miraflores+Lima"
     },
     {
-      "name": "Maido",
+      "name": { "es": "Maido", "en": "Maido", "pt": "Maido", "fr": "Maido" },
       "description": {
         "es": "Fusión nikkei, mejor restaurante del mundo en 2025.",
         "en": "Nikkei fusion, best restaurant in the world 2025.",
@@ -173,7 +173,7 @@
   ],
   "desayunos_y_postres": [
     {
-      "name": "La Tiendecita Blanca",
+      "name": { "es": "La Tiendecita Blanca", "en": "La Tiendecita Blanca", "pt": "La Tiendecita Blanca", "fr": "La Tiendecita Blanca" },
       "description": {
         "es": "Café suizo con desayunos gourmet y ambiente encantador.",
         "en": "Swiss‑style café with gourmet breakfasts and charming atmosphere.",
@@ -199,7 +199,7 @@
       "googleMapsUrl": "https://maps.google.com/?q=Av.+José+Larco+111+Miraflores+Lima"
     },
     {
-      "name": "Pastelería San Antonio",
+      "name": { "es": "Pastelería San Antonio", "en": "Pastelería San Antonio", "pt": "Pastelería San Antonio", "fr": "Pastelería San Antonio" },
       "description": {
         "es": "Pastelería tradicional con postres artesanales.",
         "en": "Traditional bakery offering artisanal pastries.",
@@ -225,7 +225,7 @@
       "googleMapsUrl": "https://maps.google.com/?q=Av.+Vasco+Núñez+de+Balboa+770+Miraflores+Lima"
     },
     {
-      "name": "El Bigote Coffee & Waffles",
+      "name": { "es": "El Bigote Coffee & Waffles", "en": "El Bigote Coffee & Waffles", "pt": "El Bigote Coffee & Waffles", "fr": "El Bigote Coffee & Waffles" },
       "description": {
         "es": "Combinación de café y waffles en ambiente artístico en Barranco.",
         "en": "Coffee and waffles in an artistic setting in Barranco.",
@@ -251,7 +251,7 @@
       "googleMapsUrl": "https://maps.google.com/?q=Av.+Almirante+Miguel+Grau+1460+Barranco+Lima"
     },
     {
-      "name": "Sienna Bakery",
+      "name": { "es": "Sienna Bakery", "en": "Sienna Bakery", "pt": "Sienna Bakery", "fr": "Sienna Bakery" },
       "description": {
         "es": "Pastelería moderna con café y repostería fina en Miraflores.",
         "en": "Modern bakery with fine pastries and coffee in Miraflores.",
@@ -279,7 +279,7 @@
   ],
   "comida_china_e_internacional": [
     {
-      "name": "La Rosa Náutica",
+      "name": { "es": "La Rosa Náutica", "en": "La Rosa Náutica", "pt": "La Rosa Náutica", "fr": "La Rosa Náutica" },
       "description": {
         "es": "Clásico restaurante de comida internacional en espigón de la Costa Verde.",
         "en": "Classic international cuisine restaurant on the Costa Verde pier.",
@@ -300,7 +300,7 @@
       "googleMapsUrl": "https://maps.google.com/?q=Espigón+4+Circuito+de+Playas+Miraflores+Lima"
     },
     {
-      "name": "Mangos Restaurante",
+      "name": { "es": "Mangos Restaurante", "en": "Mangos Restaurante", "pt": "Mangos Restaurante", "fr": "Mangos Restaurante" },
       "description": {
         "es": "Gastronomía internacional con vista al mar en Larcomar.",
         "en": "International cuisine with sea view at Larcomar.",
@@ -321,7 +321,7 @@
       "googleMapsUrl": "https://maps.google.com/?q=Malecón+de+la+Reserva+610+Miraflores+Lima"
     },
     {
-      "name": "Aromia Cocina Internacional",
+      "name": { "es": "Aromia Cocina Internacional", "en": "Aromia Cocina Internacional", "pt": "Aromia Cocina Internacional", "fr": "Aromia Cocina Internacional" },
       "description": {
         "es": "Restaurante internacional moderno en Barranco.",
         "en": "Modern international restaurant in Barranco.",
@@ -342,7 +342,7 @@
       "googleMapsUrl": "https://maps.google.com/?q=Calle+Libertad+415+Miraflores+Lima"
     },
     {
-      "name": "Cosme",
+      "name": { "es": "Cosme", "en": "Cosme", "pt": "Cosme", "fr": "Cosme" },
       "description": {
         "es": "Cocina de autor con influencias internacionales en Miraflores.",
         "en": "Author cuisine with international influences in Miraflores.",
@@ -365,7 +365,7 @@
   ],
   "comida_rapida": [
     {
-      "name": "Bembos",
+      "name": { "es": "Bembos", "en": "Bembos", "pt": "Bembos", "fr": "Bembos" },
       "description": {
         "es": "Cadena peruana de hamburguesas con recetas con sazón local.",
         "en": "Peruvian burger chain seasoning its patties with local flavors.",
@@ -386,7 +386,7 @@
       "googleMapsUrl": ""
     },
     {
-      "name": "KFC",
+      "name": { "es": "KFC", "en": "KFC", "pt": "KFC", "fr": "KFC" },
       "description": {
         "es": "Cadena internacional de pollo frito ubicada en plena Avenida José Larco.",
         "en": "International fried-chicken chain located on Avenida José Larco.",
@@ -407,7 +407,7 @@
       "googleMapsUrl": ""
     },
     {
-      "name": "Pizza Hut",
+      "name": { "es": "Pizza Hut", "en": "Pizza Hut", "pt": "Pizza Hut", "fr": "Pizza Hut" },
       "description": {
         "es": "Cadena internacional de pizza, local céntrico en 2 de Mayo.",
         "en": "International pizza chain with a central 2 de Mayo location.",
@@ -428,7 +428,7 @@
       "googleMapsUrl": ""
     },
     {
-      "name": "Subway",
+      "name": { "es": "Subway", "en": "Subway", "pt": "Subway", "fr": "Subway" },
       "description": {
         "es": "Cadena de sándwiches saludables, local en Av. Benavides.",
         "en": "Healthy sandwich chain, located on Av. Benavides.",
@@ -445,11 +445,11 @@
       "userRatingsTotal": 1603,
       "priceLevel": 1,
       "priceIndicator": { "es": "Bajo", "en": "Low", "pt": "Baixo", "fr": "Faible" },
-      "address": "Av. Alfredo Benavides 1821, Miraflores, Lima",
+      "address": "Av. Oscar R. Benavides 344, Miraflores",
       "googleMapsUrl": ""
     },
     {
-      "name": "McDonald's",
+      "name": { "es": "McDonald's", "en": "McDonald's", "pt": "McDonald's", "fr": "McDonald's" },
       "description": {
         "es": "Cadena internacional de hamburguesas, abierto 24 h en Miraflores.",
         "en": "International burger chain, open 24 h in Miraflores.",

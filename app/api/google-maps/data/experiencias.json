@@ -1,7 +1,7 @@
 {
   "arte_y_museos": [
     {
-      "name": "Museo Pedro de Osma",
+      "name": { "es": "Museo Pedro de Osma", "en": "Museo Pedro de Osma", "pt": "Museo Pedro de Osma", "fr": "Museo Pedro de Osma" },
       "description": {
         "es": "Colección de arte virreinal en una casona histórica de Barranco.",
         "en": "Colonial art collection in a historic Barranco mansion.",
@@ -20,7 +20,7 @@
   ],
   "caminatas": [
     {
-      "name": "Malecón de Miraflores",
+      "name": { "es": "Malecón de Miraflores", "en": "Malecón de Miraflores", "pt": "Malecón de Miraflores", "fr": "Malecón de Miraflores" },
       "description": {
         "es": "Paseo costero con vistas al mar, ideal para caminar y relajarse.",
         "en": "Coastal walk with ocean views, ideal for walking and relaxing.",
@@ -39,7 +39,7 @@
   ],
   "turismo": [
     {
-      "name": "Parque Kennedy",
+      "name": { "es": "Parque Kennedy", "en": "Parque Kennedy", "pt": "Parque Kennedy", "fr": "Parque Kennedy" },
       "description": {
         "es": "Corazón de Miraflores, rodeado de cafés, gatos y vida local.",
         "en": "Heart of Miraflores, surrounded by cafés, cats and local life.",

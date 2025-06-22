@@ -10,6 +10,7 @@ import { isMobile } from 'react-device-detect'
 import { PlaceCard } from "@/components/ui/PlaceCard"
 import { SectionCard } from "@/components/sections/SectionCard"
 import { FoodCategoryCard } from "@/components/ui/FoodCategoryCard"
+import { SubcategoryCard } from "@/components/ui/SubcategoryCard"
 import { sections } from "@/lib/sections"
 import { translations } from "@/lib/translations"
 
@@ -207,17 +208,19 @@ export default function BarrancoGuide() {
               </div>
 
               <div className="flex items-center gap-1">
-                <Globe className="w-5 h-5 text-gray-500" />
-                <select
-                  value={language}
-                  onChange={(e) => handleLanguageChange(e.target.value)}
-                  className="text-xs bg-transparent border-none outline-none cursor-pointer"
-                >
-                  <option value="es">🇪🇸</option>
-                  <option value="en">🇺🇸</option>
-                  <option value="pt">🇧🇷</option>
-                  <option value="fr">🇫🇷</option>
-                </select>
+                <span className="flex items-center justify-center border-2 border-black rounded-md p-1 bg-white">
+                  <Globe className="w-4 h-4 text-black stroke-2" style={{ filter: 'drop-shadow(0 0 1px #000)' }} />
+                  <select
+                    value={language}
+                    onChange={(e) => handleLanguageChange(e.target.value)}
+                    className="text-sm bg-transparent border-none outline-none cursor-pointer font-bold ml-1"
+                  >
+                    <option value="es">🇪🇸 ES</option>
+                    <option value="en">🇺🇸 EN</option>
+                    <option value="pt">🇧🇷 PT</option>
+                    <option value="fr">🇫🇷 FR</option>
+                  </select>
+                </span>
               </div>
             </div>
 
@@ -233,20 +236,9 @@ export default function BarrancoGuide() {
             }} initial="hidden" animate="show">
               {category.subcategories?.map((place, index) => {
                 const enhancedPlace = {
-                  id: index,
-                  image: "/placeholder.svg?height=200&width=300",
-                  name: {
-                    es: place.name,
-                    en: place.name,
-                    pt: place.name,
-                    fr: place.name
-                  },
-                  description: place.description,
-                  address: place.address,
-                  rating: place.rating,
-                  userRatingsTotal: place.userRatingsTotal,
-                  priceLevel: place.priceLevel,
-                  priceIndicator: place.priceIndicator
+                  ...place,
+                  id: (place as any).id ?? index,
+                  image: (place as any).image || "/placeholder.svg?height=200&width=300"
                 };
                 return (
                   <PlaceCard
@@ -310,17 +302,19 @@ export default function BarrancoGuide() {
             </div>
 
             <div className="flex items-center gap-1">
-              <Globe className="w-5 h-5 text-gray-500" />
-              <select
-                value={language}
-                onChange={(e) => handleLanguageChange(e.target.value)}
-                className="text-xs bg-transparent border-none outline-none cursor-pointer"
-              >
-                <option value="es">🇪🇸</option>
-                <option value="en">🇺🇸</option>
-                <option value="pt">🇧🇷</option>
-                <option value="fr">🇫🇷</option>
-              </select>
+              <span className="flex items-center justify-center border-2 border-black rounded-md p-1 bg-white">
+                <Globe className="w-5 h-5 text-black stroke-2" style={{ filter: 'drop-shadow(0 0 1px #000)' }} />
+                <select
+                  value={language}
+                  onChange={(e) => handleLanguageChange(e.target.value)}
+                  className="text-xs bg-transparent border-none outline-none cursor-pointer font-bold ml-1"
+                >
+                  <option value="es">🇪🇸</option>
+                  <option value="en">🇺🇸</option>
+                  <option value="pt">🇧🇷</option>
+                  <option value="fr">🇫🇷</option>
+                </select>
+              </span>
             </div>
           </div>
 
@@ -344,15 +338,9 @@ export default function BarrancoGuide() {
                   onClick={() => setSelectedCategory(place.name[language])}
                 />
               ) : (
-                <SectionCard
+                <SubcategoryCard
                   key={place.id}
-                  section={{
-                    id: place.id.toString(),
-                    title: place.name,
-                    icon: currentSection.icon,
-                    emoji: place.emoji || "📍",
-                    places: []
-                  }}
+                  place={place}
                   language={language}
                   onClick={() => setSelectedCategory(place.name[language])}
                 />
@@ -368,34 +356,20 @@ export default function BarrancoGuide() {
     <div className="min-h-screen bg-gradient-to-br from-cyan-300 via-sky-200 to-blue-100 p-4">
       <div className="max-w-md mx-auto">
         <motion.div
-          className="text-center mb-8"
+          className="flex flex-col items-center mb-8"
           initial={{ opacity: 0, y: -10 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.3 }}
         >
-          <div className="flex flex-col items-center mb-4">
-            <motion.p
-              className="text-lg text-gray-700 mb-4 text-center max-w-md font-bold"
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ delay: 0.1, duration: 0.2 }}
-            >
-              Encantado de recibirlos y guiarlos a lo mejor de la zona: deliciosa gastronomía, rincones únicos y las mejores opciones de shopping.
-            </motion.p>
-            
-            <div className="flex items-center gap-1">
-              <Globe className="w-4 h-4 text-gray-500" />
-              <select
-                value={language}
-                onChange={(e) => handleLanguageChange(e.target.value)}
-                className="text-sm bg-transparent border border-gray-300 rounded px-2 py-1 outline-none cursor-pointer"
-              >
-                <option value="es">🇪🇸 ES</option>
-                <option value="en">🇺🇸 EN</option>
-                <option value="pt">🇧🇷 PT</option>
-                <option value="fr">🇫🇷 FR</option>
-              </select>
-            </div>
+          <div className="bg-white/80 border border-gray-200 rounded-2xl shadow-lg px-5 py-4 w-full max-w-lg flex flex-col items-center">
+            <span className="text-3xl mb-2">👋</span>
+            <h2 className="text-xl font-extrabold text-orange-600 mb-1 text-center">
+              ¡Bienvenidos a Barranco & Miraflores!
+            </h2>
+            <p className="text-gray-700 text-sm text-center">
+              Descubre la mejor gastronomía, rincones únicos y las mejores opciones de shopping. <br />
+              <span className="font-semibold text-orange-500">¡Disfruta tu estadía!</span>
+            </p>
           </div>
         </motion.div>
 
@@ -422,24 +396,6 @@ export default function BarrancoGuide() {
               onClick={() => handleSectionChange(section.id)}
             />
           ))}
-        </motion.div>
-
-        <motion.div 
-          initial={{ opacity: 0, y: 10 }} 
-          animate={{ opacity: 1, y: 0 }} 
-          transition={{ delay: 0.3, duration: 0.2 }}
-        >
-          <Card className="bg-orange-100 border-orange-200 shadow-xl">
-            <CardContent className="p-4 text-center">
-              <h4 className="font-semibold text-orange-800 mb-2">{t.thanks}</h4>
-              <p className="text-sm text-orange-700 mb-3">{t.greatStay}</p>
-              <div className="text-xs text-orange-600">
-                <p>📱 WhatsApp: +51 968 866 677</p>
-                <p>📧 host@barrancoairbnb.com</p>
-                <p className="mt-2 font-medium">{t.needHelp}</p>
-              </div>
-            </CardContent>
-          </Card>
         </motion.div>
       </div>
     </div>
