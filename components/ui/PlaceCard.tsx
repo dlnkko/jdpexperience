@@ -34,11 +34,11 @@ export function PlaceCard({ place, language, translations, onGetDirections }: Pl
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.3 }}
     >
-      <Card className="overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300">
+      <Card className="overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 rounded-2xl bg-white/80 backdrop-blur-sm border-orange-200">
         <CardHeader className="pb-2">
           <div className="flex items-center justify-between">
             <div>
-              <CardTitle className="text-lg">{place.name[language]}</CardTitle>
+              <CardTitle className="text-[28px] font-bold text-orange-500 leading-tight">{place.name[language]}</CardTitle>
               <CardDescription className="text-sm">{place.description[language]}</CardDescription>
             </div>
           </div>

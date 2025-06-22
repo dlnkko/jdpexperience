@@ -93,6 +93,25 @@ export const sections: Section[] = [
         image: "/placeholder.svg?height=200&width=300",
         emoji: "🥢",
         subcategories: foodSubcategories["comida-china-e-internacional"]
+      },
+      {
+        id: 5,
+        name: {
+          es: "Comida Rápida",
+          en: "Fast Food",
+          pt: "Comida Rápida",
+          fr: "Restauration Rapide"
+        },
+        description: {
+          es: "Opciones rápidas y deliciosas para comer sobre la marcha",
+          en: "Quick and delicious options for eating on the go",
+          pt: "Opções rápidas e deliciosas para comer na correria",
+          fr: "Options rapides et délicieuses pour manger sur le pouce"
+        },
+        address: "Barranco y Miraflores, Lima",
+        image: "/placeholder.svg?height=200&width=300",
+        emoji: "🍔",
+        subcategories: foodSubcategories["comida-rapida"]
       }
     ],
   },
@@ -111,6 +130,8 @@ export const sections: Section[] = [
         id: 1,
         name: { es: "Cultura y Arte", en: "Culture & Art", pt: "Cultura e Arte", fr: "Culture et Art" },
         description: { es: "...", en: "...", pt: "...", fr: "..." },
+        address: "Barranco y Miraflores, Lima",
+        image: "/placeholder.svg?height=200&width=300",
         emoji: "🎨",
         subcategories: entretenimientoData.cultura_y_arte
       },
@@ -118,6 +139,8 @@ export const sections: Section[] = [
         id: 2,
         name: { es: "Historial Urbano", en: "Urban History", pt: "História Urbana", fr: "Histoire Urbaine" },
         description: { es: "...", en: "...", pt: "...", fr: "..." },
+        address: "Barranco y Miraflores, Lima",
+        image: "/placeholder.svg?height=200&width=300",
         emoji: "🏙️",
         subcategories: entretenimientoData.historial_urbano
       },
@@ -125,6 +148,8 @@ export const sections: Section[] = [
         id: 3,
         name: { es: "Música, Cine y Teatro", en: "Music, Cinema & Theater", pt: "Música, Cinema e Teatro", fr: "Musique, Cinéma et Théâtre" },
         description: { es: "...", en: "...", pt: "...", fr: "..." },
+        address: "Barranco y Miraflores, Lima",
+        image: "/placeholder.svg?height=200&width=300",
         emoji: "🎭",
         subcategories: entretenimientoData.musica_cine_teatro
       }
@@ -203,10 +228,10 @@ export const sections: Section[] = [
   {
     id: "abarrotes",
     title: {
-      es: "Tienda de Abarrotes",
-      en: "Grocery Store",
-      pt: "Mercearia",
-      fr: "Épicerie"
+      es: "Abarrotes",
+      en: "Groceries",
+      pt: "Abarrotes",
+      fr: "Abarrotes"
     },
     icon: <ShoppingBag className="w-6 h-6" />,
     emoji: "🛒",
@@ -273,10 +298,10 @@ export const sections: Section[] = [
   {
     id: "nightlife",
     title: {
-      es: "Vida Nocturna",
-      en: "Nightlife",
-      pt: "Vida Noturna",
-      fr: "Vie Nocturne",
+      es: "Noche",
+      en: "Night",
+      pt: "Noite",
+      fr: "Nuit",
     },
     icon: <Wine className="w-6 h-6" />,
     emoji: "🍷",

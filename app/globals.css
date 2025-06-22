@@ -10,6 +10,14 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+  
+  .font-bucklane {
+    font-family: var(--font-bucklane-script);
+  }
+  
+  .font-valentina {
+    font-family: var(--font-hello-valentina);
+  }
 }
 
 @layer base {

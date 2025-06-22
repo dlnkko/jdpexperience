@@ -163,7 +163,7 @@ export default function BarrancoGuide() {
 
       return (
         <motion.div 
-          className="min-h-screen bg-gradient-to-br from-orange-50 via-red-50 to-amber-50 p-4"
+          className="min-h-screen bg-gradient-to-br from-cyan-300 via-sky-200 to-blue-100 p-4"
           drag="x"
           dragConstraints={{ left: 0, right: 0 }}
           onDragEnd={(_, info) => {
@@ -266,7 +266,7 @@ export default function BarrancoGuide() {
 
     return (
       <motion.div 
-        className="min-h-screen bg-gradient-to-br from-orange-50 via-red-50 to-amber-50 p-4"
+        className="min-h-screen bg-gradient-to-br from-cyan-300 via-sky-200 to-blue-100 p-4"
         drag="x"
         dragConstraints={{ left: 0, right: 0 }}
         onDragEnd={(_, info) => {
@@ -365,7 +365,7 @@ export default function BarrancoGuide() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-orange-50 via-red-50 to-amber-50 p-4">
+    <div className="min-h-screen bg-gradient-to-br from-cyan-300 via-sky-200 to-blue-100 p-4">
       <div className="max-w-md mx-auto">
         <motion.div
           className="text-center mb-8"
@@ -374,9 +374,14 @@ export default function BarrancoGuide() {
           transition={{ duration: 0.3 }}
         >
           <div className="flex flex-col items-center mb-4">
-            <h1 className="text-4xl font-bold text-gray-800 flex-2 px-4 tracking-wide leading-tight text-center mb-4">
-              {t.welcome}
-            </h1>
+            <motion.p
+              className="text-lg text-gray-700 mb-4 text-center max-w-md font-bold"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ delay: 0.1, duration: 0.2 }}
+            >
+              Encantado de recibirlos y guiarlos a lo mejor de la zona: deliciosa gastronomía, rincones únicos y las mejores opciones de shopping.
+            </motion.p>
             
             <div className="flex items-center gap-1">
               <Globe className="w-4 h-4 text-gray-500" />
@@ -392,27 +397,6 @@ export default function BarrancoGuide() {
               </select>
             </div>
           </div>
-
-          <motion.p
-            className="text-gray-600 mb-4"
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ delay: 0.1, duration: 0.2 }}
-          >
-            {t.subtitle}
-          </motion.p>
-
-          {guestName && (
-            <motion.div
-              initial={{ opacity: 0, scale: 0.95 }}
-              animate={{ opacity: 1, scale: 1 }}
-              transition={{ delay: 0.2, duration: 0.2 }}
-            >
-              <Badge variant="secondary" className="bg-orange-100 text-orange-800">
-                {t.greeting} {guestName}, {t.enjoyStay}
-              </Badge>
-            </motion.div>
-          )}
         </motion.div>
 
         <motion.div 

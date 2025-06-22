@@ -1,326 +1,453 @@
-[
-  {
-    "name": "Osaka",
-    "description": {
-      "es": "Restaurante japonés-peruano de alta cocina con los mejores cortes de carne.",
-      "en": "High-end Japanese-Peruvian restaurant with the best meat cuts.",
-      "pt": "Restaurante japonês-peruano de alta gastronomia com os melhores cortes de carne.",
-      "fr": "Restaurant japonais-péruvien haut de gamme avec les meilleures coupes de viande."
+{
+  "carnes_y_parrilla": [
+    {
+      "name": "El Parrillón de Pablo Profumo",
+      "description": {
+        "es": "Churrasquería con excelentes cortes y ambiente acogedor.",
+        "en": "Churrasquería with excellent cuts and a cozy atmosphere.",
+        "pt": "Churrascaria com excelentes cortes e ambiente acolhedor.",
+        "fr": "Churrasquerie avec excellentes coupes et ambiance chaleureuse."
+      },
+      "comment": {
+        "es": "Muy recomendado según Tripadvisor, rating 4.7 con +1 100 opiniones.",
+        "en": "Highly rated on Tripadvisor, 4.7 with over 1 100 reviews.",
+        "pt": "Altamente avaliado no Tripadvisor, 4,7 com mais de 1 100 avaliações.",
+        "fr": "Fortement apprécié sur Tripadvisor, 4,7 avec plus de 1 100 avis."
+      },
+      "rating": 4.7,
+      "userRatingsTotal": 1112,
+      "priceLevel": 2,
+      "priceIndicator": { "es":"Medio", "en":"Medium", "pt":"Médio", "fr":"Moyen" },
+      "address": "Miraflores, Lima",
+      "googleMapsUrl": ""
     },
-    "comment": {
-      "es": "Excelente fusión japonesa-peruana. Los cortes de wagyu son espectaculares.",
-      "en": "Excelente fusión japonesa-peruana. Los cortes de wagyu son espectaculares.",
-      "pt": "Excelente fusión japonesa-peruana. Los cortes de wagyu son espectaculares.",
-      "fr": "Excelente fusión japonesa-peruana. Los cortes de wagyu son espectaculares."
+    {
+      "name": "Carnal Prime Steakhouse",
+      "description": {
+        "es": "Especializado en carnes Angus Aberdeen en el corazón de Miraflores.",
+        "en": "Specializes in Angus Aberdeen meats in central Miraflores.",
+        "pt": "Especializado em carnes Angus Aberdeen no centro de Miraflores.",
+        "fr": "Spécialisé en viandes Angus Aberdeen au cœur de Miraflores."
+      },
+      "comment": {
+        "es": "Top 5 restaurante de parrillada según guía BCP.",
+        "en": "Top‑5 parrillada restaurant per BCP guide.",
+        "pt": "Top‑5 churrascaria segundo guia BCP.",
+        "fr": "Parmi les 5 meilleurs churrascarias selon guide BCP."
+      },
+      "rating": 4.8,
+      "userRatingsTotal": 800,
+      "priceLevel": 3,
+      "priceIndicator": { "es":"Alto", "en":"High", "pt":"Alto", "fr":"Élevé" },
+      "address": "Miraflores, Lima",
+      "googleMapsUrl": ""
     },
-    "address": "Av. San Martín 240, Barranco, Lima",
-    "rating": 4.7,
-    "userRatingsTotal": 1247,
-    "priceLevel": 4,
-    "priceIndicator": {
-      "es": "Alto",
-      "en": "High",
-      "pt": "Alto",
-      "fr": "Élevé"
+    {
+      "name": "El 10 Miraflores",
+      "description": {
+        "es": "Parrilla moderna, muy buena aceptación local.",
+        "en": "Modern grill, very well received locally.",
+        "pt": "Churrasco moderno, bem aceito localmente.",
+        "fr": "Grill moderne, très apprécié localement."
+      },
+      "comment": {
+        "es": "Rating 4.5 con +1 600 opiniones en Miraflores.",
+        "en": "Rating 4.5 with over 1 600 reviews in Miraflores.",
+        "pt": "Avaliado com 4.5 e mais de 1 600 avaliações.",
+        "fr": "Note 4,5 avec plus de 1 600 avis."
+      },
+      "rating": 4.5,
+      "userRatingsTotal": 1623,
+      "priceLevel": 2,
+      "priceIndicator": { "es":"Medio", "en":"Medium", "pt":"Médio", "fr":"Moyen" },
+      "address": "Miraflores, Lima",
+      "googleMapsUrl": ""
     },
-    "googleMapsUrl": "https://maps.google.com/?q=Osaka+Barranco+Lima",
-    "menuUrl": "https://osaka.com.pe/menu"
-  },
-  {
-    "name": "La Mar",
-    "description": {
-      "es": "Cevichería de clase mundial con excelentes opciones de pescado y mariscos.",
-      "en": "World-class cevichería with excellent fish and seafood options.",
-      "pt": "Cevichería de classe mundial com excelentes opções de peixe e frutos do mar.",
-      "fr": "Cevichería de classe mondiale avec d'excellentes options de poisson et fruits de mer."
+    {
+      "name": "La Cabrera",
+      "description": {
+        "es": "Carne argentina de alta calidad en Miraflores.",
+        "en": "High‑quality Argentine meat in Miraflores.",
+        "pt": "Carne argentina de alta qualidade em Miraflores.",
+        "fr": "Viande argentine de haute qualité à Miraflores."
+      },
+      "comment": {
+        "es": "Parte del top 20 de Latinoamérica, excelente selección de cortes.",
+        "en": "Among Latin America's top‑20, excellent cut selection.",
+        "pt": "Entre os top‑20 da América Latina, excelente seleção de cortes.",
+        "fr": "Parmi les 20 meilleurs d'Amérique latine, excellente sélection."
+      },
+      "rating": 4.6,
+      "userRatingsTotal": 900,
+      "priceLevel": 3,
+      "priceIndicator": { "es":"Alto", "en":"High", "pt":"Alto", "fr":"Élevé" },
+      "address": "Miraflores, Lima",
+      "googleMapsUrl": ""
+    }
+  ],
+  "comida_criolla": [
+    {
+      "name": "La Mar",
+      "description": {
+        "es": "Cevichería de autor junto al mar.",
+        "en": "Signature ceviche spot by the sea.",
+        "pt": "Cevicheria de autor à beira-mar.",
+        "fr": "Cevicherie de créateur au bord de la mer."
+      },
+      "comment": {
+        "es": "Muy popular en Miraflores, destaca por su ceviche fresco.",
+        "en": "Very popular in Miraflores, known for fresh ceviche.",
+        "pt": "Muito popular em Miraflores, conhecido pelo ceviche fresco.",
+        "fr": "Très populaire à Miraflores, réputé pour son ceviche frais."
+      },
+      "rating": 4.7,
+      "userRatingsTotal": 12000,
+      "priceLevel": 3,
+      "priceIndicator": { "es":"Alto", "en":"High", "pt":"Alto", "fr":"Élevé" },
+      "address": "Miraflores",
+      "googleMapsUrl": ""
     },
-    "comment": {
-      "es": "El mejor ceviche de Lima. Ambiente moderno y servicio impecable.",
-      "en": "El mejor ceviche de Lima. Ambiente moderno y servicio impecable.",
-      "pt": "El mejor ceviche de Lima. Ambiente moderno y servicio impecable.",
-      "fr": "El mejor ceviche de Lima. Ambiente moderno y servicio impecable."
+    {
+      "name": "Isolina",
+      "description": {
+        "es": "Comida criolla en ambiente tradicional en Barranco.",
+        "en": "Traditional criollo cuisine in a classic setting.",
+        "pt": "Culinária criolla em ambiente clássico.",
+        "fr": "Cuisine criolla dans un cadre traditionnel."
+      },
+      "comment": {
+        "es": "Muy recomendada para auténtica comida peruana, en Barranco.",
+        "en": "Highly recommended for authentic Peruvian food in Barranco.",
+        "pt": "Altamente recomendada para comida peruana autêntica em Barranco.",
+        "fr": "Fortement recommandée pour la cuisine péruvienne authentique à Barranco."
+      },
+      "rating": 4.6,
+      "userRatingsTotal": 8000,
+      "priceLevel": 2,
+      "priceIndicator": { "es":"Medio", "en":"Medium", "pt":"Médio", "fr":"Moyen" },
+      "address": "Barranco",
+      "googleMapsUrl": ""
     },
-    "address": "Av. La Mar 770, Miraflores, Lima",
-    "rating": 4.6,
-    "userRatingsTotal": 2156,
-    "priceLevel": 3,
-    "priceIndicator": {
-      "es": "Medio-Alto",
-      "en": "Medium-High",
-      "pt": "Médio-Alto",
-      "fr": "Moyen-Élevé"
+    {
+      "name": "Central",
+      "description": {
+        "es": "Alta cocina peruana, uno de los mejores del mundo.",
+        "en": "High‑end Peruvian cuisine, world‑class restaurant.",
+        "pt": "Alta gastronomia peruana, restaurante de renome mundial.",
+        "fr": "Haute cuisine péruvienne, restaurant de renommée mondiale."
+      },
+      "comment": {
+        "es": "Ubicado en Miraflores, #1 en The World's 50 Best de 2023.",
+        "en": "Located in Miraflores, #1 in 2023's World's 50 Best.",
+        "pt": "Localizado em Miraflores, #1 no World's 50 Best de 2023.",
+        "fr": "Situé à Miraflores, #1 du World's 50 Best en 2023."
+      },
+      "rating": 4.8,
+      "userRatingsTotal": 15000,
+      "priceLevel": 4,
+      "priceIndicator": { "es":"Muy alto", "en":"Very high", "pt":"Muito alto", "fr":"Très élevé" },
+      "address": "Miraflores",
+      "googleMapsUrl": ""
     },
-    "googleMapsUrl": "https://maps.google.com/?q=La+Mar+Miraflores+Lima",
-    "menuUrl": "https://lamarcebicheria.com/menu"
-  },
-  {
-    "name": "El Mercado",
-    "description": {
-      "es": "Restaurante de pescados y mariscos frescos con parrilla a la vista.",
-      "en": "Fresh fish and seafood restaurant with open grill.",
-      "pt": "Restaurante de peixes e frutos do mar frescos com grelha à vista.",
-      "fr": "Restaurant de poissons et fruits de mer frais avec gril à vue."
+    {
+      "name": "Maido",
+      "description": {
+        "es": "Fusión nikkei, mejor restaurante del mundo en 2025.",
+        "en": "Nikkei fusion, best restaurant in the world 2025.",
+        "pt": "Fusão nikkei, melhor restaurante do mundo 2025.",
+        "fr": "Fusion nikkei, meilleur restaurant du monde 2025."
+      },
+      "comment": {
+        "es": "Ganador de The World's 50 Best en 2025, menú desde S/1 190.",
+        "en": "Winner of 2025 World's 50 Best, tasting menu ~ S/1 190.",
+        "pt": "Vencedor de 2025 World's 50 Best, menu degustação ~ S/1 190.",
+        "fr": "Gagnant 2025 World's 50 Best, menu dégustation ~1 190 S/."
+      },
+      "rating": 4.9,
+      "userRatingsTotal": 9000,
+      "priceLevel": 4,
+      "priceIndicator": { "es":"Muy alto", "en":"Very high", "pt":"Muito alto", "fr":"Très élevé" },
+      "address": "Miraflores",
+      "googleMapsUrl": ""
+    }
+  ],
+  "desayunos_y_postres": [
+    {
+      "name": "La Tiendecita Blanca",
+      "description": {
+        "es": "Café suizo con desayunos gourmet y ambiente encantador.",
+        "en": "Swiss-style café with gourmet breakfasts and charming atmosphere.",
+        "pt": "Café estilo suíço com cafés da manhã gourmet e ambiente encantador.",
+        "fr": "Café de style suisse avec petits‑déjeuners gastronomiques et ambiance charmante."
+      },
+      "comment": {
+        "es": "Clásico en Miraflores, recomendado por artículos de la zona.",
+        "en": "Miraflores classic, recommended by local guides.",
+        "pt": "Clássico em Miraflores, recomendado por guias locais.",
+        "fr": "Classique à Miraflores, recommandé par les guides locaux."
+      },
+      "rating": 4.5,
+      "userRatingsTotal": 11223,
+      "priceLevel": 2,
+      "priceIndicator": { "es":"Medio", "en":"Medium", "pt":"Médio", "fr":"Moyen" },
+      "address": "Miraflores, Lima",
+      "googleMapsUrl": ""
     },
-    "comment": {
-      "es": "Pescados frescos del día. La parrilla de mariscos es increíble.",
-      "en": "Pescados frescos del día. La parrilla de mariscos es increíble.",
-      "pt": "Pescados frescos del día. La parrilla de mariscos es increíble.",
-      "fr": "Pescados frescos del día. La parrilla de mariscos es increíble."
+    {
+      "name": "Pastelería San Antonio",
+      "description": {
+        "es": "Pastelería tradicional con postres artesanales.",
+        "en": "Traditional bakery offering artisanal pastries.",
+        "pt": "Padaria tradicional com doces artesanais.",
+        "fr": "Boulangerie traditionnelle avec pâtisseries artisanales."
+      },
+      "comment": {
+        "es": "Muy bien calificada (4.5) por más de 4 200 reseñas Google en Miraflores.",
+        "en": "Highly rated (4.5) by over 4,200 Google reviews in Miraflores.",
+        "pt": "Altamente avaliada (4,5) por mais de 4.200 avaliações no Google em Miraflores.",
+        "fr": "Très bien notée (4,5) par plus de 4 200 avis Google à Miraflores."
+      },
+      "rating": 4.5,
+      "userRatingsTotal": 4207,
+      "priceLevel": 2,
+      "priceIndicator": { "es":"Medio", "en":"Medium", "pt":"Médio", "fr":"Moyen" },
+      "address": "Av. 123, Miraflores, Lima",
+      "googleMapsUrl": ""
     },
-    "address": "Hipólito Unanue 203, Miraflores, Lima",
-    "rating": 4.5,
-    "userRatingsTotal": 892,
-    "priceLevel": 3,
-    "priceIndicator": {
-      "es": "Medio",
-      "en": "Medium",
-      "pt": "Médio",
-      "fr": "Moyen"
+    {
+      "name": "El Bigote Coffee & Waffles",
+      "description": {
+        "es": "Combinación de café y waffles en ambiente artístico en Barranco.",
+        "en": "Coffee and waffles in an artistic setting in Barranco.",
+        "pt": "Café e waffles em ambiente artístico em Barranco.",
+        "fr": "Café et gaufres dans un cadre artistique à Barranco."
+      },
+      "comment": {
+        "es": "Muy recomendado como uno de los mejores desayunos en Barranco.",
+        "en": "Highly recommended as one of the best breakfasts in Barranco.",
+        "pt": "Altamente recomendado como um dos melhores cafés da manhã em Barranco.",
+        "fr": "Fortement recommandé comme l'un des meilleurs petits‑déjeuners à Barranco."
+      },
+      "rating": 4.4,
+      "userRatingsTotal": 500,
+      "priceLevel": 2,
+      "priceIndicator": { "es":"Medio", "en":"Medium", "pt":"Médio", "fr":"Moyen" },
+      "address": "Barranco, Lima",
+      "googleMapsUrl": ""
     },
-    "googleMapsUrl": "https://maps.google.com/?q=El+Mercado+Miraflores+Lima",
-    "menuUrl": "https://elmercado.pe/menu"
-  },
-  {
-    "name": "El Rincón Que No Conoces",
-    "description": {
-      "es": "Restaurante tradicional peruano con los mejores platos criollos.",
-      "en": "Traditional Peruvian restaurant with the best criollo dishes.",
-      "pt": "Restaurante tradicional peruano com os melhores pratos crioulos.",
-      "fr": "Restaurant traditionnel péruvien avec les meilleurs plats créoles."
+    {
+      "name": "Sienna Bakery",
+      "description": {
+        "es": "Pastelería moderna con café y repostería fina en Miraflores.",
+        "en": "Modern bakery with fine pastries and coffee in Miraflores.",
+        "pt": "Padaria moderna com confeitaria fina e café em Miraflores.",
+        "fr": "Boulangerie moderne avec pâtisseries fines et café à Miraflores."
+      },
+      "comment": {
+        "es": "Premiada como una de las mejores cafeterías de Lima en 2023.",
+        "en": "Awarded as one of Lima's top cafés in 2023.",
+        "pt": "Premiada como um dos melhores cafés de Lima em 2023.",
+        "fr": "Primée comme l'un des meilleurs cafés de Lima en 2023."
+      },
+      "rating": 4.6,
+      "userRatingsTotal": 1500,
+      "priceLevel": 2,
+      "priceIndicator": { "es":"Medio", "en":"Medium", "pt":"Médio", "fr":"Moyen" },
+      "address": "Av. Santa Cruz 1119, Miraflores, Lima",
+      "googleMapsUrl": ""
+    }
+  ],
+  "comida_china_e_internacional": [
+    {
+      "name": "La Rosa Náutica",
+      "description": {
+        "es": "Clásico restaurante de comida internacional en espigón de la Costa Verde.",
+        "en": "Classic international cuisine restaurant on the Costa Verde pier.",
+        "pt": "Clássico restaurante de culinária internacional no píer da Costa Verde.",
+        "fr": "Restaurant classique de cuisine internationale sur la jetée de la Costa Verde."
+      },
+      "comment": {
+        "es": "Instalado desde 1983, combina vistas al mar y cocina de calidad.",
+        "en": "Established in 1983, combines sea views with quality cuisine.",
+        "pt": "Fundado em 1983, combina vista para o mar com culinária de qualidade.",
+        "fr": "Ouvert en 1983, associe vue sur la mer et cuisine de qualité."
+      },
+      "rating": 4.5,
+      "userRatingsTotal": 8000,
+      "priceLevel": 3,
+      "priceIndicator": { "es":"Alto", "en":"High", "pt":"Alto", "fr":"Élevé" },
+      "address": "Espigón Costa Verde, Miraflores, Lima",
+      "googleMapsUrl": ""
     },
-    "comment": {
-      "es": "El mejor lomo saltado de Lima. Ambiente familiar y auténtico.",
-      "en": "El mejor lomo saltado de Lima. Ambiente familiar y auténtico.",
-      "pt": "El mejor lomo saltado de Lima. Ambiente familiar y auténtico.",
-      "fr": "El mejor lomo saltado de Lima. Ambiente familiar y auténtico."
+    {
+      "name": "Mangos Restaurante",
+      "description": {
+        "es": "Gastronomía internacional con vista al mar en Larcomar.",
+        "en": "International cuisine with sea view at Larcomar.",
+        "pt": "Culinária internacional com vista para o mar no Larcomar.",
+        "fr": "Cuisine internationale avec vue sur la mer à Larcomar."
+      },
+      "comment": {
+        "es": "Vistas panorámicas y menú variado según guía local.",
+        "en": "Panoramic views and varied menu per local guide.",
+        "pt": "Vistas panorâmicas e menu variado segundo guia local.",
+        "fr": "Vues panoramiques et menu varié selon guide local."
+      },
+      "rating": 4.5,
+      "userRatingsTotal": 11223,
+      "priceLevel": 3,
+      "priceIndicator": { "es":"Alto", "en":"High", "pt":"Alto", "fr":"Élevé" },
+      "address": "Larcomar, Miraflores, Lima",
+      "googleMapsUrl": ""
     },
-    "address": "Bernardo Alcedo 363, Lince, Lima",
-    "rating": 4.8,
-    "userRatingsTotal": 1567,
-    "priceLevel": 2,
-    "priceIndicator": {
-      "es": "Medio",
-      "en": "Medium",
-      "pt": "Médio",
-      "fr": "Moyen"
+    {
+      "name": "Aromia Cocina Internacional",
+      "description": {
+        "es": "Restaurante internacional moderno en Barranco.",
+        "en": "Modern international restaurant in Barranco.",
+        "pt": "Restaurante internacional moderno em Barranco.",
+        "fr": "Restaurant international moderne à Barranco."
+      },
+      "comment": {
+        "es": "Elegante y bien valorado por visitantes.",
+        "en": "Elegant and well-rated by visitors.",
+        "pt": "Elegante e bem avaliado por visitantes.",
+        "fr": "Élégant et bien noté par les visiteurs."
+      },
+      "rating": 4.4,
+      "userRatingsTotal": 600,
+      "priceLevel": 3,
+      "priceIndicator": { "es":"Alto", "en":"High", "pt":"Alto", "fr":"Élevé" },
+      "address": "Barranco, Lima",
+      "googleMapsUrl": ""
     },
-    "googleMapsUrl": "https://maps.google.com/?q=El+Rincon+Que+No+Conoces+Lince+Lima",
-    "menuUrl": "https://elrinconquenoconoces.com/menu"
-  },
-  {
-    "name": "La Picantería",
-    "description": {
-      "es": "Cocina tradicional cusqueña con sabores auténticos del sur.",
-      "en": "Traditional Cusco cuisine with authentic southern flavors.",
-      "pt": "Culinária tradicional cusquenha com sabores autênticos do sul.",
-      "fr": "Cuisine traditionnelle de Cusco avec des saveurs authentiques du sud."
+    {
+      "name": "Cosme",
+      "description": {
+        "es": "Cocina de autor con influencias internacionales en Miraflores.",
+        "en": "Author cuisine with international influences in Miraflores.",
+        "pt": "Cozinha autoral com influências internacionais em Miraflores.",
+        "fr": "Cuisine d'auteur avec influences internationales à Miraflores."
+      },
+      "comment": {
+        "es": "Recomendado en planes de 24 h gastronómicos en Miraflores.",
+        "en": "Recommended in 24 h foodie guides in Miraflores.",
+        "pt": "Recomendado em guias gastronômicos de 24 h em Miraflores.",
+        "fr": "Recommandé dans des guides gastronomiques 24 h à Miraflores."
+      },
+      "rating": 4.6,
+      "userRatingsTotal": 1500,
+      "priceLevel": 3,
+      "priceIndicator": { "es":"Alto", "en":"High", "pt":"Alto", "fr":"Élevé" },
+      "address": "Miraflores, Lima",
+      "googleMapsUrl": ""
+    }
+  ],
+  "comida_rapida": [
+    {
+      "name": "Bembos",
+      "description": {
+        "es": "Cadena peruana de hamburguesas con recetas con sazón local.",
+        "en": "Peruvian burger chain seasoning its patties with local flavors.",
+        "pt": "Rede peruana de hambúrgueres com tempero típico local.",
+        "fr": "Chaîne péruvienne de burgers assaisonnés de saveurs locales."
+      },
+      "comment": {
+        "es": "Calificación promedio de 4.1/5 en Miraflores con más de 4 200 opiniones.",
+        "en": "Average 4.1 stars in Miraflores with over 4,200 reviews.",
+        "pt": "Média de 4,1 estrelas em Miraflores com mais de 4 200 avaliações.",
+        "fr": "Moyenne de 4,1/5 à Miraflores avec plus de 4 200 avis."
+      },
+      "rating": 4.1,
+      "userRatingsTotal": 4240,
+      "priceLevel": 1,
+      "priceIndicator": { "es": "Bajo", "en": "Low", "pt": "Baixo", "fr": "Faible" },
+      "address": "Av. Alfredo Benavides 1821, Miraflores, Lima",
+      "googleMapsUrl": ""
     },
-    "comment": {
-      "es": "Sabores auténticos del Cusco. El rocoto relleno es imperdible.",
-      "en": "Sabores auténticos del Cusco. El rocoto relleno es imperdible.",
-      "pt": "Sabores auténticos del Cusco. El rocoto relleno es imperdible.",
-      "fr": "Sabores auténticos del Cusco. El rocoto relleno es imperdible."
+    {
+      "name": "KFC",
+      "description": {
+        "es": "Cadena internacional de pollo frito ubicada en plena Avenida José Larco.",
+        "en": "International fried-chicken chain located on Avenida José Larco.",
+        "pt": "Rede internacional de frango frito localizada na Avenida José Larco.",
+        "fr": "Chaîne internationale de poulet frit située sur l'Avenida José Larco."
+      },
+      "comment": {
+        "es": "Rating de 4.0 basado en ~4 000 opiniones y ubicado en José Larco 389.",
+        "en": "Rated 4.0 from ~4K reviews, located at José Larco 389.",
+        "pt": "Avaliado com 4,0 a partir de ~4 000 avaliações, na José Larco 389.",
+        "fr": "Noté 4,0 sur ~4 000 avis, situé au 389 José Larco."
+      },
+      "rating": 4.0,
+      "userRatingsTotal": 4017,
+      "priceLevel": 1,
+      "priceIndicator": { "es": "Bajo", "en": "Low", "pt": "Baixo", "fr": "Faible" },
+      "address": "Av. José Larco 389, Miraflores, Lima",
+      "googleMapsUrl": ""
     },
-    "address": "Av. San Martín 150, Barranco, Lima",
-    "rating": 4.6,
-    "userRatingsTotal": 743,
-    "priceLevel": 2,
-    "priceIndicator": {
-      "es": "Medio",
-      "en": "Medium",
-      "pt": "Médio",
-      "fr": "Moyen"
+    {
+      "name": "Pizza Hut",
+      "description": {
+        "es": "Cadena internacional de pizza, local céntrico en 2 de Mayo.",
+        "en": "International pizza chain with a central 2 de Mayo location.",
+        "pt": "Rede internacional de pizza com unidade central na 2 de Mayo.",
+        "fr": "Chaîne internationale de pizzas, située sur la rue 2 de Mayo."
+      },
+      "comment": {
+        "es": "Rating entorno a 4.0 con ~1 436 opiniones, en C. 2 de Mayo 202.",
+        "en": "Rated around 4.0 with ~1,436 reviews at C. 2 de Mayo 202.",
+        "pt": "Avaliado com cerca de 4,0 com ~1 436 opiniões na C. 2 de Mayo 202.",
+        "fr": "Note d'environ 4,0 avec ~1 436 avis au 2 de Mayo 202."
+      },
+      "rating": 4.0,
+      "userRatingsTotal": 1436,
+      "priceLevel": 1,
+      "priceIndicator": { "es": "Bajo", "en": "Low", "pt": "Baixo", "fr": "Faible" },
+      "address": "Calle 2 de Mayo 202, Miraflores, Lima",
+      "googleMapsUrl": ""
     },
-    "googleMapsUrl": "https://maps.google.com/?q=La+Picanteria+Barranco+Lima",
-    "menuUrl": "https://lapicanteria.pe/menu"
-  },
-  {
-    "name": "Restaurante Huaca Pucllana",
-    "description": {
-      "es": "Restaurante con vista a la huaca preinca, cocina peruana moderna.",
-      "en": "Restaurant with view of pre-Inca huaca, modern Peruvian cuisine.",
-      "pt": "Restaurante com vista para a huaca pré-inca, culinária peruana moderna.",
-      "fr": "Restaurant avec vue sur la huaca pré-inca, cuisine péruvienne moderne."
+    {
+      "name": "Subway",
+      "description": {
+        "es": "Cadena de sándwiches saludables, local en Av. Benavides.",
+        "en": "Healthy sandwich chain, located on Av. Benavides.",
+        "pt": "Rede de sanduíches saudáveis, localizada na Av. Benavides.",
+        "fr": "Chaîne de sandwiches sains, située sur l'Av. Benavides."
+      },
+      "comment": {
+        "es": "Rating de 4.3 con más de 1 600 opiniones en Av. Benavides 344.",
+        "en": "Rated 4.3 from over 1,600 reviews at Av. Benavides 344.",
+        "pt": "Avaliado com 4,3 por mais de 1 600 opiniões na Av. Benavides 344.",
+        "fr": "Note de 4,3 avec plus de 1 600 avis sur l'Av. Benavides 344."
+      },
+      "rating": 4.3,
+      "userRatingsTotal": 1603,
+      "priceLevel": 1,
+      "priceIndicator": { "es": "Bajo", "en": "Low", "pt": "Baixo", "fr": "Faible" },
+      "address": "Av. Oscar R. Benavides 344, Miraflores, Lima",
+      "googleMapsUrl": ""
     },
-    "comment": {
-      "es": "Vista espectacular de la huaca. Cocina peruana con toque moderno.",
-      "en": "Vista espectacular de la huaca. Cocina peruana con toque moderno.",
-      "pt": "Vista espectacular de la huaca. Cocina peruana con toque moderno.",
-      "fr": "Vista espectacular de la huaca. Cocina peruana con toque moderno."
-    },
-    "address": "General Borgoño cuadra 8 s/n, Miraflores, Lima",
-    "rating": 4.4,
-    "userRatingsTotal": 2341,
-    "priceLevel": 3,
-    "priceIndicator": {
-      "es": "Medio-Alto",
-      "en": "Medium-High",
-      "pt": "Médio-Alto",
-      "fr": "Moyen-Élevé"
-    },
-    "googleMapsUrl": "https://maps.google.com/?q=Huaca+Pucllana+Restaurant+Miraflores+Lima",
-    "menuUrl": "https://huacapucllanamiraflores.com/menu"
-  },
-  {
-    "name": "Café Z",
-    "description": {
-      "es": "Café de especialidad con los mejores desayunos y postres artesanales.",
-      "en": "Specialty coffee with the best breakfasts and artisanal desserts.",
-      "pt": "Café especializado com os melhores cafés da manhã e sobremesas artesanais.",
-      "fr": "Café de spécialité avec les meilleurs petits-déjeuners et desserts artisanaux."
-    },
-    "comment": {
-      "es": "El mejor café de Barranco. Los pancakes de quinua son deliciosos.",
-      "en": "El mejor café de Barranco. Los pancakes de quinua son deliciosos.",
-      "pt": "El mejor café de Barranco. Los pancakes de quinua son deliciosos.",
-      "fr": "El mejor café de Barranco. Los pancakes de quinua son deliciosos."
-    },
-    "address": "Av. San Martín 145, Barranco, Lima",
-    "rating": 4.7,
-    "userRatingsTotal": 892,
-    "priceLevel": 2,
-    "priceIndicator": {
-      "es": "Medio",
-      "en": "Medium",
-      "pt": "Médio",
-      "fr": "Moyen"
-    },
-    "googleMapsUrl": "https://maps.google.com/?q=Cafe+Z+Barranco+Lima",
-    "menuUrl": "https://cafez.pe/menu"
-  },
-  {
-    "name": "La Bodega Verde",
-    "description": {
-      "es": "Café orgánico con desayunos saludables y postres veganos.",
-      "en": "Organic café with healthy breakfasts and vegan desserts.",
-      "pt": "Café orgânico com cafés da manhã saudáveis e sobremesas veganas.",
-      "fr": "Café bio avec petits-déjeuners sains et desserts végans."
-    },
-    "comment": {
-      "es": "Opción saludable y deliciosa. Los smoothie bowls son espectaculares.",
-      "en": "Opción saludable y deliciosa. Los smoothie bowls son espectaculares.",
-      "pt": "Opción saludable y deliciosa. Los smoothie bowls son espectaculares.",
-      "fr": "Opción saludable y deliciosa. Los smoothie bowls son espectaculares."
-    },
-    "address": "Av. Grau 164, Barranco, Lima",
-    "rating": 4.5,
-    "userRatingsTotal": 567,
-    "priceLevel": 2,
-    "priceIndicator": {
-      "es": "Medio",
-      "en": "Medium",
-      "pt": "Médio",
-      "fr": "Moyen"
-    },
-    "googleMapsUrl": "https://maps.google.com/?q=La+Bodega+Verde+Barranco+Lima",
-    "menuUrl": "https://labodegaverde.pe/menu"
-  },
-  {
-    "name": "Pastelería San Antonio",
-    "description": {
-      "es": "Pastelería tradicional con los mejores postres peruanos.",
-      "en": "Traditional pastry shop with the best Peruvian desserts.",
-      "pt": "Confeitaria tradicional com as melhores sobremesas peruanas.",
-      "fr": "Pâtisserie traditionnelle avec les meilleurs desserts péruviens."
-    },
-    "comment": {
-      "es": "Los mejores alfajores y tres leches de Lima. Tradición desde 1920.",
-      "en": "Los mejores alfajores y tres leches de Lima. Tradición desde 1920.",
-      "pt": "Los mejores alfajores y tres leches de Lima. Tradición desde 1920.",
-      "fr": "Los mejores alfajores y tres leches de Lima. Tradición desde 1920."
-    },
-    "address": "Av. Arequipa 4720, Miraflores, Lima",
-    "rating": 4.6,
-    "userRatingsTotal": 1234,
-    "priceLevel": 1,
-    "priceIndicator": {
-      "es": "Bajo",
-      "en": "Low",
-      "pt": "Baixo",
-      "fr": "Bas"
-    },
-    "googleMapsUrl": "https://maps.google.com/?q=Pasteleria+San+Antonio+Miraflores+Lima",
-    "menuUrl": "https://pasteleriasanantonio.com/menu"
-  },
-  {
-    "name": "Chifa Titi",
-    "description": {
-      "es": "El mejor chifa de Lima, cocina china-peruana de alta calidad.",
-      "en": "The best chifa in Lima, high-quality Chinese-Peruvian cuisine.",
-      "pt": "O melhor chifa de Lima, culinária chinesa-peruana de alta qualidade.",
-      "fr": "Le meilleur chifa de Lima, cuisine chinoise-péruvienne de haute qualité."
-    },
-    "comment": {
-      "es": "El chifa más famoso de Lima. El pato laqueado es espectacular.",
-      "en": "El chifa más famoso de Lima. El pato laqueado es espectacular.",
-      "pt": "El chifa más famoso de Lima. El pato laqueado es espectacular.",
-      "fr": "El chifa más famoso de Lima. El pato laqueado es espectacular."
-    },
-    "address": "Av. Javier Prado Este 1212, San Isidro, Lima",
-    "rating": 4.8,
-    "userRatingsTotal": 1892,
-    "priceLevel": 3,
-    "priceIndicator": {
-      "es": "Medio-Alto",
-      "en": "Medium-High",
-      "pt": "Médio-Alto",
-      "fr": "Moyen-Élevé"
-    },
-    "googleMapsUrl": "https://maps.google.com/?q=Chifa+Titi+San+Isidro+Lima",
-    "menuUrl": "https://chifatiti.com/menu"
-  },
-  {
-    "name": "Madam Tusan",
-    "description": {
-      "es": "Chifa moderno con ambiente elegante y cocina fusión.",
-      "en": "Modern chifa with elegant atmosphere and fusion cuisine.",
-      "pt": "Chifa moderno com ambiente elegante e culinária fusion.",
-      "fr": "Chifa moderne avec ambiance élégante et cuisine fusion."
-    },
-    "comment": {
-      "es": "Chifa con toque moderno. Los dim sum son increíbles.",
-      "en": "Chifa con toque moderno. Los dim sum son increíbles.",
-      "pt": "Chifa con toque moderno. Los dim sum son increíbles.",
-      "fr": "Chifa con toque moderno. Los dim sum son increíbles."
-    },
-    "address": "Av. Santa Cruz 859, Miraflores, Lima",
-    "rating": 4.5,
-    "userRatingsTotal": 1456,
-    "priceLevel": 3,
-    "priceIndicator": {
-      "es": "Medio-Alto",
-      "en": "Medium-High",
-      "pt": "Médio-Alto",
-      "fr": "Moyen-Élevé"
-    },
-    "googleMapsUrl": "https://maps.google.com/?q=Madam+Tusan+Miraflores+Lima",
-    "menuUrl": "https://madamtusan.com/menu"
-  },
-  {
-    "name": "Restaurante Rafael",
-    "description": {
-      "es": "Cocina mediterránea con toque peruano, ambiente romántico.",
-      "en": "Mediterranean cuisine with Peruvian touch, romantic atmosphere.",
-      "pt": "Culinária mediterrânea com toque peruano, ambiente romântico.",
-      "fr": "Cuisine méditerranéenne avec touche péruvienne, ambiance romantique."
-    },
-    "comment": {
-      "es": "Cocina mediterránea excepcional. Perfecto para una cena romántica.",
-      "en": "Cocina mediterránea excepcional. Perfecto para una cena romántica.",
-      "pt": "Cocina mediterránea excepcional. Perfecto para una cena romántica.",
-      "fr": "Cocina mediterránea excepcional. Perfecto para una cena romántica."
-    },
-    "address": "San Martín 300, Miraflores, Lima",
-    "rating": 4.6,
-    "userRatingsTotal": 678,
-    "priceLevel": 4,
-    "priceIndicator": {
-      "es": "Alto",
-      "en": "High",
-      "pt": "Alto",
-      "fr": "Élevé"
-    },
-    "googleMapsUrl": "https://maps.google.com/?q=Restaurante+Rafael+Miraflores+Lima",
-    "menuUrl": "https://restauranterafael.com/menu"
-  }
-] 
+    {
+      "name": "McDonald's",
+      "description": {
+        "es": "Cadena internacional de hamburguesas, abierto 24 h en Miraflores.",
+        "en": "International burger chain, open 24 h in Miraflores.",
+        "pt": "Rede internacional de hambúrgueres, aberto 24 h em Miraflores.",
+        "fr": "Chaîne internationale de burgers, ouverte 24 h à Miraflores."
+      },
+      "comment": {
+        "es": "Ubicado en Av. Oscar R. Benavides 140, con rating de 4.1 y casi 10 000 opiniones.",
+        "en": "Located on Av. Oscar R. Benavides 140, rated 4.1 with nearly 10 000 reviews.",
+        "pt": "Localizado na Av. Oscar R. Benavides 140, nota 4,1 com quase 10 000 avaliações.",
+        "fr": "Situé à l'Av. Oscar R. Benavides 140, note 4,1 avec près de 10 000 avis."
+      },
+      "rating": 4.1,
+      "userRatingsTotal": 9968,
+      "priceLevel": 1,
+      "priceIndicator": { "es": "Bajo", "en": "Low", "pt": "Baixo", "fr": "Faible" },
+      "address": "Av. Oscar R. Benavides 140, Miraflores, Lima",
+      "googleMapsUrl": ""
+    }
+  ]
+} 

@@ -20,21 +20,21 @@ export function FoodCategoryCard({ place, language, translations, onClick }: Foo
       transition={{ duration: 0.3 }}
     >
       <Card 
-        className="overflow-hidden shadow-md hover:shadow-lg transition-all duration-300 cursor-pointer hover:scale-[1.02]"
+        className="overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 cursor-pointer hover:scale-[1.02] rounded-2xl bg-white/80 backdrop-blur-sm border-orange-200"
         onClick={onClick}
       >
         <CardHeader className="pb-3">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-3">
-              <div className="text-2xl">{place.emoji || "🍽️"}</div>
+              <div className="text-4xl">{place.emoji || "🍽️"}</div>
               <div>
-                <CardTitle className="text-lg">{place.name[language]}</CardTitle>
-                <CardDescription className="text-sm mt-1">
+                <CardTitle className="text-[28px] font-bold text-orange-500 leading-tight">{place.name[language]}</CardTitle>
+                <CardDescription className="text-sm mt-2">
                   {place.description[language]}
                 </CardDescription>
               </div>
             </div>
-            <ChevronRight className="w-5 h-5 text-gray-400" />
+            <ChevronRight className="w-6 h-6 text-orange-400" />
           </div>
         </CardHeader>
         <CardContent className="pt-0">

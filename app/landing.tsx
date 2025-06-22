@@ -55,7 +55,7 @@ export default function Landing() {
             <svg width="64" height="64" viewBox="0 0 24 24" fill="none"><rect x="4" y="7" width="16" height="13" rx="3" fill="#f59e42"/><path d="M7 7V5a5 5 0 0 1 10 0v2" stroke="#fbbf24" strokeWidth="2"/><circle cx="9" cy="12" r="1" fill="#7dd3fc"/><circle cx="15" cy="12" r="1" fill="#7dd3fc"/></svg>
           </div>
           {/* Título */}
-          <h1 className="text-3xl md:text-4xl font-extrabold text-gray-900 text-center leading-tight drop-shadow-sm">
+          <h1 className="text-3xl md:text-4xl font-extrabold text-gray-900 text-center leading-tight drop-shadow-sm font-bucklane">
             {language === "es" && <>Descubre Barranco <br className="hidden md:block" /><span className="text-orange-500">Experiencias JDP</span></>}
             {language === "en" && <>Discover Barranco <br className="hidden md:block" /><span className="text-orange-500">JDP Experiences</span></>}
             {language === "pt" && <>Descubra Barranco <br className="hidden md:block" /><span className="text-orange-500">Experiências JDP</span></>}
