@@ -83,7 +83,38 @@
         "priceIndicator": { "es":"Gratuito", "en":"Free", "pt":"Gratuito", "fr":"Gratuit" },
         "address": "Av. Angamos Oeste 160, Miraflores 15074, Lima",
         "googleMapsUrl": "https://maps.google.com/?q=Av.+Angamos+Oeste+160+Miraflores+Lima"
-      }
+      },
+      {
+        "name": {
+          "es": "Museo Pedro de Osma",
+          "en": "Pedro de Osma Museum",
+          "pt": "Museu Pedro de Osma",
+          "fr": "Musée Pedro de Osma"
+        },
+        "image": "/images/entretenimiento/pedro_de_osma.jpg",
+        "description": {
+          "es": "Museo de arte virreinal ubicado en una casona con jardín en Barranco.",
+          "en": "Viceregal art museum housed in a mansion with gardens in Barranco.",
+          "pt": "Museu de arte virreinal localizado em uma mansão com jardins em Barranco.",
+          "fr": "Musée d'art vice-royal installé dans une demeure avec jardins à Barranco."
+        },
+        "comment": {
+          "es": "Destacado por su colección de arte colonial en una mansión de 1906.",
+          "en": "Noted for its colonial art collection in a 1906 mansion.",
+          "pt": "Destacado pela coleção de arte colonial em uma mansão de 1906.",
+          "fr": "Remarquable pour sa collection d'art colonial dans une demeure de 1906."
+        },
+        "rating": 4.7,
+        "priceLevel": 2,
+        "priceIndicator": {
+          "es": "Medio",
+          "en": "Medium",
+          "pt": "Médio",
+          "fr": "Moyen"
+        },
+        "address": "Av. Pedro de Osma 421, Barranco, Lima 15063, Perú",
+        "googleMapsUrl": "https://maps.google.com/?q=Av.+Pedro+de+Osma+421+Barranco+Lima"
+      }      
     ]
     
   ],
