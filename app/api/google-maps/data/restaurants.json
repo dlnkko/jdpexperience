@@ -79,6 +79,36 @@
       "priceIndicator": { "es":"Alto", "en":"High", "pt":"Alto", "fr":"Élevé" },
       "address": "Calle Enrique Palacios 140, Miraflores 15074, Lima",
       "googleMapsUrl": ""
+    },
+    {
+      "name": {
+        "es": "La Cuadra de Salvador",
+        "en": "La Cuadra de Salvador",
+        "pt": "La Cuadra de Salvador",
+        "fr": "La Cuadra de Salvador"
+      },
+      "description": {
+        "es": "Steakhouse de carnes Angus Americanas, ambiente informal con terraza.",
+        "en": "Steakhouse with American Angus meats, casual atmosphere with terrace.",
+        "pt": "Steakhouse com carnes Angus americanas, ambiente informal com terraço.",
+        "fr": "Steakhouse avec viandes Angus américaines, ambiance décontractée avec terrasse."
+      },
+      "comment": {
+        "es": "Calificación aprox. 4.0–4.7, precio $$$ (aprox. S/110 pp), perfecto para carnes premium.",
+        "en": "Rated approx. 4.0–4.7, $$$ price (~S/110 pp), great for premium meats.",
+        "pt": "Classificação aprox. 4.0–4.7, preço $$$ (~S/110 p.p.), ótimo para carnes premium.",
+        "fr": "Note env. 4.0–4.7, prix $$$ (~S/110 p.p.), idéal pour viandes premium."
+      },
+      "rating": 4.5,
+      "priceLevel": 3,
+      "priceIndicator": {
+        "es": "Medio‑Alto",
+        "en": "Mid‑High",
+        "pt": "Médio‑Alto",
+        "fr": "Moyen‑Élevé"
+      },
+      "address": "Jr. Centenario 105, Barranco, Lima 15063, Perú",
+      "googleMapsUrl": "https://maps.google.com/?q=Jr.+Centenario+105+Barranco+Lima"
     }
   ],
   "comida_criolla": [
@@ -123,7 +153,12 @@
       "googleMapsUrl": "https://maps.google.com/?q=Av.+San+Martín+101+Barranco+Lima"
     },
     {
-      "name": { "es": "Central", "en": "Central", "pt": "Central", "fr": "Central" },
+      "name": {
+        "es": "Central",
+        "en": "Central",
+        "pt": "Central",
+        "fr": "Central"
+      },
       "description": {
         "es": "Alta cocina peruana, uno de los mejores del mundo.",
         "en": "High‑end Peruvian cuisine, world‑class restaurant.",
@@ -138,10 +173,15 @@
       },
       "rating": 4.8,
       "priceLevel": 4,
-      "priceIndicator": { "es": "Muy alto", "en": "Very high", "pt": "Muito alto", "fr": "Très élevé" },
-      "address": "Calle Santa Isabel 376, Miraflores 15074, Lima",
-      "googleMapsUrl": "https://maps.google.com/?q=Calle+Santa+Isabel+376+Miraflores+Lima"
-    },
+      "priceIndicator": {
+        "es": "Muy alto",
+        "en": "Very high",
+        "pt": "Muito alto",
+        "fr": "Très élevé"
+      },
+      "address": "Av. Pedro de Osma 301, Barranco, Lima 15063, Perú",
+      "googleMapsUrl": "https://maps.google.com/?q=Av.+Pedro+de+Osma+301+Barranco+Lima"
+    },    
     {
       "name": { "es": "Maido", "en": "Maido", "pt": "Maido", "fr": "Maido" },
       "description": {
@@ -161,6 +201,96 @@
       "priceIndicator": { "es": "Muy alto", "en": "Very high", "pt": "Muito alto", "fr": "Très élevé" },
       "address": "Calle San Martín 399, Miraflores 15074, Lima",
       "googleMapsUrl": "https://maps.google.com/?q=Calle+San+Martín+399+Miraflores+Lima"
+    },
+    {
+      "name": {
+        "es": "Canta Rana",
+        "en": "Canta Rana",
+        "pt": "Canta Rana",
+        "fr": "Canta Rana"
+      },
+      "description": {
+        "es": "Cevichería emblemática en Barranco, ambiente familiar.",
+        "en": "Iconic ceviche spot in Barranco, friendly atmosphere.",
+        "pt": "Cevicheria emblemática em Barranco, ambiente familiar.",
+        "fr": "Cevicherie emblématique à Barranco, ambiance conviviale."
+      },
+      "comment": {
+        "es": "Legendaria cevichería, fundada hace más de 35 años.",
+        "en": "Legendary ceviche bar, over 35 years old.",
+        "pt": "Cevicheria lendária, com mais de 35 anos.",
+        "fr": "Cevicherie légendaire, plus de 35 ans d'histoire."
+      },
+      "rating": 4.5,
+      "priceLevel": 2,
+      "priceIndicator": {
+        "es": "Medio",
+        "en": "Medium",
+        "pt": "Médio",
+        "fr": "Moyen"
+      },
+      "address": "Génova 101, Barranco, Lima 15063, Perú",
+      "googleMapsUrl": "https://maps.google.com/?q=G%C3%A9nova+101+Barranco+Lima"
+    },
+    {
+      "name": {
+        "es": "El Señorío de Sulco",
+        "en": "El Señorío de Sulco",
+        "pt": "El Señorío de Sulco",
+        "fr": "El Señorío de Sulco"
+      },
+      "description": {
+        "es": "Cocina criolla con vista al mar, en Malecón Cisneros.",
+        "en": "Creole cuisine with sea view, on Malecón Cisneros.",
+        "pt": "Cozinha criolla com vista para o mar, no Malecón Cisneros.",
+        "fr": "Cuisine créole avec vue sur la mer, sur Malecón Cisneros."
+      },
+      "comment": {
+        "es": "Espacios elegantes, cocina tradicional, calificación aprox. 4.2.",
+        "en": "Elegant spaces, traditional cuisine, approx. 4.2 rating.",
+        "pt": "Ambientes elegantes, cozinha tradicional, nota aprox. 4.2.",
+        "fr": "Espaces élégants, cuisine traditionnelle, note env. 4.2."
+      },
+      "rating": 4.2,
+      "priceLevel": 3,
+      "priceIndicator": {
+        "es": "Alto",
+        "en": "High",
+        "pt": "Alto",
+        "fr": "Élevé"
+      },
+      "address": "Malecón Cisneros 1470, Miraflores, Lima 15074, Perú",
+      "googleMapsUrl": "https://maps.google.com/?q=Malec%C3%B3n+Cisneros+1470+Miraflores+Lima"
+    },
+    {
+      "name": {
+        "es": "Panchita",
+        "en": "Panchita",
+        "pt": "Panchita",
+        "fr": "Panchita"
+      },
+      "description": {
+        "es": "Cocina criolla del reconocido Gastón Acurio en Miraflores.",
+        "en": "Creole cuisine by famed Gastón Acurio in Miraflores.",
+        "pt": "Cozinha criolla do renomado Gastón Acurio em Miraflores.",
+        "fr": "Cuisine créole de Gastón Acurio à Miraflores."
+      },
+      "comment": {
+        "es": "Porciones generosas, platos tradicionales, buena valoración.",
+        "en": "Generous portions, traditional dishes, solid rating.",
+        "pt": "Porções generosas, pratos tradicionais, boa avaliação.",
+        "fr": "Portions généreuses, plats traditionnels, bonne note."
+      },
+      "rating": 4.0,
+      "priceLevel": 3,
+      "priceIndicator": {
+        "es": "Alto",
+        "en": "High",
+        "pt": "Alto",
+        "fr": "Élevé"
+      },
+      "address": "Calle 2 de Mayo 298, Miraflores, Lima 15074, Perú",
+      "googleMapsUrl": "https://maps.google.com/?q=Calle+2+de+Mayo+298+Miraflores+Lima"
     }
   ],
   "desayunos_y_postres": [

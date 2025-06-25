@@ -2,28 +2,12 @@
   "cultura_y_arte": [
     [
       {
-        "name": { "es": "Museo Mario Testino (MATE)", "en": "Museo Mario Testino (MATE)", "pt": "Museo Mario Testino (MATE)", "fr": "Museo Mario Testino (MATE)" },
-        "image": "/images/entretenimiento/mate.jpg",
-        "description": {
-          "es": "Exposiciones de fotografía contemporánea en una casona republicana en Barranco.",
-          "en": "Contemporary photography exhibitions in a republican mansion in Barranco.",
-          "pt": "Exposições de fotografia contemporânea em uma mansão republicana em Barranco.",
-          "fr": "Expositions de photographie contemporaine dans une demeure républicaine à Barranco."
+        "name": {
+          "es": "Museo Amano",
+          "en": "Museo Amano",
+          "pt": "Museo Amano",
+          "fr": "Museo Amano"
         },
-        "comment": {
-          "es": "Centro cultural de Mario Testino, destacado por su colección y arquitectura.",
-          "en": "Mario Testino's cultural center, notable for its collection and architecture.",
-          "pt": "Centro cultural de Mario Testino, notável por sua coleção e arquitetura.",
-          "fr": "Centre culturel de Mario Testino, notable pour sa collection et son architecture."
-        },
-        "rating": 4.5,
-        "priceLevel": 2,
-        "priceIndicator": { "es":"Medio", "en":"Medium", "pt":"Médio", "fr":"Moyen" },
-        "address": "Av. Pedro de Osma 409, Barranco 15063, Lima",
-        "googleMapsUrl": "https://maps.google.com/?q=Av.+Pedro+de+Osma+409+Barranco+Lima"
-      },
-      {
-        "name": { "es": "Museo Amano", "en": "Museo Amano", "pt": "Museo Amano", "fr": "Museo Amano" },
         "image": "/images/entretenimiento/amano.jpg",
         "description": {
           "es": "Museo textil precolombino con piezas de cerámica y tejidos.",
@@ -39,10 +23,46 @@
         },
         "rating": 4.4,
         "priceLevel": 2,
-        "priceIndicator": { "es":"Medio", "en":"Medium", "pt":"Médio", "fr":"Moyen" },
-        "address": "Av. Pedro de Osma 415, Barranco 15063, Lima",
-        "googleMapsUrl": "https://maps.google.com/?q=Av.+Pedro+de+Osma+415+Barranco+Lima"
+        "priceIndicator": {
+          "es": "Medio",
+          "en": "Medium",
+          "pt": "Médio",
+          "fr": "Moyen"
+        },
+        "address": "Calle Retiro 160, Miraflores, Lima 15074, Perú",
+        "googleMapsUrl": "https://maps.google.com/?q=Calle+Retiro+160+Miraflores+Lima"
       },
+      {
+        "name": {
+          "es": "Museo de Arte Contemporáneo de Lima",
+          "en": "Museum of Contemporary Art of Lima",
+          "pt": "Museu de Arte Contemporânea de Lima",
+          "fr": "Musée d'Art contemporain de Lima"
+        },
+        "image": "/images/entretenimiento/mac_lima.jpg",
+        "description": {
+          "es": "Museo de arte contemporáneo especializado en arte moderno y actual.",
+          "en": "Museum specialized in modern and contemporary art.",
+          "pt": "Museu especializado em arte moderna e contemporânea.",
+          "fr": "Musée spécialisé en art moderne et contemporain."
+        },
+        "comment": {
+          "es": "Fundado en 2013, destaca por su arquitectura modernista y espacios amplios.",
+          "en": "Founded in 2013, notable for its modernist architecture and spacious galleries.",
+          "pt": "Fundado em 2013, notável por sua arquitetura modernista e salas amplas.",
+          "fr": "Fondé en 2013, remarquable pour son architecture moderniste et ses espaces spacieux."
+        },
+        "rating": 4.4,
+        "priceLevel": 2,
+        "priceIndicator": {
+          "es": "Medio",
+          "en": "Medium",
+          "pt": "Médio",
+          "fr": "Moyen"
+        },
+        "address": "Av. Miguel Grau 1511, Barranco, Lima 15063, Perú",
+        "googleMapsUrl": "https://maps.google.com/?q=Av.+Miguel+Grau+1511+Barranco+Lima"
+      },    
       {
         "name": { "es": "Galería ICPNA Miraflores", "en": "Galería ICPNA Miraflores", "pt": "Galería ICPNA Miraflores", "fr": "Galería ICPNA Miraflores" },
         "image": "/images/entretenimiento/icpna.jpg",
@@ -63,27 +83,6 @@
         "priceIndicator": { "es":"Gratuito", "en":"Free", "pt":"Gratuito", "fr":"Gratuit" },
         "address": "Av. Angamos Oeste 160, Miraflores 15074, Lima",
         "googleMapsUrl": "https://maps.google.com/?q=Av.+Angamos+Oeste+160+Miraflores+Lima"
-      },
-      {
-        "name": { "es": "Mercado de Pulgas del Parque Kennedy", "en": "Mercado de Pulgas del Parque Kennedy", "pt": "Mercado de Pulgas del Parque Kennedy", "fr": "Mercado de Pulgas del Parque Kennedy" },
-        "image": "/images/entretenimiento/mercado-pulgas.jpg",
-        "description": {
-          "es": "Mercado artesanal al aire libre en el corazón de Miraflores.",
-          "en": "Open-air artisan flea market in the heart of Miraflores.",
-          "pt": "Mercado ao ar livre de artesanato no coração de Miraflores.",
-          "fr": "Marché en plein air d'artisanat au cœur de Miraflores."
-        },
-        "comment": {
-          "es": "Feria frecuente con artesanías, antigüedades y ambiente relajado.",
-          "en": "Regular fair with crafts, antiques and a relaxed atmosphere.",
-          "pt": "Feira regular com artesanato, antiguidades e ambiente descontraído.",
-          "fr": "Foire régulière avec artisanat, antiquités et ambiance détendue."
-        },
-        "rating": 3.8,
-        "priceLevel": 1,
-        "priceIndicator": { "es":"Bajo", "en":"Low", "pt":"Baixo", "fr":"Faible" },
-        "address": "VXH9+4W4, Miraflores 15074, Perú (Parque Kennedy)",
-        "googleMapsUrl": "https://maps.google.com/?q=Parque+Kennedy+Miraflores+Lima"
       }
     ]
     
